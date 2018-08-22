@@ -1,0 +1,12 @@
+C:\Users\Vitya\Documents\Visual Studio 2012\Projects\GT Clients\bin\Release\GT Clients.exe.config
+C:\Users\Vitya\Documents\Visual Studio 2012\Projects\GT Clients\bin\Release\GT Clients.exe
+C:\Users\Vitya\Documents\Visual Studio 2012\Projects\GT Clients\bin\Release\GT Clients.pdb
+C:\Users\Vitya\Documents\Visual Studio 2012\Projects\GT Clients\bin\Release\Newtonsoft.Json.dll
+C:\Users\Vitya\Documents\Visual Studio 2012\Projects\GT Clients\obj\Release\GT_Clients.Forms.ClientAdd.resources
+C:\Users\Vitya\Documents\Visual Studio 2012\Projects\GT Clients\obj\Release\DataLoaderX.DataLoader.resources
+C:\Users\Vitya\Documents\Visual Studio 2012\Projects\GT Clients\obj\Release\GT_Clients.MainForm.resources
+C:\Users\Vitya\Documents\Visual Studio 2012\Projects\GT Clients\obj\Release\GT_Clients.Properties.Resources.resources
+C:\Users\Vitya\Documents\Visual Studio 2012\Projects\GT Clients\obj\Release\GT Clients.csproj.GenerateResource.Cache
+C:\Users\Vitya\Documents\Visual Studio 2012\Projects\GT Clients\obj\Release\GT Clients.exe.licenses
+C:\Users\Vitya\Documents\Visual Studio 2012\Projects\GT Clients\obj\Release\GT Clients.exe
+C:\Users\Vitya\Documents\Visual Studio 2012\Projects\GT Clients\obj\Release\GT Clients.pdb
