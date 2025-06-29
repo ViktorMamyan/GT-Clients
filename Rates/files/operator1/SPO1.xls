@@ -1,0 +1,5534 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<?fr-application created="FastReport"?>
+<?fr-application homesite="http://www.fast-report.com"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+<DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+<Title></Title>
+<Author>ROOT</Author>
+<Version>1.0.0.0</Version>
+</DocumentProperties>
+<ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+<ProtectStructure>False</ProtectStructure>
+<ProtectWindows>False</ProtectWindows>
+</ExcelWorkbook>
+<Styles>
+<Style ss:ID="s0">
+<Font ss:FontName="Tahoma" ss:Size="14" ss:Color="#000000" ss:Bold="1"/>
+<Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+<Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1" />
+<Borders>
+</Borders>
+</Style>
+<Style ss:ID="s1">
+<Font ss:FontName="Tahoma" ss:Size="12" ss:Color="#000000" ss:Bold="1"/>
+<Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+<Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1" />
+<Borders>
+</Borders>
+</Style>
+<Style ss:ID="s2">
+<Font ss:FontName="Tahoma" ss:Size="9" ss:Color="#000000" ss:Italic="1"/>
+<Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+<Alignment ss:Horizontal="Left" ss:Vertical="Center" ss:WrapText="1" />
+<Borders>
+<Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000" />
+<Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000" />
+<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000" />
+<Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000" />
+</Borders>
+</Style>
+<Style ss:ID="s3">
+<Font ss:FontName="Tahoma" ss:Size="9" ss:Color="#000000" ss:Bold="1"/>
+<Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+<Alignment ss:Horizontal="Left" ss:Vertical="Center" ss:WrapText="1" />
+<Borders>
+<Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000" />
+<Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000" />
+<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000" />
+<Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000" />
+</Borders>
+</Style>
+<Style ss:ID="s4">
+<Font ss:FontName="Tahoma" ss:Size="9" ss:Color="#000000"/>
+<Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+<Alignment ss:Horizontal="Left" ss:Vertical="Center" ss:WrapText="1" />
+<Borders>
+<Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000" />
+<Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000" />
+<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000" />
+<Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000" />
+</Borders>
+</Style>
+<Style ss:ID="s5">
+<Font ss:FontName="Tahoma" ss:Size="9" ss:Color="#000000"/>
+<Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+<Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1" />
+<Borders>
+<Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000" />
+<Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000" />
+<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000" />
+<Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000" />
+</Borders>
+</Style>
+<Style ss:ID="s6">
+<Font ss:FontName="Tahoma" ss:Size="9" ss:Color="#000000"/>
+<Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+<Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1" />
+<Borders>
+<Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000" />
+<Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000" />
+<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000" />
+<Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000" />
+</Borders>
+</Style>
+<Style ss:ID="s7">
+<Font ss:FontName="Tahoma" ss:Size="10" ss:Color="#000000" ss:Bold="1"/>
+<Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+<Alignment ss:Horizontal="Left" ss:Vertical="Center" ss:WrapText="1" />
+<Borders>
+</Borders>
+</Style>
+<Style ss:ID="s8">
+<Font ss:FontName="Tahoma" ss:Size="9" ss:Color="#000000"/>
+<Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+<Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1" />
+<Borders>
+<Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000" />
+<Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000" />
+<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000" />
+<Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000" />
+</Borders>
+<NumberFormat ss:Format="0.00"/>
+</Style>
+<Style ss:ID="s9">
+<Font ss:FontName="Tahoma" ss:Size="9" ss:Color="#000000"/>
+<Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+<Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1" />
+<Borders>
+<Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000" />
+<Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000" />
+<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000" />
+<Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000" />
+</Borders>
+<NumberFormat ss:Format="0"/>
+</Style>
+<Style ss:ID="s10">
+<Font ss:FontName="Tahoma" ss:Size="9" ss:Color="#000000" ss:Italic="1" ss:Underline="Single"/>
+<Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+<Alignment ss:Horizontal="Left" ss:Vertical="Center" ss:WrapText="1" />
+<Borders>
+</Borders>
+</Style>
+<Style ss:ID="s11">
+<Font ss:FontName="Tahoma" ss:Size="9" ss:Color="#000000"/>
+<Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+<Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1" />
+<Borders>
+</Borders>
+</Style>
+</Styles>
+<Worksheet ss:Name="UnnamedPage_0">
+<Table ss:ExpandedColumnCount="8" ss:ExpandedRowCount="372" x:FullColumns="1" x:FullRows="1">
+<Column ss:AutoFitWidth="0" ss:Width="100.00"/>
+<Column ss:AutoFitWidth="0" ss:Width="50.00"/>
+<Column ss:AutoFitWidth="0" ss:Width="50.00"/>
+<Column ss:AutoFitWidth="0" ss:Width="50.00"/>
+<Column ss:AutoFitWidth="0" ss:Width="50.00"/>
+<Column ss:AutoFitWidth="0" ss:Width="50.00"/>
+<Column ss:AutoFitWidth="0" ss:Width="50.00"/>
+<Row ss:Height="26.16">
+<Cell ss:Index="1" ss:MergeAcross="6" ss:StyleID="s0" >
+<Data ss:Type="String">IBEROSTAR WAVES BELLEVUE</Data>
+</Cell>
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="5.81">
+<Cell ss:Index="1" />
+<Cell ss:Index="2" />
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="6" ss:StyleID="s1" >
+<Data ss:Type="String">SPO No &quot;9884&quot; issued &quot;29.10.2024&quot;</Data>
+</Cell>
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="11.63">
+<Cell ss:Index="1" />
+<Cell ss:Index="2" />
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:StyleID="s2" >
+<Data ss:Type="String">Region</Data>
+</Cell>
+<Cell ss:Index="2" ss:MergeAcross="1" ss:StyleID="s3" >
+<Data ss:Type="String">Becici</Data>
+</Cell>
+<Cell ss:Index="4" ss:MergeAcross="1" ss:StyleID="s2" >
+<Data ss:Type="String">Board</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="1" ss:StyleID="s3" >
+<Data ss:Type="String">AL</Data>
+</Cell>
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:StyleID="s2" >
+<Data ss:Type="String">Category</Data>
+</Cell>
+<Cell ss:Index="2" ss:MergeAcross="1" ss:StyleID="s3" >
+<Data ss:Type="String">4*</Data>
+</Cell>
+<Cell ss:Index="4" ss:MergeAcross="1" ss:StyleID="s2" >
+<Data ss:Type="String">Currency</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="1" ss:StyleID="s3" >
+<Data ss:Type="String">EUR</Data>
+</Cell>
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:StyleID="s2" >
+<Data ss:Type="String">Nights from - till</Data>
+</Cell>
+<Cell ss:Index="2" ss:MergeAcross="1" ss:StyleID="s3" >
+<Data ss:Type="String">15 - 366</Data>
+</Cell>
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="31.98">
+<Cell ss:Index="1" />
+<Cell ss:Index="2" />
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="21.80">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">Periods</Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s5" >
+<Data ss:Type="String">22.06.25&#10;12.07.25</Data>
+</Cell>
+<Cell ss:Index="3" ss:StyleID="s5" >
+<Data ss:Type="String">13.07.25&#10;29.08.25</Data>
+</Cell>
+<Cell ss:Index="4" ss:StyleID="s5" >
+<Data ss:Type="String">30.08.25&#10;27.09.25</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s5" >
+<Data ss:Type="String">28.09.25&#10;07.10.25</Data>
+</Cell>
+<Cell ss:Index="6" ss:StyleID="s5" >
+<Data ss:Type="String">08.10.25&#10;19.10.25</Data>
+</Cell>
+<Cell ss:Index="7" ss:StyleID="s5" >
+<Data ss:Type="String">20.10.25&#10;26.10.25</Data>
+</Cell>
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="21.80">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">Reservation dates</Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s6" >
+<Data ss:Type="String">06.06.25&#10;26.10.25</Data>
+</Cell>
+<Cell ss:Index="3" ss:StyleID="s6" >
+<Data ss:Type="String">06.06.25&#10;26.10.25</Data>
+</Cell>
+<Cell ss:Index="4" ss:StyleID="s6" >
+<Data ss:Type="String">06.06.25&#10;26.10.25</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s6" >
+<Data ss:Type="String">06.06.25&#10;26.10.25</Data>
+</Cell>
+<Cell ss:Index="6" ss:StyleID="s6" >
+<Data ss:Type="String">06.06.25&#10;26.10.25</Data>
+</Cell>
+<Cell ss:Index="7" ss:StyleID="s6" >
+<Data ss:Type="String">06.06.25&#10;26.10.25</Data>
+</Cell>
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="17.44">
+<Cell ss:Index="1" ss:MergeAcross="1" ss:StyleID="s7" >
+<Data ss:Type="String">DBL Interconnecting </Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">1 ADL + 1 CHD (2-14.99) </Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">518.70</Data>
+</Cell>
+<Cell ss:Index="3" ss:StyleID="s8" >
+<Data ss:Type="Number">555.75</Data>
+</Cell>
+<Cell ss:Index="4" ss:StyleID="s8" >
+<Data ss:Type="Number">417.05</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s8" >
+<Data ss:Type="Number">312.55</Data>
+</Cell>
+<Cell ss:Index="6" ss:StyleID="s8" >
+<Data ss:Type="Number">256.50</Data>
+</Cell>
+<Cell ss:Index="7" ss:StyleID="s8" >
+<Data ss:Type="Number">191.90</Data>
+</Cell>
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">1 ADL + 2 CHD (2-14.99) </Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">518.70</Data>
+</Cell>
+<Cell ss:Index="3" ss:StyleID="s8" >
+<Data ss:Type="Number">555.75</Data>
+</Cell>
+<Cell ss:Index="4" ss:StyleID="s8" >
+<Data ss:Type="Number">417.05</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s8" >
+<Data ss:Type="Number">312.55</Data>
+</Cell>
+<Cell ss:Index="6" ss:StyleID="s8" >
+<Data ss:Type="Number">256.50</Data>
+</Cell>
+<Cell ss:Index="7" ss:StyleID="s8" >
+<Data ss:Type="Number">191.90</Data>
+</Cell>
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">1 ADL + 3 CHD (2-14.99) </Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">518.70</Data>
+</Cell>
+<Cell ss:Index="3" ss:StyleID="s8" >
+<Data ss:Type="Number">555.75</Data>
+</Cell>
+<Cell ss:Index="4" ss:StyleID="s8" >
+<Data ss:Type="Number">417.05</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s8" >
+<Data ss:Type="Number">312.55</Data>
+</Cell>
+<Cell ss:Index="6" ss:StyleID="s8" >
+<Data ss:Type="Number">256.50</Data>
+</Cell>
+<Cell ss:Index="7" ss:StyleID="s8" >
+<Data ss:Type="Number">191.90</Data>
+</Cell>
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">2 ADL</Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">518.70</Data>
+</Cell>
+<Cell ss:Index="3" ss:StyleID="s8" >
+<Data ss:Type="Number">555.75</Data>
+</Cell>
+<Cell ss:Index="4" ss:StyleID="s8" >
+<Data ss:Type="Number">417.05</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s8" >
+<Data ss:Type="Number">312.55</Data>
+</Cell>
+<Cell ss:Index="6" ss:StyleID="s8" >
+<Data ss:Type="Number">256.50</Data>
+</Cell>
+<Cell ss:Index="7" ss:StyleID="s8" >
+<Data ss:Type="Number">191.90</Data>
+</Cell>
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">2 ADL + 1 CHD (2-14.99) </Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">518.70</Data>
+</Cell>
+<Cell ss:Index="3" ss:StyleID="s8" >
+<Data ss:Type="Number">555.75</Data>
+</Cell>
+<Cell ss:Index="4" ss:StyleID="s8" >
+<Data ss:Type="Number">417.05</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s8" >
+<Data ss:Type="Number">312.55</Data>
+</Cell>
+<Cell ss:Index="6" ss:StyleID="s8" >
+<Data ss:Type="Number">256.50</Data>
+</Cell>
+<Cell ss:Index="7" ss:StyleID="s8" >
+<Data ss:Type="Number">191.90</Data>
+</Cell>
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">2 ADL + 2 CHD (2-14.99) </Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">518.70</Data>
+</Cell>
+<Cell ss:Index="3" ss:StyleID="s8" >
+<Data ss:Type="Number">555.75</Data>
+</Cell>
+<Cell ss:Index="4" ss:StyleID="s8" >
+<Data ss:Type="Number">417.05</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s8" >
+<Data ss:Type="Number">312.55</Data>
+</Cell>
+<Cell ss:Index="6" ss:StyleID="s8" >
+<Data ss:Type="Number">256.50</Data>
+</Cell>
+<Cell ss:Index="7" ss:StyleID="s8" >
+<Data ss:Type="Number">191.90</Data>
+</Cell>
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">3 ADL</Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">518.70</Data>
+</Cell>
+<Cell ss:Index="3" ss:StyleID="s8" >
+<Data ss:Type="Number">555.75</Data>
+</Cell>
+<Cell ss:Index="4" ss:StyleID="s8" >
+<Data ss:Type="Number">417.05</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s8" >
+<Data ss:Type="Number">312.55</Data>
+</Cell>
+<Cell ss:Index="6" ss:StyleID="s8" >
+<Data ss:Type="Number">256.50</Data>
+</Cell>
+<Cell ss:Index="7" ss:StyleID="s8" >
+<Data ss:Type="Number">191.90</Data>
+</Cell>
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">3 ADL + 1 CHD (2-14.99) </Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">518.70</Data>
+</Cell>
+<Cell ss:Index="3" ss:StyleID="s8" >
+<Data ss:Type="Number">555.75</Data>
+</Cell>
+<Cell ss:Index="4" ss:StyleID="s8" >
+<Data ss:Type="Number">417.05</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s8" >
+<Data ss:Type="Number">312.55</Data>
+</Cell>
+<Cell ss:Index="6" ss:StyleID="s8" >
+<Data ss:Type="Number">256.50</Data>
+</Cell>
+<Cell ss:Index="7" ss:StyleID="s8" >
+<Data ss:Type="Number">191.90</Data>
+</Cell>
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">4 ADL</Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">518.70</Data>
+</Cell>
+<Cell ss:Index="3" ss:StyleID="s8" >
+<Data ss:Type="Number">555.75</Data>
+</Cell>
+<Cell ss:Index="4" ss:StyleID="s8" >
+<Data ss:Type="Number">417.05</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s8" >
+<Data ss:Type="Number">312.55</Data>
+</Cell>
+<Cell ss:Index="6" ss:StyleID="s8" >
+<Data ss:Type="Number">256.50</Data>
+</Cell>
+<Cell ss:Index="7" ss:StyleID="s8" >
+<Data ss:Type="Number">191.90</Data>
+</Cell>
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="17.44">
+<Cell ss:Index="1" ss:MergeAcross="1" ss:StyleID="s7" >
+<Data ss:Type="String">Family (min 3 pax) </Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">1 ADL + 2 CHD (2-14.99) </Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">310.65</Data>
+</Cell>
+<Cell ss:Index="3" ss:StyleID="s8" >
+<Data ss:Type="Number">329.65</Data>
+</Cell>
+<Cell ss:Index="4" ss:StyleID="s8" >
+<Data ss:Type="Number">249.85</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s8" >
+<Data ss:Type="Number">189.05</Data>
+</Cell>
+<Cell ss:Index="6" ss:StyleID="s8" >
+<Data ss:Type="Number">155.80</Data>
+</Cell>
+<Cell ss:Index="7" ss:StyleID="s8" >
+<Data ss:Type="Number">117.80</Data>
+</Cell>
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="21.80">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">1 ADL + 3 CHD (2-14.99) ON EXB </Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">344.85</Data>
+</Cell>
+<Cell ss:Index="3" ss:StyleID="s8" >
+<Data ss:Type="Number">365.75</Data>
+</Cell>
+<Cell ss:Index="4" ss:StyleID="s8" >
+<Data ss:Type="Number">277.40</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s8" >
+<Data ss:Type="Number">209.95</Data>
+</Cell>
+<Cell ss:Index="6" ss:StyleID="s8" >
+<Data ss:Type="Number">172.90</Data>
+</Cell>
+<Cell ss:Index="7" ss:StyleID="s8" >
+<Data ss:Type="Number">130.15</Data>
+</Cell>
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">2 ADL + 1 CHD (2-14.99) </Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">310.65</Data>
+</Cell>
+<Cell ss:Index="3" ss:StyleID="s8" >
+<Data ss:Type="Number">329.65</Data>
+</Cell>
+<Cell ss:Index="4" ss:StyleID="s8" >
+<Data ss:Type="Number">249.85</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s8" >
+<Data ss:Type="Number">189.05</Data>
+</Cell>
+<Cell ss:Index="6" ss:StyleID="s8" >
+<Data ss:Type="Number">155.80</Data>
+</Cell>
+<Cell ss:Index="7" ss:StyleID="s8" >
+<Data ss:Type="Number">117.80</Data>
+</Cell>
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="21.80">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">2 ADL + 2 CHD (2-14.99) ON EXB </Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">344.85</Data>
+</Cell>
+<Cell ss:Index="3" ss:StyleID="s8" >
+<Data ss:Type="Number">365.75</Data>
+</Cell>
+<Cell ss:Index="4" ss:StyleID="s8" >
+<Data ss:Type="Number">277.40</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s8" >
+<Data ss:Type="Number">209.95</Data>
+</Cell>
+<Cell ss:Index="6" ss:StyleID="s8" >
+<Data ss:Type="Number">172.90</Data>
+</Cell>
+<Cell ss:Index="7" ss:StyleID="s8" >
+<Data ss:Type="Number">130.15</Data>
+</Cell>
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="17.44">
+<Cell ss:Index="1" ss:MergeAcross="1" ss:StyleID="s7" >
+<Data ss:Type="String">JUNIOR SUITE GARDEN VIEW </Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">1 ADL</Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">359.10</Data>
+</Cell>
+<Cell ss:Index="3" ss:StyleID="s8" >
+<Data ss:Type="Number">383.80</Data>
+</Cell>
+<Cell ss:Index="4" ss:StyleID="s8" >
+<Data ss:Type="Number">288.80</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s8" >
+<Data ss:Type="Number">213.75</Data>
+</Cell>
+<Cell ss:Index="6" ss:StyleID="s8" >
+<Data ss:Type="Number">182.40</Data>
+</Cell>
+<Cell ss:Index="7" ss:StyleID="s8" >
+<Data ss:Type="Number">135.85</Data>
+</Cell>
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">1 ADL + 1 CHD (2-14.99) </Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">359.10</Data>
+</Cell>
+<Cell ss:Index="3" ss:StyleID="s8" >
+<Data ss:Type="Number">383.80</Data>
+</Cell>
+<Cell ss:Index="4" ss:StyleID="s8" >
+<Data ss:Type="Number">288.80</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s8" >
+<Data ss:Type="Number">213.75</Data>
+</Cell>
+<Cell ss:Index="6" ss:StyleID="s8" >
+<Data ss:Type="Number">182.40</Data>
+</Cell>
+<Cell ss:Index="7" ss:StyleID="s8" >
+<Data ss:Type="Number">135.85</Data>
+</Cell>
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="21.80">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">1 ADL + 2 CHD (2-14.99) ON EXB </Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">449.35</Data>
+</Cell>
+<Cell ss:Index="3" ss:StyleID="s8" >
+<Data ss:Type="Number">479.75</Data>
+</Cell>
+<Cell ss:Index="4" ss:StyleID="s8" >
+<Data ss:Type="Number">360.05</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s8" >
+<Data ss:Type="Number">266.95</Data>
+</Cell>
+<Cell ss:Index="6" ss:StyleID="s8" >
+<Data ss:Type="Number">228.00</Data>
+</Cell>
+<Cell ss:Index="7" ss:StyleID="s8" >
+<Data ss:Type="Number">170.05</Data>
+</Cell>
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="21.80">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">1 ADL + 3 CHD (2-14.99) ON EXB </Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">538.65</Data>
+</Cell>
+<Cell ss:Index="3" ss:StyleID="s8" >
+<Data ss:Type="Number">575.70</Data>
+</Cell>
+<Cell ss:Index="4" ss:StyleID="s8" >
+<Data ss:Type="Number">432.25</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s8" >
+<Data ss:Type="Number">321.10</Data>
+</Cell>
+<Cell ss:Index="6" ss:StyleID="s8" >
+<Data ss:Type="Number">273.60</Data>
+</Cell>
+<Cell ss:Index="7" ss:StyleID="s8" >
+<Data ss:Type="Number">203.30</Data>
+</Cell>
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">2 ADL</Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">359.10</Data>
+</Cell>
+<Cell ss:Index="3" ss:StyleID="s8" >
+<Data ss:Type="Number">383.80</Data>
+</Cell>
+<Cell ss:Index="4" ss:StyleID="s8" >
+<Data ss:Type="Number">288.80</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s8" >
+<Data ss:Type="Number">213.75</Data>
+</Cell>
+<Cell ss:Index="6" ss:StyleID="s8" >
+<Data ss:Type="Number">182.40</Data>
+</Cell>
+<Cell ss:Index="7" ss:StyleID="s8" >
+<Data ss:Type="Number">135.85</Data>
+</Cell>
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="21.80">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">2 ADL + 1 CHD (2-14.99) ON EXB </Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">449.35</Data>
+</Cell>
+<Cell ss:Index="3" ss:StyleID="s8" >
+<Data ss:Type="Number">479.75</Data>
+</Cell>
+<Cell ss:Index="4" ss:StyleID="s8" >
+<Data ss:Type="Number">360.05</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s8" >
+<Data ss:Type="Number">266.95</Data>
+</Cell>
+<Cell ss:Index="6" ss:StyleID="s8" >
+<Data ss:Type="Number">228.00</Data>
+</Cell>
+<Cell ss:Index="7" ss:StyleID="s8" >
+<Data ss:Type="Number">170.05</Data>
+</Cell>
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="21.80">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">2 ADL + 2 CHD (2-14.99) ON EXB </Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">538.65</Data>
+</Cell>
+<Cell ss:Index="3" ss:StyleID="s8" >
+<Data ss:Type="Number">575.70</Data>
+</Cell>
+<Cell ss:Index="4" ss:StyleID="s8" >
+<Data ss:Type="Number">432.25</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s8" >
+<Data ss:Type="Number">321.10</Data>
+</Cell>
+<Cell ss:Index="6" ss:StyleID="s8" >
+<Data ss:Type="Number">273.60</Data>
+</Cell>
+<Cell ss:Index="7" ss:StyleID="s8" >
+<Data ss:Type="Number">203.30</Data>
+</Cell>
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="17.44">
+<Cell ss:Index="1" ss:MergeAcross="1" ss:StyleID="s7" >
+<Data ss:Type="String">Junior Suite Sea View </Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">1 ADL</Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">370.50</Data>
+</Cell>
+<Cell ss:Index="3" ss:StyleID="s8" >
+<Data ss:Type="Number">395.20</Data>
+</Cell>
+<Cell ss:Index="4" ss:StyleID="s8" >
+<Data ss:Type="Number">299.25</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s8" >
+<Data ss:Type="Number">223.25</Data>
+</Cell>
+<Cell ss:Index="6" ss:StyleID="s8" >
+<Data ss:Type="Number">188.10</Data>
+</Cell>
+<Cell ss:Index="7" ss:StyleID="s8" >
+<Data ss:Type="Number">142.50</Data>
+</Cell>
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">1 ADL + 1 CHD (2-14.99) </Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">370.50</Data>
+</Cell>
+<Cell ss:Index="3" ss:StyleID="s8" >
+<Data ss:Type="Number">395.20</Data>
+</Cell>
+<Cell ss:Index="4" ss:StyleID="s8" >
+<Data ss:Type="Number">299.25</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s8" >
+<Data ss:Type="Number">223.25</Data>
+</Cell>
+<Cell ss:Index="6" ss:StyleID="s8" >
+<Data ss:Type="Number">188.10</Data>
+</Cell>
+<Cell ss:Index="7" ss:StyleID="s8" >
+<Data ss:Type="Number">142.50</Data>
+</Cell>
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="21.80">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">1 ADL + 2 CHD (2-14.99) ON EXB </Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">463.60</Data>
+</Cell>
+<Cell ss:Index="3" ss:StyleID="s8" >
+<Data ss:Type="Number">494.00</Data>
+</Cell>
+<Cell ss:Index="4" ss:StyleID="s8" >
+<Data ss:Type="Number">374.30</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s8" >
+<Data ss:Type="Number">278.35</Data>
+</Cell>
+<Cell ss:Index="6" ss:StyleID="s8" >
+<Data ss:Type="Number">234.65</Data>
+</Cell>
+<Cell ss:Index="7" ss:StyleID="s8" >
+<Data ss:Type="Number">178.60</Data>
+</Cell>
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">2 ADL</Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">370.50</Data>
+</Cell>
+<Cell ss:Index="3" ss:StyleID="s8" >
+<Data ss:Type="Number">395.20</Data>
+</Cell>
+<Cell ss:Index="4" ss:StyleID="s8" >
+<Data ss:Type="Number">299.25</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s8" >
+<Data ss:Type="Number">223.25</Data>
+</Cell>
+<Cell ss:Index="6" ss:StyleID="s8" >
+<Data ss:Type="Number">188.10</Data>
+</Cell>
+<Cell ss:Index="7" ss:StyleID="s8" >
+<Data ss:Type="Number">142.50</Data>
+</Cell>
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="21.80">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">2 ADL + 1 CHD (2-14.99) ON EXB </Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">463.60</Data>
+</Cell>
+<Cell ss:Index="3" ss:StyleID="s8" >
+<Data ss:Type="Number">494.00</Data>
+</Cell>
+<Cell ss:Index="4" ss:StyleID="s8" >
+<Data ss:Type="Number">374.30</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s8" >
+<Data ss:Type="Number">278.35</Data>
+</Cell>
+<Cell ss:Index="6" ss:StyleID="s8" >
+<Data ss:Type="Number">234.65</Data>
+</Cell>
+<Cell ss:Index="7" ss:StyleID="s8" >
+<Data ss:Type="Number">178.60</Data>
+</Cell>
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">3 ADL</Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">481.65</Data>
+</Cell>
+<Cell ss:Index="3" ss:StyleID="s8" >
+<Data ss:Type="Number">513.95</Data>
+</Cell>
+<Cell ss:Index="4" ss:StyleID="s8" >
+<Data ss:Type="Number">389.50</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s8" >
+<Data ss:Type="Number">289.75</Data>
+</Cell>
+<Cell ss:Index="6" ss:StyleID="s8" >
+<Data ss:Type="Number">244.15</Data>
+</Cell>
+<Cell ss:Index="7" ss:StyleID="s8" >
+<Data ss:Type="Number">185.25</Data>
+</Cell>
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="17.44">
+<Cell ss:Index="1" ss:MergeAcross="1" ss:StyleID="s7" >
+<Data ss:Type="String">STANDARD</Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">1 ADL</Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">256.50</Data>
+</Cell>
+<Cell ss:Index="3" ss:StyleID="s8" >
+<Data ss:Type="Number">274.55</Data>
+</Cell>
+<Cell ss:Index="4" ss:StyleID="s8" >
+<Data ss:Type="Number">187.15</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s8" >
+<Data ss:Type="Number">140.60</Data>
+</Cell>
+<Cell ss:Index="6" ss:StyleID="s8" >
+<Data ss:Type="Number">103.55</Data>
+</Cell>
+<Cell ss:Index="7" ss:StyleID="s8" >
+<Data ss:Type="Number">77.90</Data>
+</Cell>
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">1 ADL + 1 CHD (2-14.99) </Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">256.50</Data>
+</Cell>
+<Cell ss:Index="3" ss:StyleID="s8" >
+<Data ss:Type="Number">274.55</Data>
+</Cell>
+<Cell ss:Index="4" ss:StyleID="s8" >
+<Data ss:Type="Number">208.05</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s8" >
+<Data ss:Type="Number">156.75</Data>
+</Cell>
+<Cell ss:Index="6" ss:StyleID="s8" >
+<Data ss:Type="Number">129.20</Data>
+</Cell>
+<Cell ss:Index="7" ss:StyleID="s8" >
+<Data ss:Type="Number">97.85</Data>
+</Cell>
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="21.80">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">1 ADL + 2 CHD (2-6.99) ON EXB </Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">282.15</Data>
+</Cell>
+<Cell ss:Index="3" ss:StyleID="s8" >
+<Data ss:Type="Number">302.10</Data>
+</Cell>
+<Cell ss:Index="4" ss:StyleID="s8" >
+<Data ss:Type="Number">208.05</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s8" >
+<Data ss:Type="Number">156.75</Data>
+</Cell>
+<Cell ss:Index="6" ss:StyleID="s8" >
+<Data ss:Type="Number">129.20</Data>
+</Cell>
+<Cell ss:Index="7" ss:StyleID="s8" >
+<Data ss:Type="Number">97.85</Data>
+</Cell>
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="21.80">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">1 ADL + 2 CHD (2-6.99)(7-14.99) ON EXB </Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">282.15</Data>
+</Cell>
+<Cell ss:Index="3" ss:StyleID="s8" >
+<Data ss:Type="Number">302.10</Data>
+</Cell>
+<Cell ss:Index="4" ss:StyleID="s8" >
+<Data ss:Type="Number">208.05</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s8" >
+<Data ss:Type="Number">156.75</Data>
+</Cell>
+<Cell ss:Index="6" ss:StyleID="s8" >
+<Data ss:Type="Number">129.20</Data>
+</Cell>
+<Cell ss:Index="7" ss:StyleID="s8" >
+<Data ss:Type="Number">97.85</Data>
+</Cell>
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="21.80">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">1 ADL + 2 CHD (7-14.99) ON EXB </Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">295.45</Data>
+</Cell>
+<Cell ss:Index="3" ss:StyleID="s8" >
+<Data ss:Type="Number">316.35</Data>
+</Cell>
+<Cell ss:Index="4" ss:StyleID="s8" >
+<Data ss:Type="Number">228.95</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s8" >
+<Data ss:Type="Number">171.95</Data>
+</Cell>
+<Cell ss:Index="6" ss:StyleID="s8" >
+<Data ss:Type="Number">142.50</Data>
+</Cell>
+<Cell ss:Index="7" ss:StyleID="s8" >
+<Data ss:Type="Number">107.35</Data>
+</Cell>
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">2 ADL</Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">256.50</Data>
+</Cell>
+<Cell ss:Index="3" ss:StyleID="s8" >
+<Data ss:Type="Number">274.55</Data>
+</Cell>
+<Cell ss:Index="4" ss:StyleID="s8" >
+<Data ss:Type="Number">208.05</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s8" >
+<Data ss:Type="Number">156.75</Data>
+</Cell>
+<Cell ss:Index="6" ss:StyleID="s8" >
+<Data ss:Type="Number">129.20</Data>
+</Cell>
+<Cell ss:Index="7" ss:StyleID="s8" >
+<Data ss:Type="Number">97.85</Data>
+</Cell>
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="21.80">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">2 ADL + 1 CHD (2-6.99) ON EXB </Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">282.15</Data>
+</Cell>
+<Cell ss:Index="3" ss:StyleID="s8" >
+<Data ss:Type="Number">302.10</Data>
+</Cell>
+<Cell ss:Index="4" ss:StyleID="s8" >
+<Data ss:Type="Number">208.05</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s8" >
+<Data ss:Type="Number">156.75</Data>
+</Cell>
+<Cell ss:Index="6" ss:StyleID="s8" >
+<Data ss:Type="Number">129.20</Data>
+</Cell>
+<Cell ss:Index="7" ss:StyleID="s8" >
+<Data ss:Type="Number">97.85</Data>
+</Cell>
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="21.80">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">2 ADL + 1 CHD (7-14.99) ON EXB </Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">295.45</Data>
+</Cell>
+<Cell ss:Index="3" ss:StyleID="s8" >
+<Data ss:Type="Number">316.35</Data>
+</Cell>
+<Cell ss:Index="4" ss:StyleID="s8" >
+<Data ss:Type="Number">228.95</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s8" >
+<Data ss:Type="Number">171.95</Data>
+</Cell>
+<Cell ss:Index="6" ss:StyleID="s8" >
+<Data ss:Type="Number">142.50</Data>
+</Cell>
+<Cell ss:Index="7" ss:StyleID="s8" >
+<Data ss:Type="Number">107.35</Data>
+</Cell>
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">3 ADL</Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">333.45</Data>
+</Cell>
+<Cell ss:Index="3" ss:StyleID="s8" >
+<Data ss:Type="Number">357.20</Data>
+</Cell>
+<Cell ss:Index="4" ss:StyleID="s8" >
+<Data ss:Type="Number">270.75</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s8" >
+<Data ss:Type="Number">203.30</Data>
+</Cell>
+<Cell ss:Index="6" ss:StyleID="s8" >
+<Data ss:Type="Number">168.15</Data>
+</Cell>
+<Cell ss:Index="7" ss:StyleID="s8" >
+<Data ss:Type="Number">126.35</Data>
+</Cell>
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="17.44">
+<Cell ss:Index="1" ss:MergeAcross="1" ss:StyleID="s7" >
+<Data ss:Type="String">Standard Basic </Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">1 ADL</Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">253.65</Data>
+</Cell>
+<Cell ss:Index="3" ss:StyleID="s8" >
+<Data ss:Type="Number">271.70</Data>
+</Cell>
+<Cell ss:Index="4" ss:StyleID="s8" >
+<Data ss:Type="Number">206.15</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s8" >
+<Data ss:Type="Number">153.90</Data>
+</Cell>
+<Cell ss:Index="6" ss:StyleID="s8" >
+<Data ss:Type="Number">127.30</Data>
+</Cell>
+<Cell ss:Index="7" ss:StyleID="s8" >
+<Data ss:Type="Number">95.00</Data>
+</Cell>
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">1 ADL + 1 CHD (2-14.99) </Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">253.65</Data>
+</Cell>
+<Cell ss:Index="3" ss:StyleID="s8" >
+<Data ss:Type="Number">271.70</Data>
+</Cell>
+<Cell ss:Index="4" ss:StyleID="s8" >
+<Data ss:Type="Number">206.15</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s8" >
+<Data ss:Type="Number">153.90</Data>
+</Cell>
+<Cell ss:Index="6" ss:StyleID="s8" >
+<Data ss:Type="Number">127.30</Data>
+</Cell>
+<Cell ss:Index="7" ss:StyleID="s8" >
+<Data ss:Type="Number">95.00</Data>
+</Cell>
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="21.80">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">1 ADL + 2 CHD (2-6.99) ON EXB </Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">278.35</Data>
+</Cell>
+<Cell ss:Index="3" ss:StyleID="s8" >
+<Data ss:Type="Number">298.30</Data>
+</Cell>
+<Cell ss:Index="4" ss:StyleID="s8" >
+<Data ss:Type="Number">206.15</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s8" >
+<Data ss:Type="Number">153.90</Data>
+</Cell>
+<Cell ss:Index="6" ss:StyleID="s8" >
+<Data ss:Type="Number">127.30</Data>
+</Cell>
+<Cell ss:Index="7" ss:StyleID="s8" >
+<Data ss:Type="Number">95.00</Data>
+</Cell>
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="21.80">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">1 ADL + 2 CHD (2-6.99)(7-14.99) ON EXB </Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">278.35</Data>
+</Cell>
+<Cell ss:Index="3" ss:StyleID="s8" >
+<Data ss:Type="Number">298.30</Data>
+</Cell>
+<Cell ss:Index="4" ss:StyleID="s8" >
+<Data ss:Type="Number">206.15</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s8" >
+<Data ss:Type="Number">153.90</Data>
+</Cell>
+<Cell ss:Index="6" ss:StyleID="s8" >
+<Data ss:Type="Number">127.30</Data>
+</Cell>
+<Cell ss:Index="7" ss:StyleID="s8" >
+<Data ss:Type="Number">95.00</Data>
+</Cell>
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="21.80">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">1 ADL + 2 CHD (7-14.99) ON EXB </Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">291.65</Data>
+</Cell>
+<Cell ss:Index="3" ss:StyleID="s8" >
+<Data ss:Type="Number">311.60</Data>
+</Cell>
+<Cell ss:Index="4" ss:StyleID="s8" >
+<Data ss:Type="Number">227.05</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s8" >
+<Data ss:Type="Number">169.10</Data>
+</Cell>
+<Cell ss:Index="6" ss:StyleID="s8" >
+<Data ss:Type="Number">139.65</Data>
+</Cell>
+<Cell ss:Index="7" ss:StyleID="s8" >
+<Data ss:Type="Number">104.50</Data>
+</Cell>
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">2 ADL</Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">253.65</Data>
+</Cell>
+<Cell ss:Index="3" ss:StyleID="s8" >
+<Data ss:Type="Number">271.70</Data>
+</Cell>
+<Cell ss:Index="4" ss:StyleID="s8" >
+<Data ss:Type="Number">206.15</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s8" >
+<Data ss:Type="Number">153.90</Data>
+</Cell>
+<Cell ss:Index="6" ss:StyleID="s8" >
+<Data ss:Type="Number">127.30</Data>
+</Cell>
+<Cell ss:Index="7" ss:StyleID="s8" >
+<Data ss:Type="Number">95.00</Data>
+</Cell>
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="21.80">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">2 ADL + 1 CHD (2-6.99) ON EXB </Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">278.35</Data>
+</Cell>
+<Cell ss:Index="3" ss:StyleID="s8" >
+<Data ss:Type="Number">298.30</Data>
+</Cell>
+<Cell ss:Index="4" ss:StyleID="s8" >
+<Data ss:Type="Number">206.15</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s8" >
+<Data ss:Type="Number">153.90</Data>
+</Cell>
+<Cell ss:Index="6" ss:StyleID="s8" >
+<Data ss:Type="Number">127.30</Data>
+</Cell>
+<Cell ss:Index="7" ss:StyleID="s8" >
+<Data ss:Type="Number">95.00</Data>
+</Cell>
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="21.80">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">2 ADL + 1 CHD (7-14.99) ON EXB </Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">291.65</Data>
+</Cell>
+<Cell ss:Index="3" ss:StyleID="s8" >
+<Data ss:Type="Number">311.60</Data>
+</Cell>
+<Cell ss:Index="4" ss:StyleID="s8" >
+<Data ss:Type="Number">227.05</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s8" >
+<Data ss:Type="Number">169.10</Data>
+</Cell>
+<Cell ss:Index="6" ss:StyleID="s8" >
+<Data ss:Type="Number">139.65</Data>
+</Cell>
+<Cell ss:Index="7" ss:StyleID="s8" >
+<Data ss:Type="Number">104.50</Data>
+</Cell>
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">3 ADL</Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">329.65</Data>
+</Cell>
+<Cell ss:Index="3" ss:StyleID="s8" >
+<Data ss:Type="Number">352.45</Data>
+</Cell>
+<Cell ss:Index="4" ss:StyleID="s8" >
+<Data ss:Type="Number">267.90</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s8" >
+<Data ss:Type="Number">200.45</Data>
+</Cell>
+<Cell ss:Index="6" ss:StyleID="s8" >
+<Data ss:Type="Number">165.30</Data>
+</Cell>
+<Cell ss:Index="7" ss:StyleID="s8" >
+<Data ss:Type="Number">123.50</Data>
+</Cell>
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="17.44">
+<Cell ss:Index="1" ss:MergeAcross="1" ss:StyleID="s7" >
+<Data ss:Type="String">STANDARD GARDEN VIEW</Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">1 ADL</Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">260.30</Data>
+</Cell>
+<Cell ss:Index="3" ss:StyleID="s8" >
+<Data ss:Type="Number">278.35</Data>
+</Cell>
+<Cell ss:Index="4" ss:StyleID="s8" >
+<Data ss:Type="Number">210.90</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s8" >
+<Data ss:Type="Number">158.65</Data>
+</Cell>
+<Cell ss:Index="6" ss:StyleID="s8" >
+<Data ss:Type="Number">131.10</Data>
+</Cell>
+<Cell ss:Index="7" ss:StyleID="s8" >
+<Data ss:Type="Number">99.75</Data>
+</Cell>
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">1 ADL + 1 CHD (2-14.99) </Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">260.30</Data>
+</Cell>
+<Cell ss:Index="3" ss:StyleID="s8" >
+<Data ss:Type="Number">278.35</Data>
+</Cell>
+<Cell ss:Index="4" ss:StyleID="s8" >
+<Data ss:Type="Number">210.90</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s8" >
+<Data ss:Type="Number">158.65</Data>
+</Cell>
+<Cell ss:Index="6" ss:StyleID="s8" >
+<Data ss:Type="Number">131.10</Data>
+</Cell>
+<Cell ss:Index="7" ss:StyleID="s8" >
+<Data ss:Type="Number">99.75</Data>
+</Cell>
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="21.80">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">1 ADL + 2 CHD (2-6.99) ON EXB </Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">285.95</Data>
+</Cell>
+<Cell ss:Index="3" ss:StyleID="s8" >
+<Data ss:Type="Number">305.90</Data>
+</Cell>
+<Cell ss:Index="4" ss:StyleID="s8" >
+<Data ss:Type="Number">210.90</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s8" >
+<Data ss:Type="Number">158.65</Data>
+</Cell>
+<Cell ss:Index="6" ss:StyleID="s8" >
+<Data ss:Type="Number">131.10</Data>
+</Cell>
+<Cell ss:Index="7" ss:StyleID="s8" >
+<Data ss:Type="Number">99.75</Data>
+</Cell>
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="21.80">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">1 ADL + 2 CHD (2-6.99)(7-14.99) ON EXB </Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">285.95</Data>
+</Cell>
+<Cell ss:Index="3" ss:StyleID="s8" >
+<Data ss:Type="Number">305.90</Data>
+</Cell>
+<Cell ss:Index="4" ss:StyleID="s8" >
+<Data ss:Type="Number">210.90</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s8" >
+<Data ss:Type="Number">158.65</Data>
+</Cell>
+<Cell ss:Index="6" ss:StyleID="s8" >
+<Data ss:Type="Number">131.10</Data>
+</Cell>
+<Cell ss:Index="7" ss:StyleID="s8" >
+<Data ss:Type="Number">99.75</Data>
+</Cell>
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="21.80">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">1 ADL + 2 CHD (7-14.99) ON EXB </Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">299.25</Data>
+</Cell>
+<Cell ss:Index="3" ss:StyleID="s8" >
+<Data ss:Type="Number">320.15</Data>
+</Cell>
+<Cell ss:Index="4" ss:StyleID="s8" >
+<Data ss:Type="Number">231.80</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s8" >
+<Data ss:Type="Number">173.85</Data>
+</Cell>
+<Cell ss:Index="6" ss:StyleID="s8" >
+<Data ss:Type="Number">144.40</Data>
+</Cell>
+<Cell ss:Index="7" ss:StyleID="s8" >
+<Data ss:Type="Number">110.20</Data>
+</Cell>
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">2 ADL</Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">260.30</Data>
+</Cell>
+<Cell ss:Index="3" ss:StyleID="s8" >
+<Data ss:Type="Number">278.35</Data>
+</Cell>
+<Cell ss:Index="4" ss:StyleID="s8" >
+<Data ss:Type="Number">210.90</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s8" >
+<Data ss:Type="Number">158.65</Data>
+</Cell>
+<Cell ss:Index="6" ss:StyleID="s8" >
+<Data ss:Type="Number">131.10</Data>
+</Cell>
+<Cell ss:Index="7" ss:StyleID="s8" >
+<Data ss:Type="Number">99.75</Data>
+</Cell>
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="21.80">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">2 ADL + 1 CHD (2-6.99) ON EXB </Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">285.95</Data>
+</Cell>
+<Cell ss:Index="3" ss:StyleID="s8" >
+<Data ss:Type="Number">305.90</Data>
+</Cell>
+<Cell ss:Index="4" ss:StyleID="s8" >
+<Data ss:Type="Number">210.90</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s8" >
+<Data ss:Type="Number">158.65</Data>
+</Cell>
+<Cell ss:Index="6" ss:StyleID="s8" >
+<Data ss:Type="Number">131.10</Data>
+</Cell>
+<Cell ss:Index="7" ss:StyleID="s8" >
+<Data ss:Type="Number">99.75</Data>
+</Cell>
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="21.80">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">2 ADL + 1 CHD (7-14.99) ON EXB </Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">299.25</Data>
+</Cell>
+<Cell ss:Index="3" ss:StyleID="s8" >
+<Data ss:Type="Number">320.15</Data>
+</Cell>
+<Cell ss:Index="4" ss:StyleID="s8" >
+<Data ss:Type="Number">231.80</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s8" >
+<Data ss:Type="Number">173.85</Data>
+</Cell>
+<Cell ss:Index="6" ss:StyleID="s8" >
+<Data ss:Type="Number">144.40</Data>
+</Cell>
+<Cell ss:Index="7" ss:StyleID="s8" >
+<Data ss:Type="Number">110.20</Data>
+</Cell>
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">3 ADL</Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">338.20</Data>
+</Cell>
+<Cell ss:Index="3" ss:StyleID="s8" >
+<Data ss:Type="Number">361.95</Data>
+</Cell>
+<Cell ss:Index="4" ss:StyleID="s8" >
+<Data ss:Type="Number">273.60</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s8" >
+<Data ss:Type="Number">206.15</Data>
+</Cell>
+<Cell ss:Index="6" ss:StyleID="s8" >
+<Data ss:Type="Number">171.00</Data>
+</Cell>
+<Cell ss:Index="7" ss:StyleID="s8" >
+<Data ss:Type="Number">130.15</Data>
+</Cell>
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="17.44">
+<Cell ss:Index="1" ss:MergeAcross="1" ss:StyleID="s7" >
+<Data ss:Type="String">Standard Priority Location Garden View </Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">1 ADL</Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">278.35</Data>
+</Cell>
+<Cell ss:Index="3" ss:StyleID="s8" >
+<Data ss:Type="Number">297.35</Data>
+</Cell>
+<Cell ss:Index="4" ss:StyleID="s8" >
+<Data ss:Type="Number">224.20</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s8" >
+<Data ss:Type="Number">168.15</Data>
+</Cell>
+<Cell ss:Index="6" ss:StyleID="s8" >
+<Data ss:Type="Number">140.60</Data>
+</Cell>
+<Cell ss:Index="7" ss:StyleID="s8" >
+<Data ss:Type="Number">106.40</Data>
+</Cell>
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">1 ADL + 1 CHD (2-14.99) </Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">278.35</Data>
+</Cell>
+<Cell ss:Index="3" ss:StyleID="s8" >
+<Data ss:Type="Number">297.35</Data>
+</Cell>
+<Cell ss:Index="4" ss:StyleID="s8" >
+<Data ss:Type="Number">224.20</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s8" >
+<Data ss:Type="Number">168.15</Data>
+</Cell>
+<Cell ss:Index="6" ss:StyleID="s8" >
+<Data ss:Type="Number">140.60</Data>
+</Cell>
+<Cell ss:Index="7" ss:StyleID="s8" >
+<Data ss:Type="Number">106.40</Data>
+</Cell>
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">2 ADL</Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">278.35</Data>
+</Cell>
+<Cell ss:Index="3" ss:StyleID="s8" >
+<Data ss:Type="Number">297.35</Data>
+</Cell>
+<Cell ss:Index="4" ss:StyleID="s8" >
+<Data ss:Type="Number">224.20</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s8" >
+<Data ss:Type="Number">168.15</Data>
+</Cell>
+<Cell ss:Index="6" ss:StyleID="s8" >
+<Data ss:Type="Number">140.60</Data>
+</Cell>
+<Cell ss:Index="7" ss:StyleID="s8" >
+<Data ss:Type="Number">106.40</Data>
+</Cell>
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="17.44">
+<Cell ss:Index="1" ss:MergeAcross="1" ss:StyleID="s7" >
+<Data ss:Type="String">Standard Priority Location Sea View </Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">1 ADL</Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">325.85</Data>
+</Cell>
+<Cell ss:Index="3" ss:StyleID="s8" >
+<Data ss:Type="Number">341.05</Data>
+</Cell>
+<Cell ss:Index="4" ss:StyleID="s8" >
+<Data ss:Type="Number">261.25</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s8" >
+<Data ss:Type="Number">196.65</Data>
+</Cell>
+<Cell ss:Index="6" ss:StyleID="s8" >
+<Data ss:Type="Number">164.35</Data>
+</Cell>
+<Cell ss:Index="7" ss:StyleID="s8" >
+<Data ss:Type="Number">125.40</Data>
+</Cell>
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">1 ADL + 1 CHD (2-14.99) </Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">325.85</Data>
+</Cell>
+<Cell ss:Index="3" ss:StyleID="s8" >
+<Data ss:Type="Number">341.05</Data>
+</Cell>
+<Cell ss:Index="4" ss:StyleID="s8" >
+<Data ss:Type="Number">261.25</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s8" >
+<Data ss:Type="Number">196.65</Data>
+</Cell>
+<Cell ss:Index="6" ss:StyleID="s8" >
+<Data ss:Type="Number">164.35</Data>
+</Cell>
+<Cell ss:Index="7" ss:StyleID="s8" >
+<Data ss:Type="Number">125.40</Data>
+</Cell>
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">2 ADL</Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">325.85</Data>
+</Cell>
+<Cell ss:Index="3" ss:StyleID="s8" >
+<Data ss:Type="Number">341.05</Data>
+</Cell>
+<Cell ss:Index="4" ss:StyleID="s8" >
+<Data ss:Type="Number">261.25</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s8" >
+<Data ss:Type="Number">196.65</Data>
+</Cell>
+<Cell ss:Index="6" ss:StyleID="s8" >
+<Data ss:Type="Number">164.35</Data>
+</Cell>
+<Cell ss:Index="7" ss:StyleID="s8" >
+<Data ss:Type="Number">125.40</Data>
+</Cell>
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="17.44">
+<Cell ss:Index="1" ss:MergeAcross="1" ss:StyleID="s7" >
+<Data ss:Type="String">STANDARD SEA VIEW </Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">1 ADL</Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">301.15</Data>
+</Cell>
+<Cell ss:Index="3" ss:StyleID="s8" >
+<Data ss:Type="Number">322.05</Data>
+</Cell>
+<Cell ss:Index="4" ss:StyleID="s8" >
+<Data ss:Type="Number">247.95</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s8" >
+<Data ss:Type="Number">187.15</Data>
+</Cell>
+<Cell ss:Index="6" ss:StyleID="s8" >
+<Data ss:Type="Number">157.70</Data>
+</Cell>
+<Cell ss:Index="7" ss:StyleID="s8" >
+<Data ss:Type="Number">118.75</Data>
+</Cell>
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">1 ADL + 1 CHD (2-14.99) </Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">301.15</Data>
+</Cell>
+<Cell ss:Index="3" ss:StyleID="s8" >
+<Data ss:Type="Number">322.05</Data>
+</Cell>
+<Cell ss:Index="4" ss:StyleID="s8" >
+<Data ss:Type="Number">247.95</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s8" >
+<Data ss:Type="Number">187.15</Data>
+</Cell>
+<Cell ss:Index="6" ss:StyleID="s8" >
+<Data ss:Type="Number">157.70</Data>
+</Cell>
+<Cell ss:Index="7" ss:StyleID="s8" >
+<Data ss:Type="Number">118.75</Data>
+</Cell>
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="21.80">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">1 ADL + 2 CHD (2-6.99) ON EXB </Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">330.60</Data>
+</Cell>
+<Cell ss:Index="3" ss:StyleID="s8" >
+<Data ss:Type="Number">354.35</Data>
+</Cell>
+<Cell ss:Index="4" ss:StyleID="s8" >
+<Data ss:Type="Number">247.95</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s8" >
+<Data ss:Type="Number">187.15</Data>
+</Cell>
+<Cell ss:Index="6" ss:StyleID="s8" >
+<Data ss:Type="Number">157.70</Data>
+</Cell>
+<Cell ss:Index="7" ss:StyleID="s8" >
+<Data ss:Type="Number">118.75</Data>
+</Cell>
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="21.80">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">1 ADL + 2 CHD (2-6.99)(7-14.99) ON EXB </Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">330.60</Data>
+</Cell>
+<Cell ss:Index="3" ss:StyleID="s8" >
+<Data ss:Type="Number">354.35</Data>
+</Cell>
+<Cell ss:Index="4" ss:StyleID="s8" >
+<Data ss:Type="Number">247.95</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s8" >
+<Data ss:Type="Number">187.15</Data>
+</Cell>
+<Cell ss:Index="6" ss:StyleID="s8" >
+<Data ss:Type="Number">157.70</Data>
+</Cell>
+<Cell ss:Index="7" ss:StyleID="s8" >
+<Data ss:Type="Number">118.75</Data>
+</Cell>
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="21.80">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">1 ADL + 2 CHD (7-14.99) ON EXB </Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">345.80</Data>
+</Cell>
+<Cell ss:Index="3" ss:StyleID="s8" >
+<Data ss:Type="Number">370.50</Data>
+</Cell>
+<Cell ss:Index="4" ss:StyleID="s8" >
+<Data ss:Type="Number">272.65</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s8" >
+<Data ss:Type="Number">205.20</Data>
+</Cell>
+<Cell ss:Index="6" ss:StyleID="s8" >
+<Data ss:Type="Number">172.90</Data>
+</Cell>
+<Cell ss:Index="7" ss:StyleID="s8" >
+<Data ss:Type="Number">131.10</Data>
+</Cell>
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">2 ADL</Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">301.15</Data>
+</Cell>
+<Cell ss:Index="3" ss:StyleID="s8" >
+<Data ss:Type="Number">322.05</Data>
+</Cell>
+<Cell ss:Index="4" ss:StyleID="s8" >
+<Data ss:Type="Number">247.95</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s8" >
+<Data ss:Type="Number">187.15</Data>
+</Cell>
+<Cell ss:Index="6" ss:StyleID="s8" >
+<Data ss:Type="Number">157.70</Data>
+</Cell>
+<Cell ss:Index="7" ss:StyleID="s8" >
+<Data ss:Type="Number">118.75</Data>
+</Cell>
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="21.80">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">2 ADL + 1 CHD (2-6.99) ON EXB </Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">330.60</Data>
+</Cell>
+<Cell ss:Index="3" ss:StyleID="s8" >
+<Data ss:Type="Number">354.35</Data>
+</Cell>
+<Cell ss:Index="4" ss:StyleID="s8" >
+<Data ss:Type="Number">247.95</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s8" >
+<Data ss:Type="Number">187.15</Data>
+</Cell>
+<Cell ss:Index="6" ss:StyleID="s8" >
+<Data ss:Type="Number">157.70</Data>
+</Cell>
+<Cell ss:Index="7" ss:StyleID="s8" >
+<Data ss:Type="Number">118.75</Data>
+</Cell>
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="21.80">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">2 ADL + 1 CHD (7-14.99) ON EXB </Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">345.80</Data>
+</Cell>
+<Cell ss:Index="3" ss:StyleID="s8" >
+<Data ss:Type="Number">370.50</Data>
+</Cell>
+<Cell ss:Index="4" ss:StyleID="s8" >
+<Data ss:Type="Number">272.65</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s8" >
+<Data ss:Type="Number">205.20</Data>
+</Cell>
+<Cell ss:Index="6" ss:StyleID="s8" >
+<Data ss:Type="Number">172.90</Data>
+</Cell>
+<Cell ss:Index="7" ss:StyleID="s8" >
+<Data ss:Type="Number">131.10</Data>
+</Cell>
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">3 ADL</Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">390.45</Data>
+</Cell>
+<Cell ss:Index="3" ss:StyleID="s8" >
+<Data ss:Type="Number">418.95</Data>
+</Cell>
+<Cell ss:Index="4" ss:StyleID="s8" >
+<Data ss:Type="Number">322.05</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s8" >
+<Data ss:Type="Number">242.25</Data>
+</Cell>
+<Cell ss:Index="6" ss:StyleID="s8" >
+<Data ss:Type="Number">204.25</Data>
+</Cell>
+<Cell ss:Index="7" ss:StyleID="s8" >
+<Data ss:Type="Number">154.85</Data>
+</Cell>
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="17.44">
+<Cell ss:Index="1" />
+<Cell ss:Index="2" />
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="17.44">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">Release periods</Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s9" >
+<Data ss:Type="Number">0</Data>
+</Cell>
+<Cell ss:Index="3" ss:StyleID="s9" >
+<Data ss:Type="Number">0</Data>
+</Cell>
+<Cell ss:Index="4" ss:StyleID="s9" >
+<Data ss:Type="Number">0</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s9" >
+<Data ss:Type="Number">0</Data>
+</Cell>
+<Cell ss:Index="6" ss:StyleID="s9" >
+<Data ss:Type="Number">0</Data>
+</Cell>
+<Cell ss:Index="7" ss:StyleID="s9" >
+<Data ss:Type="Number">0</Data>
+</Cell>
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" />
+<Cell ss:Index="2" />
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="6" ss:StyleID="s10" >
+<Data ss:Type="String">Notes</Data>
+</Cell>
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="6" ss:StyleID="s11" >
+<Data ss:Type="String"></Data>
+</Cell>
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="6" ss:StyleID="s10" >
+<Data ss:Type="String">SPO notes</Data>
+</Cell>
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="6" ss:StyleID="s11" >
+<Data ss:Type="String"></Data>
+</Cell>
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="14.90">
+<Cell ss:Index="1" />
+<Cell ss:Index="2" />
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="26.16">
+<Cell ss:Index="1" ss:MergeAcross="6" ss:StyleID="s0" >
+<Data ss:Type="String">IBEROSTAR WAVES BELLEVUE</Data>
+</Cell>
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="5.81">
+<Cell ss:Index="1" />
+<Cell ss:Index="2" />
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="6" ss:StyleID="s1" >
+<Data ss:Type="String">SPO No &quot;10147&quot; issued &quot;30.05.2025&quot;</Data>
+</Cell>
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="11.63">
+<Cell ss:Index="1" />
+<Cell ss:Index="2" />
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:StyleID="s2" >
+<Data ss:Type="String">Region</Data>
+</Cell>
+<Cell ss:Index="2" ss:MergeAcross="1" ss:StyleID="s3" >
+<Data ss:Type="String">Becici</Data>
+</Cell>
+<Cell ss:Index="4" ss:MergeAcross="1" ss:StyleID="s2" >
+<Data ss:Type="String">Board</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="1" ss:StyleID="s3" >
+<Data ss:Type="String">AL</Data>
+</Cell>
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:StyleID="s2" >
+<Data ss:Type="String">Category</Data>
+</Cell>
+<Cell ss:Index="2" ss:MergeAcross="1" ss:StyleID="s3" >
+<Data ss:Type="String">4*</Data>
+</Cell>
+<Cell ss:Index="4" ss:MergeAcross="1" ss:StyleID="s2" >
+<Data ss:Type="String">Currency</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="1" ss:StyleID="s3" >
+<Data ss:Type="String">EUR</Data>
+</Cell>
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:StyleID="s2" >
+<Data ss:Type="String">Nights from - till</Data>
+</Cell>
+<Cell ss:Index="2" ss:MergeAcross="1" ss:StyleID="s3" >
+<Data ss:Type="String">3 - 14</Data>
+</Cell>
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="31.98">
+<Cell ss:Index="1" />
+<Cell ss:Index="2" />
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="21.80">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">Periods</Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s5" >
+<Data ss:Type="String">22.06.25&#10;02.07.25</Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="21.80">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">Reservation dates</Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s6" >
+<Data ss:Type="String">06.06.25&#10;30.06.25</Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="17.44">
+<Cell ss:Index="1" ss:MergeAcross="1" ss:StyleID="s7" >
+<Data ss:Type="String">DBL Interconnecting </Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">1 ADL + 1 CHD (2-14.99) </Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">518.70</Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">1 ADL + 2 CHD (2-14.99) </Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">518.70</Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">1 ADL + 3 CHD (2-14.99) </Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">518.70</Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">2 ADL</Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">518.70</Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">2 ADL + 1 CHD (2-14.99) </Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">518.70</Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">2 ADL + 2 CHD (2-14.99) </Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">518.70</Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">3 ADL</Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">518.70</Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">3 ADL + 1 CHD (2-14.99) </Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">518.70</Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">4 ADL</Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">518.70</Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="17.44">
+<Cell ss:Index="1" ss:MergeAcross="1" ss:StyleID="s7" >
+<Data ss:Type="String">Family (min 3 pax) </Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">1 ADL + 2 CHD (2-14.99) </Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">310.65</Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="21.80">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">1 ADL + 3 CHD (2-14.99) ON EXB </Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">344.85</Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">2 ADL + 1 CHD (2-14.99) </Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">310.65</Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="21.80">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">2 ADL + 2 CHD (2-14.99) ON EXB </Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">344.85</Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="17.44">
+<Cell ss:Index="1" ss:MergeAcross="1" ss:StyleID="s7" >
+<Data ss:Type="String">JUNIOR SUITE GARDEN VIEW </Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">1 ADL</Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">359.10</Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">1 ADL + 1 CHD (2-14.99) </Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">359.10</Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="21.80">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">1 ADL + 2 CHD (2-14.99) ON EXB </Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">449.35</Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="21.80">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">1 ADL + 3 CHD (2-14.99) ON EXB </Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">538.65</Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">2 ADL</Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">359.10</Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="21.80">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">2 ADL + 1 CHD (2-14.99) ON EXB </Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">449.35</Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="21.80">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">2 ADL + 2 CHD (2-14.99) ON EXB </Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">538.65</Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="17.44">
+<Cell ss:Index="1" ss:MergeAcross="1" ss:StyleID="s7" >
+<Data ss:Type="String">Junior Suite Sea View </Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">1 ADL</Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">370.50</Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">1 ADL + 1 CHD (2-14.99) </Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">370.50</Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="21.80">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">1 ADL + 2 CHD (2-14.99) ON EXB </Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">463.60</Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">2 ADL</Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">370.50</Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="21.80">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">2 ADL + 1 CHD (2-14.99) ON EXB </Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">463.60</Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">3 ADL</Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">481.65</Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="17.44">
+<Cell ss:Index="1" ss:MergeAcross="1" ss:StyleID="s7" >
+<Data ss:Type="String">STANDARD</Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">1 ADL</Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">256.50</Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">1 ADL + 1 CHD (2-14.99) </Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">256.50</Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="21.80">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">1 ADL + 2 CHD (2-6.99) ON EXB </Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">282.15</Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="21.80">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">1 ADL + 2 CHD (2-6.99)(7-14.99) ON EXB </Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">282.15</Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="21.80">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">1 ADL + 2 CHD (7-14.99) ON EXB </Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">295.45</Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">2 ADL</Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">256.50</Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="21.80">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">2 ADL + 1 CHD (2-6.99) ON EXB </Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">282.15</Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="21.80">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">2 ADL + 1 CHD (7-14.99) ON EXB </Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">295.45</Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">3 ADL</Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">333.45</Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="17.44">
+<Cell ss:Index="1" ss:MergeAcross="1" ss:StyleID="s7" >
+<Data ss:Type="String">Standard Basic </Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">1 ADL</Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">253.65</Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">1 ADL + 1 CHD (2-14.99) </Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">253.65</Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="21.80">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">1 ADL + 2 CHD (2-6.99) ON EXB </Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">278.35</Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="21.80">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">1 ADL + 2 CHD (2-6.99)(7-14.99) ON EXB </Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">278.35</Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="21.80">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">1 ADL + 2 CHD (7-14.99) ON EXB </Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">291.65</Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">2 ADL</Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">253.65</Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="21.80">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">2 ADL + 1 CHD (2-6.99) ON EXB </Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">278.35</Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="21.80">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">2 ADL + 1 CHD (7-14.99) ON EXB </Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">291.65</Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">3 ADL</Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">329.65</Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="17.44">
+<Cell ss:Index="1" ss:MergeAcross="1" ss:StyleID="s7" >
+<Data ss:Type="String">STANDARD GARDEN VIEW</Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">1 ADL</Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">260.30</Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">1 ADL + 1 CHD (2-14.99) </Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">260.30</Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="21.80">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">1 ADL + 2 CHD (2-6.99) ON EXB </Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">285.95</Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="21.80">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">1 ADL + 2 CHD (2-6.99)(7-14.99) ON EXB </Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">285.95</Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="21.80">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">1 ADL + 2 CHD (7-14.99) ON EXB </Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">299.25</Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">2 ADL</Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">260.30</Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="21.80">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">2 ADL + 1 CHD (2-6.99) ON EXB </Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">285.95</Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="21.80">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">2 ADL + 1 CHD (7-14.99) ON EXB </Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">299.25</Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">3 ADL</Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">338.20</Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="17.44">
+<Cell ss:Index="1" ss:MergeAcross="1" ss:StyleID="s7" >
+<Data ss:Type="String">Standard Priority Location Garden View </Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">1 ADL</Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">278.35</Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">1 ADL + 1 CHD (2-14.99) </Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">278.35</Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">2 ADL</Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">278.35</Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="17.44">
+<Cell ss:Index="1" ss:MergeAcross="1" ss:StyleID="s7" >
+<Data ss:Type="String">Standard Priority Location Sea View </Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">1 ADL</Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">325.85</Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">1 ADL + 1 CHD (2-14.99) </Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">325.85</Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">2 ADL</Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">325.85</Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="17.44">
+<Cell ss:Index="1" ss:MergeAcross="1" ss:StyleID="s7" >
+<Data ss:Type="String">STANDARD SEA VIEW </Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">1 ADL</Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">301.15</Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">1 ADL + 1 CHD (2-14.99) </Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">301.15</Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="21.80">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">1 ADL + 2 CHD (2-6.99) ON EXB </Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">330.60</Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="21.80">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">1 ADL + 2 CHD (2-6.99)(7-14.99) ON EXB </Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">330.60</Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="21.80">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">1 ADL + 2 CHD (7-14.99) ON EXB </Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">345.80</Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">2 ADL</Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">301.15</Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="21.80">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">2 ADL + 1 CHD (2-6.99) ON EXB </Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">330.60</Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="21.80">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">2 ADL + 1 CHD (7-14.99) ON EXB </Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">345.80</Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">3 ADL</Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">390.45</Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="17.44">
+<Cell ss:Index="1" />
+<Cell ss:Index="2" />
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="17.44">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">Release periods</Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s9" >
+<Data ss:Type="Number">0</Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" />
+<Cell ss:Index="2" />
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="6" ss:StyleID="s10" >
+<Data ss:Type="String">Notes</Data>
+</Cell>
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="6" ss:StyleID="s11" >
+<Data ss:Type="String"></Data>
+</Cell>
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="6" ss:StyleID="s10" >
+<Data ss:Type="String">SPO notes</Data>
+</Cell>
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="6" ss:StyleID="s11" >
+<Data ss:Type="String"></Data>
+</Cell>
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="14.90">
+<Cell ss:Index="1" />
+<Cell ss:Index="2" />
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="26.16">
+<Cell ss:Index="1" ss:MergeAcross="6" ss:StyleID="s0" >
+<Data ss:Type="String">IBEROSTAR WAVES BELLEVUE</Data>
+</Cell>
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="5.81">
+<Cell ss:Index="1" />
+<Cell ss:Index="2" />
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="6" ss:StyleID="s1" >
+<Data ss:Type="String">SPO No &quot;10148&quot; issued &quot;30.05.2025&quot;</Data>
+</Cell>
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="11.63">
+<Cell ss:Index="1" />
+<Cell ss:Index="2" />
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:StyleID="s2" >
+<Data ss:Type="String">Region</Data>
+</Cell>
+<Cell ss:Index="2" ss:MergeAcross="1" ss:StyleID="s3" >
+<Data ss:Type="String">Becici</Data>
+</Cell>
+<Cell ss:Index="4" ss:MergeAcross="1" ss:StyleID="s2" >
+<Data ss:Type="String">Board</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="1" ss:StyleID="s3" >
+<Data ss:Type="String">AL</Data>
+</Cell>
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:StyleID="s2" >
+<Data ss:Type="String">Category</Data>
+</Cell>
+<Cell ss:Index="2" ss:MergeAcross="1" ss:StyleID="s3" >
+<Data ss:Type="String">4*</Data>
+</Cell>
+<Cell ss:Index="4" ss:MergeAcross="1" ss:StyleID="s2" >
+<Data ss:Type="String">Currency</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="1" ss:StyleID="s3" >
+<Data ss:Type="String">EUR</Data>
+</Cell>
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:StyleID="s2" >
+<Data ss:Type="String">Nights from - till</Data>
+</Cell>
+<Cell ss:Index="2" ss:MergeAcross="1" ss:StyleID="s3" >
+<Data ss:Type="String">15 - 366</Data>
+</Cell>
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="31.98">
+<Cell ss:Index="1" />
+<Cell ss:Index="2" />
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="21.80">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">Periods</Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s5" >
+<Data ss:Type="String">22.06.25&#10;02.07.25</Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="21.80">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">Reservation dates</Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s6" >
+<Data ss:Type="String">06.06.25&#10;30.06.25</Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="17.44">
+<Cell ss:Index="1" ss:MergeAcross="1" ss:StyleID="s7" >
+<Data ss:Type="String">DBL Interconnecting </Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">1 ADL + 1 CHD (2-14.99) </Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">496.86</Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">1 ADL + 2 CHD (2-14.99) </Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">496.86</Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">1 ADL + 3 CHD (2-14.99) </Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">496.86</Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">2 ADL</Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">496.86</Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">2 ADL + 1 CHD (2-14.99) </Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">496.86</Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">2 ADL + 2 CHD (2-14.99) </Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">496.86</Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">3 ADL</Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">496.86</Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">3 ADL + 1 CHD (2-14.99) </Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">496.86</Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">4 ADL</Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">496.86</Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="17.44">
+<Cell ss:Index="1" ss:MergeAcross="1" ss:StyleID="s7" >
+<Data ss:Type="String">Family (min 3 pax) </Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">1 ADL + 2 CHD (2-14.99) </Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">297.57</Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="21.80">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">1 ADL + 3 CHD (2-14.99) ON EXB </Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">330.33</Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">2 ADL + 1 CHD (2-14.99) </Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">297.57</Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="21.80">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">2 ADL + 2 CHD (2-14.99) ON EXB </Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">330.33</Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="17.44">
+<Cell ss:Index="1" ss:MergeAcross="1" ss:StyleID="s7" >
+<Data ss:Type="String">JUNIOR SUITE GARDEN VIEW </Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">1 ADL</Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">343.98</Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">1 ADL + 1 CHD (2-14.99) </Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">343.98</Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="21.80">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">1 ADL + 2 CHD (2-14.99) ON EXB </Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">430.43</Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="21.80">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">1 ADL + 3 CHD (2-14.99) ON EXB </Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">515.97</Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">2 ADL</Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">343.98</Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="21.80">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">2 ADL + 1 CHD (2-14.99) ON EXB </Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">430.43</Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="21.80">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">2 ADL + 2 CHD (2-14.99) ON EXB </Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">515.97</Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="17.44">
+<Cell ss:Index="1" ss:MergeAcross="1" ss:StyleID="s7" >
+<Data ss:Type="String">Junior Suite Sea View </Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">1 ADL</Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">354.90</Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">1 ADL + 1 CHD (2-14.99) </Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">354.90</Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="21.80">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">1 ADL + 2 CHD (2-14.99) ON EXB </Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">444.08</Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">2 ADL</Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">354.90</Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="21.80">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">2 ADL + 1 CHD (2-14.99) ON EXB </Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">444.08</Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">3 ADL</Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">461.37</Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="17.44">
+<Cell ss:Index="1" ss:MergeAcross="1" ss:StyleID="s7" >
+<Data ss:Type="String">STANDARD</Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">1 ADL</Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">245.70</Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">1 ADL + 1 CHD (2-14.99) </Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">245.70</Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="21.80">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">1 ADL + 2 CHD (2-6.99) ON EXB </Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">270.27</Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="21.80">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">1 ADL + 2 CHD (2-6.99)(7-14.99) ON EXB </Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">270.27</Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="21.80">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">1 ADL + 2 CHD (7-14.99) ON EXB </Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">283.01</Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">2 ADL</Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">245.70</Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="21.80">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">2 ADL + 1 CHD (2-6.99) ON EXB </Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">270.27</Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="21.80">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">2 ADL + 1 CHD (7-14.99) ON EXB </Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">283.01</Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">3 ADL</Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">319.41</Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="17.44">
+<Cell ss:Index="1" ss:MergeAcross="1" ss:StyleID="s7" >
+<Data ss:Type="String">Standard Basic </Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">1 ADL</Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">242.97</Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">1 ADL + 1 CHD (2-14.99) </Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">242.97</Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="21.80">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">1 ADL + 2 CHD (2-6.99) ON EXB </Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">266.63</Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="21.80">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">1 ADL + 2 CHD (2-6.99)(7-14.99) ON EXB </Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">266.63</Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="21.80">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">1 ADL + 2 CHD (7-14.99) ON EXB </Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">279.37</Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">2 ADL</Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">242.97</Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="21.80">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">2 ADL + 1 CHD (2-6.99) ON EXB </Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">266.63</Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="21.80">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">2 ADL + 1 CHD (7-14.99) ON EXB </Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">279.37</Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">3 ADL</Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">315.77</Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="17.44">
+<Cell ss:Index="1" ss:MergeAcross="1" ss:StyleID="s7" >
+<Data ss:Type="String">STANDARD GARDEN VIEW</Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">1 ADL</Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">249.34</Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">1 ADL + 1 CHD (2-14.99) </Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">249.34</Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="21.80">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">1 ADL + 2 CHD (2-6.99) ON EXB </Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">273.91</Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="21.80">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">1 ADL + 2 CHD (2-6.99)(7-14.99) ON EXB </Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">273.91</Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="21.80">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">1 ADL + 2 CHD (7-14.99) ON EXB </Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">286.65</Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">2 ADL</Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">249.34</Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="21.80">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">2 ADL + 1 CHD (2-6.99) ON EXB </Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">273.91</Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="21.80">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">2 ADL + 1 CHD (7-14.99) ON EXB </Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">286.65</Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">3 ADL</Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">323.96</Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="17.44">
+<Cell ss:Index="1" ss:MergeAcross="1" ss:StyleID="s7" >
+<Data ss:Type="String">Standard Priority Location Garden View </Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">1 ADL</Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">266.63</Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">1 ADL + 1 CHD (2-14.99) </Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">266.63</Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">2 ADL</Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">266.63</Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="17.44">
+<Cell ss:Index="1" ss:MergeAcross="1" ss:StyleID="s7" >
+<Data ss:Type="String">Standard Priority Location Sea View </Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">1 ADL</Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">312.13</Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">1 ADL + 1 CHD (2-14.99) </Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">312.13</Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">2 ADL</Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">312.13</Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="17.44">
+<Cell ss:Index="1" ss:MergeAcross="1" ss:StyleID="s7" >
+<Data ss:Type="String">STANDARD SEA VIEW </Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">1 ADL</Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">288.47</Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">1 ADL + 1 CHD (2-14.99) </Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">288.47</Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="21.80">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">1 ADL + 2 CHD (2-6.99) ON EXB </Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">316.68</Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="21.80">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">1 ADL + 2 CHD (2-6.99)(7-14.99) ON EXB </Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">316.68</Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="21.80">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">1 ADL + 2 CHD (7-14.99) ON EXB </Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">331.24</Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">2 ADL</Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">288.47</Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="21.80">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">2 ADL + 1 CHD (2-6.99) ON EXB </Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">316.68</Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="21.80">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">2 ADL + 1 CHD (7-14.99) ON EXB </Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">331.24</Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">3 ADL</Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">374.01</Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="17.44">
+<Cell ss:Index="1" />
+<Cell ss:Index="2" />
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="17.44">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">Release periods</Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s9" >
+<Data ss:Type="Number">0</Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" />
+<Cell ss:Index="2" />
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="6" ss:StyleID="s10" >
+<Data ss:Type="String">Notes</Data>
+</Cell>
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="6" ss:StyleID="s11" >
+<Data ss:Type="String"></Data>
+</Cell>
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="6" ss:StyleID="s10" >
+<Data ss:Type="String">SPO notes</Data>
+</Cell>
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="6" ss:StyleID="s11" >
+<Data ss:Type="String"></Data>
+</Cell>
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="14.90">
+<Cell ss:Index="1" />
+<Cell ss:Index="2" />
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="26.16">
+<Cell ss:Index="1" ss:MergeAcross="6" ss:StyleID="s0" >
+<Data ss:Type="String">MEDITERAN</Data>
+</Cell>
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="5.81">
+<Cell ss:Index="1" />
+<Cell ss:Index="2" />
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="6" ss:StyleID="s1" >
+<Data ss:Type="String">SPO No &quot;10177&quot; issued &quot;20.06.2025&quot;</Data>
+</Cell>
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="11.63">
+<Cell ss:Index="1" />
+<Cell ss:Index="2" />
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:StyleID="s2" >
+<Data ss:Type="String">Region</Data>
+</Cell>
+<Cell ss:Index="2" ss:MergeAcross="1" ss:StyleID="s3" >
+<Data ss:Type="String">Becici</Data>
+</Cell>
+<Cell ss:Index="4" ss:MergeAcross="1" ss:StyleID="s2" >
+<Data ss:Type="String">Board</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="1" ss:StyleID="s3" >
+<Data ss:Type="String">ALL LIGHT</Data>
+</Cell>
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:StyleID="s2" >
+<Data ss:Type="String">Category</Data>
+</Cell>
+<Cell ss:Index="2" ss:MergeAcross="1" ss:StyleID="s3" >
+<Data ss:Type="String">4*</Data>
+</Cell>
+<Cell ss:Index="4" ss:MergeAcross="1" ss:StyleID="s2" >
+<Data ss:Type="String">Currency</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="1" ss:StyleID="s3" >
+<Data ss:Type="String">EUR</Data>
+</Cell>
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:StyleID="s2" >
+<Data ss:Type="String">Nights from - till</Data>
+</Cell>
+<Cell ss:Index="2" ss:MergeAcross="1" ss:StyleID="s3" >
+<Data ss:Type="String">5 - 366</Data>
+</Cell>
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="31.98">
+<Cell ss:Index="1" />
+<Cell ss:Index="2" />
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="21.80">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">Periods</Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s5" >
+<Data ss:Type="String">01.07.25&#10;04.07.25</Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="21.80">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">Reservation dates</Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s6" >
+<Data ss:Type="String">20.06.25&#10;30.06.25</Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="17.44">
+<Cell ss:Index="1" ss:MergeAcross="1" ss:StyleID="s7" >
+<Data ss:Type="String">Standard room Balcony </Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">1 ADL</Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">152.95</Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">1 ADL + 1 CHD (2-11.99) </Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">198.55</Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="21.80">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">1 ADL + 2 CHD (2-11.99) ON EXB </Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">229.90</Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="21.80">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">1 ADL + 3 CHD (2-11.99) ON SHARED EXB </Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">295.45</Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">2 ADL</Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">198.55</Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="21.80">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">2 ADL + 1 CHD (2-11.99) ON EXB </Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">263.15</Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">2 ADL + 1 CHD (2-6.99) </Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">229.90</Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="21.80">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">2 ADL + 2 CHD (2-11.99) ON SHARED EXB </Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">295.45</Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">3 ADL</Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">284.05</Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="17.44">
+<Cell ss:Index="1" />
+<Cell ss:Index="2" />
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="17.44">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">Release periods</Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s9" >
+<Data ss:Type="Number">0</Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" />
+<Cell ss:Index="2" />
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="6" ss:StyleID="s10" >
+<Data ss:Type="String">Notes</Data>
+</Cell>
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="6" ss:StyleID="s11" >
+<Data ss:Type="String"></Data>
+</Cell>
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="6" ss:StyleID="s10" >
+<Data ss:Type="String">SPO notes</Data>
+</Cell>
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="6" ss:StyleID="s11" >
+<Data ss:Type="String"></Data>
+</Cell>
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="14.90">
+<Cell ss:Index="1" />
+<Cell ss:Index="2" />
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="26.16">
+<Cell ss:Index="1" ss:MergeAcross="6" ss:StyleID="s0" >
+<Data ss:Type="String">MEDITERAN</Data>
+</Cell>
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="5.81">
+<Cell ss:Index="1" />
+<Cell ss:Index="2" />
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="6" ss:StyleID="s1" >
+<Data ss:Type="String">SPO No &quot;10177&quot; issued &quot;20.06.2025&quot;</Data>
+</Cell>
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="11.63">
+<Cell ss:Index="1" />
+<Cell ss:Index="2" />
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:StyleID="s2" >
+<Data ss:Type="String">Region</Data>
+</Cell>
+<Cell ss:Index="2" ss:MergeAcross="1" ss:StyleID="s3" >
+<Data ss:Type="String">Becici</Data>
+</Cell>
+<Cell ss:Index="4" ss:MergeAcross="1" ss:StyleID="s2" >
+<Data ss:Type="String">Board</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="1" ss:StyleID="s3" >
+<Data ss:Type="String">BB</Data>
+</Cell>
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:StyleID="s2" >
+<Data ss:Type="String">Category</Data>
+</Cell>
+<Cell ss:Index="2" ss:MergeAcross="1" ss:StyleID="s3" >
+<Data ss:Type="String">4*</Data>
+</Cell>
+<Cell ss:Index="4" ss:MergeAcross="1" ss:StyleID="s2" >
+<Data ss:Type="String">Currency</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="1" ss:StyleID="s3" >
+<Data ss:Type="String">EUR</Data>
+</Cell>
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:StyleID="s2" >
+<Data ss:Type="String">Nights from - till</Data>
+</Cell>
+<Cell ss:Index="2" ss:MergeAcross="1" ss:StyleID="s3" >
+<Data ss:Type="String">5 - 366</Data>
+</Cell>
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="31.98">
+<Cell ss:Index="1" />
+<Cell ss:Index="2" />
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="21.80">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">Periods</Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s5" >
+<Data ss:Type="String">01.07.25&#10;04.07.25</Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="21.80">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">Reservation dates</Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s6" >
+<Data ss:Type="String">20.06.25&#10;30.06.25</Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="17.44">
+<Cell ss:Index="1" ss:MergeAcross="1" ss:StyleID="s7" >
+<Data ss:Type="String">Standard room Balcony </Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">1 ADL</Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">120.65</Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">1 ADL + 1 CHD (2-11.99) </Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">133.95</Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="21.80">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">1 ADL + 2 CHD (2-11.99) ON EXB </Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">133.95</Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="21.80">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">1 ADL + 3 CHD (2-11.99) ON SHARED EXB </Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">167.20</Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">2 ADL</Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">133.95</Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="21.80">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">2 ADL + 1 CHD (2-11.99) ON EXB </Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">167.20</Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">2 ADL + 1 CHD (2-6.99) </Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">133.95</Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="21.80">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">2 ADL + 2 CHD (2-11.99) ON SHARED EXB </Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">167.20</Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">3 ADL</Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">188.10</Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="17.44">
+<Cell ss:Index="1" />
+<Cell ss:Index="2" />
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="17.44">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">Release periods</Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s9" >
+<Data ss:Type="Number">0</Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" />
+<Cell ss:Index="2" />
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="6" ss:StyleID="s10" >
+<Data ss:Type="String">Notes</Data>
+</Cell>
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="6" ss:StyleID="s11" >
+<Data ss:Type="String"></Data>
+</Cell>
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="6" ss:StyleID="s10" >
+<Data ss:Type="String">SPO notes</Data>
+</Cell>
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="6" ss:StyleID="s11" >
+<Data ss:Type="String"></Data>
+</Cell>
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="14.90">
+<Cell ss:Index="1" />
+<Cell ss:Index="2" />
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="26.16">
+<Cell ss:Index="1" ss:MergeAcross="6" ss:StyleID="s0" >
+<Data ss:Type="String">MEDITERAN</Data>
+</Cell>
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="5.81">
+<Cell ss:Index="1" />
+<Cell ss:Index="2" />
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="6" ss:StyleID="s1" >
+<Data ss:Type="String">SPO No &quot;10177&quot; issued &quot;20.06.2025&quot;</Data>
+</Cell>
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="11.63">
+<Cell ss:Index="1" />
+<Cell ss:Index="2" />
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:StyleID="s2" >
+<Data ss:Type="String">Region</Data>
+</Cell>
+<Cell ss:Index="2" ss:MergeAcross="1" ss:StyleID="s3" >
+<Data ss:Type="String">Becici</Data>
+</Cell>
+<Cell ss:Index="4" ss:MergeAcross="1" ss:StyleID="s2" >
+<Data ss:Type="String">Board</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="1" ss:StyleID="s3" >
+<Data ss:Type="String">HB</Data>
+</Cell>
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:StyleID="s2" >
+<Data ss:Type="String">Category</Data>
+</Cell>
+<Cell ss:Index="2" ss:MergeAcross="1" ss:StyleID="s3" >
+<Data ss:Type="String">4*</Data>
+</Cell>
+<Cell ss:Index="4" ss:MergeAcross="1" ss:StyleID="s2" >
+<Data ss:Type="String">Currency</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="1" ss:StyleID="s3" >
+<Data ss:Type="String">EUR</Data>
+</Cell>
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:StyleID="s2" >
+<Data ss:Type="String">Nights from - till</Data>
+</Cell>
+<Cell ss:Index="2" ss:MergeAcross="1" ss:StyleID="s3" >
+<Data ss:Type="String">5 - 366</Data>
+</Cell>
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="31.98">
+<Cell ss:Index="1" />
+<Cell ss:Index="2" />
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="21.80">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">Periods</Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s5" >
+<Data ss:Type="String">01.07.25&#10;04.07.25</Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="21.80">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">Reservation dates</Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s6" >
+<Data ss:Type="String">20.06.25&#10;30.06.25</Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="17.44">
+<Cell ss:Index="1" ss:MergeAcross="1" ss:StyleID="s7" >
+<Data ss:Type="String">Standard room Balcony </Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">1 ADL</Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">134.90</Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">1 ADL + 1 CHD (2-11.99) </Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">163.40</Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="21.80">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">1 ADL + 2 CHD (2-11.99) ON EXB </Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">177.65</Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="21.80">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">1 ADL + 3 CHD (2-11.99) ON SHARED EXB </Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">226.10</Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">2 ADL</Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">163.40</Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="21.80">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">2 ADL + 1 CHD (2-11.99) ON EXB </Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">210.90</Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">2 ADL + 1 CHD (2-6.99) </Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">177.65</Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="21.80">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">2 ADL + 2 CHD (2-11.99) ON SHARED EXB </Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">226.10</Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">3 ADL</Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s8" >
+<Data ss:Type="Number">230.85</Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="17.44">
+<Cell ss:Index="1" />
+<Cell ss:Index="2" />
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="17.44">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">Release periods</Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s9" >
+<Data ss:Type="Number">0</Data>
+</Cell>
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" />
+<Cell ss:Index="2" />
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="6" ss:StyleID="s10" >
+<Data ss:Type="String">Notes</Data>
+</Cell>
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="6" ss:StyleID="s11" >
+<Data ss:Type="String"></Data>
+</Cell>
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="6" ss:StyleID="s10" >
+<Data ss:Type="String">SPO notes</Data>
+</Cell>
+<Cell ss:Index="8" />
+</Row>
+<Row ss:Height="14.53">
+<Cell ss:Index="1" ss:MergeAcross="6" ss:StyleID="s11" >
+<Data ss:Type="String"></Data>
+</Cell>
+<Cell ss:Index="8" />
+</Row>
+</Table>
+<WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+<PageSetup>
+<PageMargins x:Bottom="0.25" x:Left="0.38" x:Right="0.38" x:Top="0.25"/>
+</PageSetup>
+</WorksheetOptions>
+</Worksheet>
+</Workbook>

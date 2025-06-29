@@ -1,0 +1,16 @@
+c:\users\vitya\documents\visual studio 2012\Projects\GT Price Importer\bin\Debug\GT Price Importer.exe.config
+C:\Users\Vitya\Desktop\GT\Rates\GT Price Importer\bin\Debug\GT Price Importer.exe.config
+C:\Users\Vitya\Desktop\GT\Rates\GT Price Importer\bin\Debug\GT Price Importer.exe
+C:\Users\Vitya\Desktop\GT\Rates\GT Price Importer\bin\Debug\GT Price Importer.pdb
+C:\Users\Vitya\Desktop\GT\Rates\GT Price Importer\obj\Debug\GT Price Importer.csprojResolveAssemblyReference.cache
+C:\Users\Vitya\Desktop\GT\Rates\GT Price Importer\obj\Debug\GT_Price_Importer.FDashboardForm.resources
+C:\Users\Vitya\Desktop\GT\Rates\GT Price Importer\obj\Debug\GT_Price_Importer.Properties.Resources.resources
+C:\Users\Vitya\Desktop\GT\Rates\GT Price Importer\obj\Debug\GT Price Importer.csproj.GenerateResource.Cache
+C:\Users\Vitya\Desktop\GT\Rates\GT Price Importer\obj\Debug\GT Price Importer.exe.licenses
+C:\Users\Vitya\Desktop\GT\Rates\GT Price Importer\obj\Debug\GT Price Importer.exe
+C:\Users\Vitya\Desktop\GT\Rates\GT Price Importer\obj\Debug\GT Price Importer.pdb
+C:\Users\Vitya\Desktop\GT\Rates\GT Price Importer\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Vitya\Desktop\GT\Rates\GT Price Importer\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Vitya\Desktop\GT\Rates\GT Price Importer\obj\Debug\GT_Price_Importer.DataLoader.resources
+C:\Users\Vitya\Desktop\GT\Rates\GT Price Importer\obj\Debug\GT_Price_Importer.frmSelecterWindow.resources
+C:\Users\Vitya\Desktop\GT\Rates\GT Price Importer\obj\Debug\GT_Price_Importer.FrmNewCountry.resources

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36221.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GTPriceImporterService", "GTPriceImporterService.csproj", "{DFE7AAB2-93A2-48E6-BD79-8B66411868DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GTTest", "..\GTTestConsol\GTTest.csproj", "{FF9EE6DF-6737-48D8-9175-91CDDCCE560F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DFE7AAB2-93A2-48E6-BD79-8B66411868DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFE7AAB2-93A2-48E6-BD79-8B66411868DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFE7AAB2-93A2-48E6-BD79-8B66411868DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFE7AAB2-93A2-48E6-BD79-8B66411868DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF9EE6DF-6737-48D8-9175-91CDDCCE560F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF9EE6DF-6737-48D8-9175-91CDDCCE560F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF9EE6DF-6737-48D8-9175-91CDDCCE560F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF9EE6DF-6737-48D8-9175-91CDDCCE560F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {240AD3BE-9E24-4212-B8E0-1881D2A4DFD8}
+	EndGlobalSection
+EndGlobal

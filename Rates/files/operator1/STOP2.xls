@@ -1,0 +1,1536 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<?fr-application created="FastReport"?>
+<?fr-application homesite="http://www.fast-report.com"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+<DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+<Title>STOP-SALE LIST</Title>
+<Author></Author>
+<Version>...</Version>
+</DocumentProperties>
+<ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+<ProtectStructure>False</ProtectStructure>
+<ProtectWindows>False</ProtectWindows>
+</ExcelWorkbook>
+<Styles>
+<Style ss:ID="s0">
+<Font ss:FontName="Tahoma" ss:Size="8" ss:Color="#000000" ss:Bold="1"/>
+<Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+<Alignment ss:Horizontal="Center" ss:Vertical="Top" ss:WrapText="1" />
+<Borders>
+<Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000" />
+<Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000" />
+<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000" />
+<Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000" />
+</Borders>
+</Style>
+<Style ss:ID="s1">
+<Font ss:FontName="Tahoma" ss:Size="10" ss:Color="#000000"/>
+<Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+<Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="0" />
+<Borders>
+</Borders>
+</Style>
+<Style ss:ID="s2">
+<Font ss:FontName="Tahoma" ss:Size="12" ss:Color="#000000" ss:Bold="1"/>
+<Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+<Alignment ss:Horizontal="Center" ss:Vertical="Top" ss:WrapText="1" />
+<Borders>
+</Borders>
+</Style>
+<Style ss:ID="s3">
+<Font ss:FontName="Tahoma" ss:Size="12" ss:Color="#000000" ss:Bold="1"/>
+<Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+<Alignment ss:Horizontal="Center" ss:Vertical="Top" ss:WrapText="1" />
+<Borders>
+</Borders>
+</Style>
+<Style ss:ID="s4">
+<Font ss:FontName="Tahoma" ss:Size="8" ss:Color="#000000"/>
+<Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+<Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="0" />
+<Borders>
+<Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000" />
+<Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000" />
+<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000" />
+<Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000" />
+</Borders>
+</Style>
+<Style ss:ID="s5">
+<Font ss:FontName="Tahoma" ss:Size="8" ss:Color="#000000"/>
+<Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+<Alignment ss:Horizontal="Center" ss:Vertical="Top" ss:WrapText="0" />
+<Borders>
+<Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000" />
+<Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000" />
+<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000" />
+<Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000" />
+</Borders>
+</Style>
+<Style ss:ID="s6">
+<Font ss:FontName="Tahoma" ss:Size="8" ss:Color="#000000"/>
+<Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+<Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="0" />
+<Borders>
+<Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000" />
+<Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000" />
+<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000" />
+<Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000" />
+</Borders>
+</Style>
+</Styles>
+<Worksheet ss:Name="Page1">
+<Table ss:ExpandedColumnCount="12" ss:ExpandedRowCount="43" x:FullColumns="1" x:FullRows="1">
+<Column ss:AutoFitWidth="0" ss:Width="140.00"/>
+<Column ss:AutoFitWidth="0" ss:Width="50.00"/>
+<Column ss:AutoFitWidth="0" ss:Width="37.50"/>
+<Column ss:AutoFitWidth="0" ss:Width="50.00"/>
+<Column ss:AutoFitWidth="0" ss:Width="62.50"/>
+<Column ss:AutoFitWidth="0" ss:Width="60.00"/>
+<Column ss:AutoFitWidth="0" ss:Width="37.50"/>
+<Column ss:AutoFitWidth="0" ss:Width="45.00"/>
+<Column ss:AutoFitWidth="0" ss:Width="45.00"/>
+<Column ss:AutoFitWidth="0" ss:Width="45.00"/>
+<Column ss:AutoFitWidth="0" ss:Width="97.50"/>
+<Row ss:Height="63.95">
+<Cell ss:Index="1" />
+<Cell ss:Index="2" />
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+<Cell ss:Index="9" />
+<Cell ss:Index="10" />
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="17.44">
+<Cell ss:Index="1" ss:MergeAcross="10" ss:StyleID="s3" >
+<Data ss:Type="String">28.06.2025</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="17.44">
+<Cell ss:Index="1" ss:MergeAcross="10" ss:StyleID="s2" >
+<Data ss:Type="String">STOP-SALE LIST</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="11.63">
+<Cell ss:Index="1" ss:StyleID="s0" >
+<Data ss:Type="String">Hotel</Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s0" >
+<Data ss:Type="String">Touroperator</Data>
+</Cell>
+<Cell ss:Index="3" ss:StyleID="s0" >
+<Data ss:Type="String">Market</Data>
+</Cell>
+<Cell ss:Index="4" ss:StyleID="s0" >
+<Data ss:Type="String">Region</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s0" >
+<Data ss:Type="String">Room</Data>
+</Cell>
+<Cell ss:Index="6" ss:StyleID="s0" >
+<Data ss:Type="String">Accommodation</Data>
+</Cell>
+<Cell ss:Index="7" ss:StyleID="s0" >
+<Data ss:Type="String">Meal</Data>
+</Cell>
+<Cell ss:Index="8" ss:StyleID="s0" >
+<Data ss:Type="String">Date from</Data>
+</Cell>
+<Cell ss:Index="9" ss:StyleID="s0" >
+<Data ss:Type="String">Date till</Data>
+</Cell>
+<Cell ss:Index="10" ss:StyleID="s0" >
+<Data ss:Type="String">Issue date</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s0" >
+<Data ss:Type="String">Note</Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="11.63">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">IBEROSTAR WAVES BELLEVUE</Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s4" >
+<Data ss:Type="String">(All)</Data>
+</Cell>
+<Cell ss:Index="3" ss:StyleID="s4" >
+<Data ss:Type="String">(All)</Data>
+</Cell>
+<Cell ss:Index="4" ss:StyleID="s4" >
+<Data ss:Type="String">Crna Gora</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s4" >
+<Data ss:Type="String">Standard Basic </Data>
+</Cell>
+<Cell ss:Index="6" ss:StyleID="s4" >
+<Data ss:Type="String">(All)</Data>
+</Cell>
+<Cell ss:Index="7" ss:StyleID="s4" >
+<Data ss:Type="String">(All)</Data>
+</Cell>
+<Cell ss:Index="8" ss:StyleID="s5" >
+<Data ss:Type="String">02.07.25</Data>
+</Cell>
+<Cell ss:Index="9" ss:StyleID="s5" >
+<Data ss:Type="String">13.07.25</Data>
+</Cell>
+<Cell ss:Index="10" ss:StyleID="s5" >
+<Data ss:Type="String">04.04.25</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s6" >
+<Data ss:Type="String"></Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="11.63">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">IBEROSTAR WAVES BELLEVUE</Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s4" >
+<Data ss:Type="String">(All)</Data>
+</Cell>
+<Cell ss:Index="3" ss:StyleID="s4" >
+<Data ss:Type="String">(All)</Data>
+</Cell>
+<Cell ss:Index="4" ss:StyleID="s4" >
+<Data ss:Type="String">Crna Gora</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s4" >
+<Data ss:Type="String">Junior Suite Sea View </Data>
+</Cell>
+<Cell ss:Index="6" ss:StyleID="s4" >
+<Data ss:Type="String">(All)</Data>
+</Cell>
+<Cell ss:Index="7" ss:StyleID="s4" >
+<Data ss:Type="String">(All)</Data>
+</Cell>
+<Cell ss:Index="8" ss:StyleID="s5" >
+<Data ss:Type="String">02.07.25</Data>
+</Cell>
+<Cell ss:Index="9" ss:StyleID="s5" >
+<Data ss:Type="String">20.07.25</Data>
+</Cell>
+<Cell ss:Index="10" ss:StyleID="s5" >
+<Data ss:Type="String">16.05.25</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s6" >
+<Data ss:Type="String"></Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="11.63">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">IBEROSTAR WAVES BELLEVUE</Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s4" >
+<Data ss:Type="String">exclude: PRESTIGE UZ,</Data>
+</Cell>
+<Cell ss:Index="3" ss:StyleID="s4" >
+<Data ss:Type="String">(All)</Data>
+</Cell>
+<Cell ss:Index="4" ss:StyleID="s4" >
+<Data ss:Type="String">Crna Gora</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s4" >
+<Data ss:Type="String">STANDARD GARDEN VIEW</Data>
+</Cell>
+<Cell ss:Index="6" ss:StyleID="s4" >
+<Data ss:Type="String">(All)</Data>
+</Cell>
+<Cell ss:Index="7" ss:StyleID="s4" >
+<Data ss:Type="String">(All)</Data>
+</Cell>
+<Cell ss:Index="8" ss:StyleID="s5" >
+<Data ss:Type="String">02.07.25</Data>
+</Cell>
+<Cell ss:Index="9" ss:StyleID="s5" >
+<Data ss:Type="String">23.07.25</Data>
+</Cell>
+<Cell ss:Index="10" ss:StyleID="s5" >
+<Data ss:Type="String">20.05.25</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s6" >
+<Data ss:Type="String"></Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="11.63">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">IBEROSTAR WAVES BELLEVUE</Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s4" >
+<Data ss:Type="String">exclude: PRESTIGE UZ,</Data>
+</Cell>
+<Cell ss:Index="3" ss:StyleID="s4" >
+<Data ss:Type="String">(All)</Data>
+</Cell>
+<Cell ss:Index="4" ss:StyleID="s4" >
+<Data ss:Type="String">Crna Gora</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s4" >
+<Data ss:Type="String">Standard Priority Location Garden View </Data>
+</Cell>
+<Cell ss:Index="6" ss:StyleID="s4" >
+<Data ss:Type="String">(All)</Data>
+</Cell>
+<Cell ss:Index="7" ss:StyleID="s4" >
+<Data ss:Type="String">(All)</Data>
+</Cell>
+<Cell ss:Index="8" ss:StyleID="s5" >
+<Data ss:Type="String">02.07.25</Data>
+</Cell>
+<Cell ss:Index="9" ss:StyleID="s5" >
+<Data ss:Type="String">03.08.25</Data>
+</Cell>
+<Cell ss:Index="10" ss:StyleID="s5" >
+<Data ss:Type="String">20.05.25</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s6" >
+<Data ss:Type="String"></Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="11.63">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">IBEROSTAR WAVES BELLEVUE</Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s4" >
+<Data ss:Type="String">(All)</Data>
+</Cell>
+<Cell ss:Index="3" ss:StyleID="s4" >
+<Data ss:Type="String">(All)</Data>
+</Cell>
+<Cell ss:Index="4" ss:StyleID="s4" >
+<Data ss:Type="String">Crna Gora</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s4" >
+<Data ss:Type="String">JUNIOR SUITE GARDEN VIEW </Data>
+</Cell>
+<Cell ss:Index="6" ss:StyleID="s4" >
+<Data ss:Type="String">(All)</Data>
+</Cell>
+<Cell ss:Index="7" ss:StyleID="s4" >
+<Data ss:Type="String">(All)</Data>
+</Cell>
+<Cell ss:Index="8" ss:StyleID="s5" >
+<Data ss:Type="String">02.07.25</Data>
+</Cell>
+<Cell ss:Index="9" ss:StyleID="s5" >
+<Data ss:Type="String">05.09.25</Data>
+</Cell>
+<Cell ss:Index="10" ss:StyleID="s5" >
+<Data ss:Type="String">16.05.25</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s6" >
+<Data ss:Type="String"></Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="11.63">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">IBEROSTAR WAVES BELLEVUE</Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s4" >
+<Data ss:Type="String">(All)</Data>
+</Cell>
+<Cell ss:Index="3" ss:StyleID="s4" >
+<Data ss:Type="String">(All)</Data>
+</Cell>
+<Cell ss:Index="4" ss:StyleID="s4" >
+<Data ss:Type="String">Crna Gora</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s4" >
+<Data ss:Type="String">STANDARD</Data>
+</Cell>
+<Cell ss:Index="6" ss:StyleID="s4" >
+<Data ss:Type="String">(All)</Data>
+</Cell>
+<Cell ss:Index="7" ss:StyleID="s4" >
+<Data ss:Type="String">(All)</Data>
+</Cell>
+<Cell ss:Index="8" ss:StyleID="s5" >
+<Data ss:Type="String">05.07.25</Data>
+</Cell>
+<Cell ss:Index="9" ss:StyleID="s5" >
+<Data ss:Type="String">10.07.25</Data>
+</Cell>
+<Cell ss:Index="10" ss:StyleID="s5" >
+<Data ss:Type="String">16.05.25</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s6" >
+<Data ss:Type="String"></Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="11.63">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">IBEROSTAR WAVES BELLEVUE</Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s4" >
+<Data ss:Type="String">(All)</Data>
+</Cell>
+<Cell ss:Index="3" ss:StyleID="s4" >
+<Data ss:Type="String">(All)</Data>
+</Cell>
+<Cell ss:Index="4" ss:StyleID="s4" >
+<Data ss:Type="String">Crna Gora</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s4" >
+<Data ss:Type="String">DBL Interconnecting </Data>
+</Cell>
+<Cell ss:Index="6" ss:StyleID="s4" >
+<Data ss:Type="String">(All)</Data>
+</Cell>
+<Cell ss:Index="7" ss:StyleID="s4" >
+<Data ss:Type="String">(All)</Data>
+</Cell>
+<Cell ss:Index="8" ss:StyleID="s5" >
+<Data ss:Type="String">05.07.25</Data>
+</Cell>
+<Cell ss:Index="9" ss:StyleID="s5" >
+<Data ss:Type="String">05.08.25</Data>
+</Cell>
+<Cell ss:Index="10" ss:StyleID="s5" >
+<Data ss:Type="String">07.02.25</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s6" >
+<Data ss:Type="String"></Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="11.63">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">IBEROSTAR WAVES BELLEVUE</Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s4" >
+<Data ss:Type="String">(All)</Data>
+</Cell>
+<Cell ss:Index="3" ss:StyleID="s4" >
+<Data ss:Type="String">(All)</Data>
+</Cell>
+<Cell ss:Index="4" ss:StyleID="s4" >
+<Data ss:Type="String">Crna Gora</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s4" >
+<Data ss:Type="String">Family (min 3 pax) </Data>
+</Cell>
+<Cell ss:Index="6" ss:StyleID="s4" >
+<Data ss:Type="String">(All)</Data>
+</Cell>
+<Cell ss:Index="7" ss:StyleID="s4" >
+<Data ss:Type="String">(All)</Data>
+</Cell>
+<Cell ss:Index="8" ss:StyleID="s5" >
+<Data ss:Type="String">06.07.25</Data>
+</Cell>
+<Cell ss:Index="9" ss:StyleID="s5" >
+<Data ss:Type="String">11.07.25</Data>
+</Cell>
+<Cell ss:Index="10" ss:StyleID="s5" >
+<Data ss:Type="String">16.05.25</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s6" >
+<Data ss:Type="String"></Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="11.63">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">IBEROSTAR WAVES BELLEVUE</Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s4" >
+<Data ss:Type="String">exclude: PRESTIGE UZ,</Data>
+</Cell>
+<Cell ss:Index="3" ss:StyleID="s4" >
+<Data ss:Type="String">(All)</Data>
+</Cell>
+<Cell ss:Index="4" ss:StyleID="s4" >
+<Data ss:Type="String">Crna Gora</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s4" >
+<Data ss:Type="String">(All)</Data>
+</Cell>
+<Cell ss:Index="6" ss:StyleID="s4" >
+<Data ss:Type="String">(All)</Data>
+</Cell>
+<Cell ss:Index="7" ss:StyleID="s4" >
+<Data ss:Type="String">(All)</Data>
+</Cell>
+<Cell ss:Index="8" ss:StyleID="s5" >
+<Data ss:Type="String">07.07.25</Data>
+</Cell>
+<Cell ss:Index="9" ss:StyleID="s5" >
+<Data ss:Type="String">09.07.25</Data>
+</Cell>
+<Cell ss:Index="10" ss:StyleID="s5" >
+<Data ss:Type="String">06.06.25</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s6" >
+<Data ss:Type="String"></Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="11.63">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">IBEROSTAR WAVES BELLEVUE</Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s4" >
+<Data ss:Type="String">(All)</Data>
+</Cell>
+<Cell ss:Index="3" ss:StyleID="s4" >
+<Data ss:Type="String">(All)</Data>
+</Cell>
+<Cell ss:Index="4" ss:StyleID="s4" >
+<Data ss:Type="String">Crna Gora</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s4" >
+<Data ss:Type="String">STANDARD SEA VIEW </Data>
+</Cell>
+<Cell ss:Index="6" ss:StyleID="s4" >
+<Data ss:Type="String">(All)</Data>
+</Cell>
+<Cell ss:Index="7" ss:StyleID="s4" >
+<Data ss:Type="String">(All)</Data>
+</Cell>
+<Cell ss:Index="8" ss:StyleID="s5" >
+<Data ss:Type="String">10.07.25</Data>
+</Cell>
+<Cell ss:Index="9" ss:StyleID="s5" >
+<Data ss:Type="String">12.07.25</Data>
+</Cell>
+<Cell ss:Index="10" ss:StyleID="s5" >
+<Data ss:Type="String">06.06.25</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s6" >
+<Data ss:Type="String"></Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="11.63">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">IBEROSTAR WAVES BELLEVUE</Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s4" >
+<Data ss:Type="String">exclude: PRESTIGE UZ,</Data>
+</Cell>
+<Cell ss:Index="3" ss:StyleID="s4" >
+<Data ss:Type="String">(All)</Data>
+</Cell>
+<Cell ss:Index="4" ss:StyleID="s4" >
+<Data ss:Type="String">Crna Gora</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s4" >
+<Data ss:Type="String">Family (min 3 pax) </Data>
+</Cell>
+<Cell ss:Index="6" ss:StyleID="s4" >
+<Data ss:Type="String">(All)</Data>
+</Cell>
+<Cell ss:Index="7" ss:StyleID="s4" >
+<Data ss:Type="String">(All)</Data>
+</Cell>
+<Cell ss:Index="8" ss:StyleID="s5" >
+<Data ss:Type="String">12.07.25</Data>
+</Cell>
+<Cell ss:Index="9" ss:StyleID="s5" >
+<Data ss:Type="String">03.08.25</Data>
+</Cell>
+<Cell ss:Index="10" ss:StyleID="s5" >
+<Data ss:Type="String">18.03.25</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s6" >
+<Data ss:Type="String"></Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="11.63">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">IBEROSTAR WAVES BELLEVUE</Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s4" >
+<Data ss:Type="String">(All)</Data>
+</Cell>
+<Cell ss:Index="3" ss:StyleID="s4" >
+<Data ss:Type="String">(All)</Data>
+</Cell>
+<Cell ss:Index="4" ss:StyleID="s4" >
+<Data ss:Type="String">Crna Gora</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s4" >
+<Data ss:Type="String">Standard Basic </Data>
+</Cell>
+<Cell ss:Index="6" ss:StyleID="s4" >
+<Data ss:Type="String">(All)</Data>
+</Cell>
+<Cell ss:Index="7" ss:StyleID="s4" >
+<Data ss:Type="String">(All)</Data>
+</Cell>
+<Cell ss:Index="8" ss:StyleID="s5" >
+<Data ss:Type="String">23.07.25</Data>
+</Cell>
+<Cell ss:Index="9" ss:StyleID="s5" >
+<Data ss:Type="String">14.08.25</Data>
+</Cell>
+<Cell ss:Index="10" ss:StyleID="s5" >
+<Data ss:Type="String">04.04.25</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s6" >
+<Data ss:Type="String"></Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="11.63">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">IBEROSTAR WAVES BELLEVUE</Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s4" >
+<Data ss:Type="String">(All)</Data>
+</Cell>
+<Cell ss:Index="3" ss:StyleID="s4" >
+<Data ss:Type="String">(All)</Data>
+</Cell>
+<Cell ss:Index="4" ss:StyleID="s4" >
+<Data ss:Type="String">Crna Gora</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s4" >
+<Data ss:Type="String">STANDARD</Data>
+</Cell>
+<Cell ss:Index="6" ss:StyleID="s4" >
+<Data ss:Type="String">(All)</Data>
+</Cell>
+<Cell ss:Index="7" ss:StyleID="s4" >
+<Data ss:Type="String">(All)</Data>
+</Cell>
+<Cell ss:Index="8" ss:StyleID="s5" >
+<Data ss:Type="String">23.07.25</Data>
+</Cell>
+<Cell ss:Index="9" ss:StyleID="s5" >
+<Data ss:Type="String">19.08.25</Data>
+</Cell>
+<Cell ss:Index="10" ss:StyleID="s5" >
+<Data ss:Type="String">29.04.25</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s6" >
+<Data ss:Type="String"></Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="11.63">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">IBEROSTAR WAVES BELLEVUE</Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s4" >
+<Data ss:Type="String">exclude: PRESTIGE UZ,</Data>
+</Cell>
+<Cell ss:Index="3" ss:StyleID="s4" >
+<Data ss:Type="String">(All)</Data>
+</Cell>
+<Cell ss:Index="4" ss:StyleID="s4" >
+<Data ss:Type="String">Crna Gora</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s4" >
+<Data ss:Type="String">(All)</Data>
+</Cell>
+<Cell ss:Index="6" ss:StyleID="s4" >
+<Data ss:Type="String">(All)</Data>
+</Cell>
+<Cell ss:Index="7" ss:StyleID="s4" >
+<Data ss:Type="String">(All)</Data>
+</Cell>
+<Cell ss:Index="8" ss:StyleID="s5" >
+<Data ss:Type="String">24.07.25</Data>
+</Cell>
+<Cell ss:Index="9" ss:StyleID="s5" >
+<Data ss:Type="String">28.07.25</Data>
+</Cell>
+<Cell ss:Index="10" ss:StyleID="s5" >
+<Data ss:Type="String">20.06.25</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s6" >
+<Data ss:Type="String"></Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="11.63">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">IBEROSTAR WAVES BELLEVUE</Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s4" >
+<Data ss:Type="String">(All)</Data>
+</Cell>
+<Cell ss:Index="3" ss:StyleID="s4" >
+<Data ss:Type="String">(All)</Data>
+</Cell>
+<Cell ss:Index="4" ss:StyleID="s4" >
+<Data ss:Type="String">Crna Gora</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s4" >
+<Data ss:Type="String">(All)</Data>
+</Cell>
+<Cell ss:Index="6" ss:StyleID="s4" >
+<Data ss:Type="String">(All)</Data>
+</Cell>
+<Cell ss:Index="7" ss:StyleID="s4" >
+<Data ss:Type="String">(All)</Data>
+</Cell>
+<Cell ss:Index="8" ss:StyleID="s5" >
+<Data ss:Type="String">04.08.25</Data>
+</Cell>
+<Cell ss:Index="9" ss:StyleID="s5" >
+<Data ss:Type="String">06.08.25</Data>
+</Cell>
+<Cell ss:Index="10" ss:StyleID="s5" >
+<Data ss:Type="String">06.06.25</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s6" >
+<Data ss:Type="String"></Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="11.63">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">IBEROSTAR WAVES BELLEVUE</Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s4" >
+<Data ss:Type="String">(All)</Data>
+</Cell>
+<Cell ss:Index="3" ss:StyleID="s4" >
+<Data ss:Type="String">(All)</Data>
+</Cell>
+<Cell ss:Index="4" ss:StyleID="s4" >
+<Data ss:Type="String">Crna Gora</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s4" >
+<Data ss:Type="String">Family (min 3 pax) </Data>
+</Cell>
+<Cell ss:Index="6" ss:StyleID="s4" >
+<Data ss:Type="String">(All)</Data>
+</Cell>
+<Cell ss:Index="7" ss:StyleID="s4" >
+<Data ss:Type="String">(All)</Data>
+</Cell>
+<Cell ss:Index="8" ss:StyleID="s5" >
+<Data ss:Type="String">04.08.25</Data>
+</Cell>
+<Cell ss:Index="9" ss:StyleID="s5" >
+<Data ss:Type="String">10.08.25</Data>
+</Cell>
+<Cell ss:Index="10" ss:StyleID="s5" >
+<Data ss:Type="String">19.02.25</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s6" >
+<Data ss:Type="String"></Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="11.63">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">IBEROSTAR WAVES BELLEVUE</Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s4" >
+<Data ss:Type="String">(All)</Data>
+</Cell>
+<Cell ss:Index="3" ss:StyleID="s4" >
+<Data ss:Type="String">(All)</Data>
+</Cell>
+<Cell ss:Index="4" ss:StyleID="s4" >
+<Data ss:Type="String">Crna Gora</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s4" >
+<Data ss:Type="String">STANDARD GARDEN VIEW</Data>
+</Cell>
+<Cell ss:Index="6" ss:StyleID="s4" >
+<Data ss:Type="String">(All)</Data>
+</Cell>
+<Cell ss:Index="7" ss:StyleID="s4" >
+<Data ss:Type="String">(All)</Data>
+</Cell>
+<Cell ss:Index="8" ss:StyleID="s5" >
+<Data ss:Type="String">04.08.25</Data>
+</Cell>
+<Cell ss:Index="9" ss:StyleID="s5" >
+<Data ss:Type="String">12.08.25</Data>
+</Cell>
+<Cell ss:Index="10" ss:StyleID="s5" >
+<Data ss:Type="String">16.05.25</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s6" >
+<Data ss:Type="String"></Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="11.63">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">IBEROSTAR WAVES BELLEVUE</Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s4" >
+<Data ss:Type="String">(All)</Data>
+</Cell>
+<Cell ss:Index="3" ss:StyleID="s4" >
+<Data ss:Type="String">(All)</Data>
+</Cell>
+<Cell ss:Index="4" ss:StyleID="s4" >
+<Data ss:Type="String">Crna Gora</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s4" >
+<Data ss:Type="String">DBL Interconnecting </Data>
+</Cell>
+<Cell ss:Index="6" ss:StyleID="s4" >
+<Data ss:Type="String">(All)</Data>
+</Cell>
+<Cell ss:Index="7" ss:StyleID="s4" >
+<Data ss:Type="String">(All)</Data>
+</Cell>
+<Cell ss:Index="8" ss:StyleID="s5" >
+<Data ss:Type="String">06.08.25</Data>
+</Cell>
+<Cell ss:Index="9" ss:StyleID="s5" >
+<Data ss:Type="String">11.08.25</Data>
+</Cell>
+<Cell ss:Index="10" ss:StyleID="s5" >
+<Data ss:Type="String">11.02.25</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s6" >
+<Data ss:Type="String"></Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="11.63">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">IBEROSTAR WAVES BELLEVUE</Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s4" >
+<Data ss:Type="String">(All)</Data>
+</Cell>
+<Cell ss:Index="3" ss:StyleID="s4" >
+<Data ss:Type="String">(All)</Data>
+</Cell>
+<Cell ss:Index="4" ss:StyleID="s4" >
+<Data ss:Type="String">Crna Gora</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s4" >
+<Data ss:Type="String">Junior Suite Sea View </Data>
+</Cell>
+<Cell ss:Index="6" ss:StyleID="s4" >
+<Data ss:Type="String">(All)</Data>
+</Cell>
+<Cell ss:Index="7" ss:StyleID="s4" >
+<Data ss:Type="String">(All)</Data>
+</Cell>
+<Cell ss:Index="8" ss:StyleID="s5" >
+<Data ss:Type="String">07.08.25</Data>
+</Cell>
+<Cell ss:Index="9" ss:StyleID="s5" >
+<Data ss:Type="String">09.08.25</Data>
+</Cell>
+<Cell ss:Index="10" ss:StyleID="s5" >
+<Data ss:Type="String">10.06.25</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s6" >
+<Data ss:Type="String"></Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="11.63">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">IBEROSTAR WAVES BELLEVUE</Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s4" >
+<Data ss:Type="String">(All)</Data>
+</Cell>
+<Cell ss:Index="3" ss:StyleID="s4" >
+<Data ss:Type="String">(All)</Data>
+</Cell>
+<Cell ss:Index="4" ss:StyleID="s4" >
+<Data ss:Type="String">Crna Gora</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s4" >
+<Data ss:Type="String">Family (min 3 pax) </Data>
+</Cell>
+<Cell ss:Index="6" ss:StyleID="s4" >
+<Data ss:Type="String">(All)</Data>
+</Cell>
+<Cell ss:Index="7" ss:StyleID="s4" >
+<Data ss:Type="String">(All)</Data>
+</Cell>
+<Cell ss:Index="8" ss:StyleID="s5" >
+<Data ss:Type="String">11.08.25</Data>
+</Cell>
+<Cell ss:Index="9" ss:StyleID="s5" >
+<Data ss:Type="String">17.08.25</Data>
+</Cell>
+<Cell ss:Index="10" ss:StyleID="s5" >
+<Data ss:Type="String">04.04.25</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s6" >
+<Data ss:Type="String"></Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="11.63">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">IBEROSTAR WAVES BELLEVUE</Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s4" >
+<Data ss:Type="String">(All)</Data>
+</Cell>
+<Cell ss:Index="3" ss:StyleID="s4" >
+<Data ss:Type="String">(All)</Data>
+</Cell>
+<Cell ss:Index="4" ss:StyleID="s4" >
+<Data ss:Type="String">Crna Gora</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s4" >
+<Data ss:Type="String">DBL Interconnecting </Data>
+</Cell>
+<Cell ss:Index="6" ss:StyleID="s4" >
+<Data ss:Type="String">(All)</Data>
+</Cell>
+<Cell ss:Index="7" ss:StyleID="s4" >
+<Data ss:Type="String">(All)</Data>
+</Cell>
+<Cell ss:Index="8" ss:StyleID="s5" >
+<Data ss:Type="String">12.08.25</Data>
+</Cell>
+<Cell ss:Index="9" ss:StyleID="s5" >
+<Data ss:Type="String">20.08.25</Data>
+</Cell>
+<Cell ss:Index="10" ss:StyleID="s5" >
+<Data ss:Type="String">04.04.25</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s6" >
+<Data ss:Type="String"></Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="11.63">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">IBEROSTAR WAVES BELLEVUE</Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s4" >
+<Data ss:Type="String">(All)</Data>
+</Cell>
+<Cell ss:Index="3" ss:StyleID="s4" >
+<Data ss:Type="String">(All)</Data>
+</Cell>
+<Cell ss:Index="4" ss:StyleID="s4" >
+<Data ss:Type="String">Crna Gora</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s4" >
+<Data ss:Type="String">Junior Suite Sea View </Data>
+</Cell>
+<Cell ss:Index="6" ss:StyleID="s4" >
+<Data ss:Type="String">(All)</Data>
+</Cell>
+<Cell ss:Index="7" ss:StyleID="s4" >
+<Data ss:Type="String">(All)</Data>
+</Cell>
+<Cell ss:Index="8" ss:StyleID="s5" >
+<Data ss:Type="String">17.08.25</Data>
+</Cell>
+<Cell ss:Index="9" ss:StyleID="s5" >
+<Data ss:Type="String">20.08.25</Data>
+</Cell>
+<Cell ss:Index="10" ss:StyleID="s5" >
+<Data ss:Type="String">10.06.25</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s6" >
+<Data ss:Type="String"></Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="11.63">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">IBEROSTAR WAVES BELLEVUE</Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s4" >
+<Data ss:Type="String">(All)</Data>
+</Cell>
+<Cell ss:Index="3" ss:StyleID="s4" >
+<Data ss:Type="String">(All)</Data>
+</Cell>
+<Cell ss:Index="4" ss:StyleID="s4" >
+<Data ss:Type="String">Crna Gora</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s4" >
+<Data ss:Type="String">Family (min 3 pax) </Data>
+</Cell>
+<Cell ss:Index="6" ss:StyleID="s4" >
+<Data ss:Type="String">(All)</Data>
+</Cell>
+<Cell ss:Index="7" ss:StyleID="s4" >
+<Data ss:Type="String">(All)</Data>
+</Cell>
+<Cell ss:Index="8" ss:StyleID="s5" >
+<Data ss:Type="String">18.08.25</Data>
+</Cell>
+<Cell ss:Index="9" ss:StyleID="s5" >
+<Data ss:Type="String">24.08.25</Data>
+</Cell>
+<Cell ss:Index="10" ss:StyleID="s5" >
+<Data ss:Type="String">18.03.25</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s6" >
+<Data ss:Type="String"></Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="11.63">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">IBEROSTAR WAVES BELLEVUE</Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s4" >
+<Data ss:Type="String">(All)</Data>
+</Cell>
+<Cell ss:Index="3" ss:StyleID="s4" >
+<Data ss:Type="String">(All)</Data>
+</Cell>
+<Cell ss:Index="4" ss:StyleID="s4" >
+<Data ss:Type="String">Crna Gora</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s4" >
+<Data ss:Type="String">Standard Basic </Data>
+</Cell>
+<Cell ss:Index="6" ss:StyleID="s4" >
+<Data ss:Type="String">(All)</Data>
+</Cell>
+<Cell ss:Index="7" ss:StyleID="s4" >
+<Data ss:Type="String">(All)</Data>
+</Cell>
+<Cell ss:Index="8" ss:StyleID="s5" >
+<Data ss:Type="String">30.08.25</Data>
+</Cell>
+<Cell ss:Index="9" ss:StyleID="s5" >
+<Data ss:Type="String">12.09.25</Data>
+</Cell>
+<Cell ss:Index="10" ss:StyleID="s5" >
+<Data ss:Type="String">18.03.25</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s6" >
+<Data ss:Type="String"></Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="11.63">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">IBEROSTAR WAVES BELLEVUE</Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s4" >
+<Data ss:Type="String">(All)</Data>
+</Cell>
+<Cell ss:Index="3" ss:StyleID="s4" >
+<Data ss:Type="String">(All)</Data>
+</Cell>
+<Cell ss:Index="4" ss:StyleID="s4" >
+<Data ss:Type="String">Crna Gora</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s4" >
+<Data ss:Type="String">Standard Priority Location Sea View </Data>
+</Cell>
+<Cell ss:Index="6" ss:StyleID="s4" >
+<Data ss:Type="String">(All)</Data>
+</Cell>
+<Cell ss:Index="7" ss:StyleID="s4" >
+<Data ss:Type="String">(All)</Data>
+</Cell>
+<Cell ss:Index="8" ss:StyleID="s5" >
+<Data ss:Type="String">31.08.25</Data>
+</Cell>
+<Cell ss:Index="9" ss:StyleID="s5" >
+<Data ss:Type="String">21.09.25</Data>
+</Cell>
+<Cell ss:Index="10" ss:StyleID="s5" >
+<Data ss:Type="String">09.04.25</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s6" >
+<Data ss:Type="String"></Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="11.63">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">IBEROSTAR WAVES BELLEVUE</Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s4" >
+<Data ss:Type="String">(All)</Data>
+</Cell>
+<Cell ss:Index="3" ss:StyleID="s4" >
+<Data ss:Type="String">(All)</Data>
+</Cell>
+<Cell ss:Index="4" ss:StyleID="s4" >
+<Data ss:Type="String">Crna Gora</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s4" >
+<Data ss:Type="String">STANDARD</Data>
+</Cell>
+<Cell ss:Index="6" ss:StyleID="s4" >
+<Data ss:Type="String">(All)</Data>
+</Cell>
+<Cell ss:Index="7" ss:StyleID="s4" >
+<Data ss:Type="String">(All)</Data>
+</Cell>
+<Cell ss:Index="8" ss:StyleID="s5" >
+<Data ss:Type="String">01.09.25</Data>
+</Cell>
+<Cell ss:Index="9" ss:StyleID="s5" >
+<Data ss:Type="String">08.09.25</Data>
+</Cell>
+<Cell ss:Index="10" ss:StyleID="s5" >
+<Data ss:Type="String">16.05.25</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s6" >
+<Data ss:Type="String"></Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="11.63">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">IBEROSTAR WAVES BELLEVUE</Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s4" >
+<Data ss:Type="String">(All)</Data>
+</Cell>
+<Cell ss:Index="3" ss:StyleID="s4" >
+<Data ss:Type="String">(All)</Data>
+</Cell>
+<Cell ss:Index="4" ss:StyleID="s4" >
+<Data ss:Type="String">Crna Gora</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s4" >
+<Data ss:Type="String">STANDARD GARDEN VIEW</Data>
+</Cell>
+<Cell ss:Index="6" ss:StyleID="s4" >
+<Data ss:Type="String">(All)</Data>
+</Cell>
+<Cell ss:Index="7" ss:StyleID="s4" >
+<Data ss:Type="String">(All)</Data>
+</Cell>
+<Cell ss:Index="8" ss:StyleID="s5" >
+<Data ss:Type="String">01.09.25</Data>
+</Cell>
+<Cell ss:Index="9" ss:StyleID="s5" >
+<Data ss:Type="String">13.09.25</Data>
+</Cell>
+<Cell ss:Index="10" ss:StyleID="s5" >
+<Data ss:Type="String">16.05.25</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s6" >
+<Data ss:Type="String"></Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="11.63">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">IBEROSTAR WAVES BELLEVUE</Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s4" >
+<Data ss:Type="String">(All)</Data>
+</Cell>
+<Cell ss:Index="3" ss:StyleID="s4" >
+<Data ss:Type="String">(All)</Data>
+</Cell>
+<Cell ss:Index="4" ss:StyleID="s4" >
+<Data ss:Type="String">Crna Gora</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s4" >
+<Data ss:Type="String">Junior Suite Sea View </Data>
+</Cell>
+<Cell ss:Index="6" ss:StyleID="s4" >
+<Data ss:Type="String">(All)</Data>
+</Cell>
+<Cell ss:Index="7" ss:StyleID="s4" >
+<Data ss:Type="String">(All)</Data>
+</Cell>
+<Cell ss:Index="8" ss:StyleID="s5" >
+<Data ss:Type="String">04.09.25</Data>
+</Cell>
+<Cell ss:Index="9" ss:StyleID="s5" >
+<Data ss:Type="String">17.09.25</Data>
+</Cell>
+<Cell ss:Index="10" ss:StyleID="s5" >
+<Data ss:Type="String">10.06.25</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s6" >
+<Data ss:Type="String"></Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="11.63">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">IBEROSTAR WAVES BELLEVUE</Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s4" >
+<Data ss:Type="String">exclude: PRESTIGE UZ,</Data>
+</Cell>
+<Cell ss:Index="3" ss:StyleID="s4" >
+<Data ss:Type="String">(All)</Data>
+</Cell>
+<Cell ss:Index="4" ss:StyleID="s4" >
+<Data ss:Type="String">Crna Gora</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s4" >
+<Data ss:Type="String">Standard Priority Location Garden View </Data>
+</Cell>
+<Cell ss:Index="6" ss:StyleID="s4" >
+<Data ss:Type="String">(All)</Data>
+</Cell>
+<Cell ss:Index="7" ss:StyleID="s4" >
+<Data ss:Type="String">(All)</Data>
+</Cell>
+<Cell ss:Index="8" ss:StyleID="s5" >
+<Data ss:Type="String">04.09.25</Data>
+</Cell>
+<Cell ss:Index="9" ss:StyleID="s5" >
+<Data ss:Type="String">29.09.25</Data>
+</Cell>
+<Cell ss:Index="10" ss:StyleID="s5" >
+<Data ss:Type="String">20.05.25</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s6" >
+<Data ss:Type="String"></Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="11.63">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">IBEROSTAR WAVES BELLEVUE</Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s4" >
+<Data ss:Type="String">(All)</Data>
+</Cell>
+<Cell ss:Index="3" ss:StyleID="s4" >
+<Data ss:Type="String">(All)</Data>
+</Cell>
+<Cell ss:Index="4" ss:StyleID="s4" >
+<Data ss:Type="String">Crna Gora</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s4" >
+<Data ss:Type="String">STANDARD SEA VIEW </Data>
+</Cell>
+<Cell ss:Index="6" ss:StyleID="s4" >
+<Data ss:Type="String">(All)</Data>
+</Cell>
+<Cell ss:Index="7" ss:StyleID="s4" >
+<Data ss:Type="String">(All)</Data>
+</Cell>
+<Cell ss:Index="8" ss:StyleID="s5" >
+<Data ss:Type="String">06.09.25</Data>
+</Cell>
+<Cell ss:Index="9" ss:StyleID="s5" >
+<Data ss:Type="String">12.09.25</Data>
+</Cell>
+<Cell ss:Index="10" ss:StyleID="s5" >
+<Data ss:Type="String">20.05.25</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s6" >
+<Data ss:Type="String"></Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="11.63">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">IBEROSTAR WAVES BELLEVUE</Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s4" >
+<Data ss:Type="String">(All)</Data>
+</Cell>
+<Cell ss:Index="3" ss:StyleID="s4" >
+<Data ss:Type="String">(All)</Data>
+</Cell>
+<Cell ss:Index="4" ss:StyleID="s4" >
+<Data ss:Type="String">Crna Gora</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s4" >
+<Data ss:Type="String">JUNIOR SUITE GARDEN VIEW </Data>
+</Cell>
+<Cell ss:Index="6" ss:StyleID="s4" >
+<Data ss:Type="String">(All)</Data>
+</Cell>
+<Cell ss:Index="7" ss:StyleID="s4" >
+<Data ss:Type="String">(All)</Data>
+</Cell>
+<Cell ss:Index="8" ss:StyleID="s5" >
+<Data ss:Type="String">06.09.25</Data>
+</Cell>
+<Cell ss:Index="9" ss:StyleID="s5" >
+<Data ss:Type="String">21.09.25</Data>
+</Cell>
+<Cell ss:Index="10" ss:StyleID="s5" >
+<Data ss:Type="String">10.06.25</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s6" >
+<Data ss:Type="String"></Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="11.63">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">IBEROSTAR WAVES BELLEVUE</Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s4" >
+<Data ss:Type="String">(All)</Data>
+</Cell>
+<Cell ss:Index="3" ss:StyleID="s4" >
+<Data ss:Type="String">(All)</Data>
+</Cell>
+<Cell ss:Index="4" ss:StyleID="s4" >
+<Data ss:Type="String">Crna Gora</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s4" >
+<Data ss:Type="String">STANDARD</Data>
+</Cell>
+<Cell ss:Index="6" ss:StyleID="s4" >
+<Data ss:Type="String">(All)</Data>
+</Cell>
+<Cell ss:Index="7" ss:StyleID="s4" >
+<Data ss:Type="String">(All)</Data>
+</Cell>
+<Cell ss:Index="8" ss:StyleID="s5" >
+<Data ss:Type="String">09.09.25</Data>
+</Cell>
+<Cell ss:Index="9" ss:StyleID="s5" >
+<Data ss:Type="String">23.10.25</Data>
+</Cell>
+<Cell ss:Index="10" ss:StyleID="s5" >
+<Data ss:Type="String">08.01.25</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s6" >
+<Data ss:Type="String"></Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="11.63">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">IBEROSTAR WAVES BELLEVUE</Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s4" >
+<Data ss:Type="String">(All)</Data>
+</Cell>
+<Cell ss:Index="3" ss:StyleID="s4" >
+<Data ss:Type="String">(All)</Data>
+</Cell>
+<Cell ss:Index="4" ss:StyleID="s4" >
+<Data ss:Type="String">Crna Gora</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s4" >
+<Data ss:Type="String">Standard Basic </Data>
+</Cell>
+<Cell ss:Index="6" ss:StyleID="s4" >
+<Data ss:Type="String">(All)</Data>
+</Cell>
+<Cell ss:Index="7" ss:StyleID="s4" >
+<Data ss:Type="String">(All)</Data>
+</Cell>
+<Cell ss:Index="8" ss:StyleID="s5" >
+<Data ss:Type="String">13.09.25</Data>
+</Cell>
+<Cell ss:Index="9" ss:StyleID="s5" >
+<Data ss:Type="String">16.09.25</Data>
+</Cell>
+<Cell ss:Index="10" ss:StyleID="s5" >
+<Data ss:Type="String">04.04.25</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s6" >
+<Data ss:Type="String"></Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="11.63">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">IBEROSTAR WAVES BELLEVUE</Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s4" >
+<Data ss:Type="String">(All)</Data>
+</Cell>
+<Cell ss:Index="3" ss:StyleID="s4" >
+<Data ss:Type="String">(All)</Data>
+</Cell>
+<Cell ss:Index="4" ss:StyleID="s4" >
+<Data ss:Type="String">Crna Gora</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s4" >
+<Data ss:Type="String">DBL Interconnecting </Data>
+</Cell>
+<Cell ss:Index="6" ss:StyleID="s4" >
+<Data ss:Type="String">(All)</Data>
+</Cell>
+<Cell ss:Index="7" ss:StyleID="s4" >
+<Data ss:Type="String">(All)</Data>
+</Cell>
+<Cell ss:Index="8" ss:StyleID="s5" >
+<Data ss:Type="String">16.09.25</Data>
+</Cell>
+<Cell ss:Index="9" ss:StyleID="s5" >
+<Data ss:Type="String">24.10.25</Data>
+</Cell>
+<Cell ss:Index="10" ss:StyleID="s5" >
+<Data ss:Type="String">17.02.25</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s6" >
+<Data ss:Type="String"></Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="11.63">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">IBEROSTAR WAVES BELLEVUE</Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s4" >
+<Data ss:Type="String">(All)</Data>
+</Cell>
+<Cell ss:Index="3" ss:StyleID="s4" >
+<Data ss:Type="String">(All)</Data>
+</Cell>
+<Cell ss:Index="4" ss:StyleID="s4" >
+<Data ss:Type="String">Crna Gora</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s4" >
+<Data ss:Type="String">STANDARD SEA VIEW </Data>
+</Cell>
+<Cell ss:Index="6" ss:StyleID="s4" >
+<Data ss:Type="String">(All)</Data>
+</Cell>
+<Cell ss:Index="7" ss:StyleID="s4" >
+<Data ss:Type="String">(All)</Data>
+</Cell>
+<Cell ss:Index="8" ss:StyleID="s5" >
+<Data ss:Type="String">30.09.25</Data>
+</Cell>
+<Cell ss:Index="9" ss:StyleID="s5" >
+<Data ss:Type="String">03.10.25</Data>
+</Cell>
+<Cell ss:Index="10" ss:StyleID="s5" >
+<Data ss:Type="String">16.05.25</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s6" >
+<Data ss:Type="String"></Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="11.63">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">IBEROSTAR WAVES BELLEVUE</Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s4" >
+<Data ss:Type="String">(All)</Data>
+</Cell>
+<Cell ss:Index="3" ss:StyleID="s4" >
+<Data ss:Type="String">(All)</Data>
+</Cell>
+<Cell ss:Index="4" ss:StyleID="s4" >
+<Data ss:Type="String">Crna Gora</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s4" >
+<Data ss:Type="String">Standard Priority Location Sea View </Data>
+</Cell>
+<Cell ss:Index="6" ss:StyleID="s4" >
+<Data ss:Type="String">(All)</Data>
+</Cell>
+<Cell ss:Index="7" ss:StyleID="s4" >
+<Data ss:Type="String">(All)</Data>
+</Cell>
+<Cell ss:Index="8" ss:StyleID="s5" >
+<Data ss:Type="String">04.10.25</Data>
+</Cell>
+<Cell ss:Index="9" ss:StyleID="s5" >
+<Data ss:Type="String">05.10.25</Data>
+</Cell>
+<Cell ss:Index="10" ss:StyleID="s5" >
+<Data ss:Type="String">05.05.25</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s6" >
+<Data ss:Type="String"></Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="11.63">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">IBEROSTAR WAVES BELLEVUE</Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s4" >
+<Data ss:Type="String">(All)</Data>
+</Cell>
+<Cell ss:Index="3" ss:StyleID="s4" >
+<Data ss:Type="String">(All)</Data>
+</Cell>
+<Cell ss:Index="4" ss:StyleID="s4" >
+<Data ss:Type="String">Crna Gora</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s4" >
+<Data ss:Type="String">STANDARD SEA VIEW </Data>
+</Cell>
+<Cell ss:Index="6" ss:StyleID="s4" >
+<Data ss:Type="String">(All)</Data>
+</Cell>
+<Cell ss:Index="7" ss:StyleID="s4" >
+<Data ss:Type="String">(All)</Data>
+</Cell>
+<Cell ss:Index="8" ss:StyleID="s5" >
+<Data ss:Type="String">04.10.25</Data>
+</Cell>
+<Cell ss:Index="9" ss:StyleID="s5" >
+<Data ss:Type="String">07.10.25</Data>
+</Cell>
+<Cell ss:Index="10" ss:StyleID="s5" >
+<Data ss:Type="String">05.05.25</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s6" >
+<Data ss:Type="String"></Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+<Row ss:Height="11.63">
+<Cell ss:Index="1" ss:StyleID="s4" >
+<Data ss:Type="String">IBEROSTAR WAVES BELLEVUE</Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s4" >
+<Data ss:Type="String">exclude: PRESTIGE UZ,</Data>
+</Cell>
+<Cell ss:Index="3" ss:StyleID="s4" >
+<Data ss:Type="String">(All)</Data>
+</Cell>
+<Cell ss:Index="4" ss:StyleID="s4" >
+<Data ss:Type="String">Crna Gora</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s4" >
+<Data ss:Type="String">(All)</Data>
+</Cell>
+<Cell ss:Index="6" ss:StyleID="s4" >
+<Data ss:Type="String">(All)</Data>
+</Cell>
+<Cell ss:Index="7" ss:StyleID="s4" >
+<Data ss:Type="String">(All)</Data>
+</Cell>
+<Cell ss:Index="8" ss:StyleID="s5" >
+<Data ss:Type="String">16.10.25</Data>
+</Cell>
+<Cell ss:Index="9" ss:StyleID="s5" >
+<Data ss:Type="String">24.10.25</Data>
+</Cell>
+<Cell ss:Index="10" ss:StyleID="s5" >
+<Data ss:Type="String">20.06.25</Data>
+</Cell>
+<Cell ss:Index="11" ss:StyleID="s6" >
+<Data ss:Type="String"></Data>
+</Cell>
+<Cell ss:Index="12" />
+</Row>
+</Table>
+<WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+<PageSetup>
+<Layout x:Orientation="Landscape"/>
+<PageMargins x:Bottom="0.25" x:Left="0.25" x:Right="0.25" x:Top="0.25"/>
+</PageSetup>
+</WorksheetOptions>
+</Worksheet>
+</Workbook>
