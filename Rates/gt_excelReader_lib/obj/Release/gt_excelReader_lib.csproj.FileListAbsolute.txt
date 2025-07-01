@@ -1,0 +1,6 @@
+C:\Users\Vitya\Desktop\GT\Rates\gt_excelReader_lib\bin\Release\gt_excelReader_lib.dll
+C:\Users\Vitya\Desktop\GT\Rates\gt_excelReader_lib\bin\Release\gt_excelReader_lib.pdb
+C:\Users\Vitya\Desktop\GT\Rates\gt_excelReader_lib\obj\Release\gt_excelReader_lib.csproj.AssemblyReference.cache
+C:\Users\Vitya\Desktop\GT\Rates\gt_excelReader_lib\obj\Release\gt_excelReader_lib.csproj.CoreCompileInputs.cache
+C:\Users\Vitya\Desktop\GT\Rates\gt_excelReader_lib\obj\Release\gt_excelReader_lib.dll
+C:\Users\Vitya\Desktop\GT\Rates\gt_excelReader_lib\obj\Release\gt_excelReader_lib.pdb

@@ -1,5 +1,7 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Globalization;
 using System.Linq;
 using System.Xml.Linq;
@@ -13,7 +15,7 @@ namespace ConsoleApp1
             Console.WriteLine("Start");
             Console.ReadKey();
 
-            XDocument doc = XDocument.Load(@"C:\Users\Vitya\Desktop\Contract1.xls");
+            XDocument doc = XDocument.Load(@"C:\Users\Vitya\Desktop\C.xls");
 
             XNamespace ss = "urn:schemas-microsoft-com:office:spreadsheet";
 
@@ -39,231 +41,275 @@ namespace ConsoleApp1
                     ListData.Add(rowData);
                 }
 
-
                 List<Hotel> hotelList = new List<Hotel>();
                 Hotel hotel = new Hotel();
 
-                bool IsStart = true;
-
                 string CurrentHeader = string.Empty;
-                int HeadrRowID = 0;
+
+                int priceID = 0;
+
+                int pID = 0;
+                int rID = 0;
+
+                string LastCaption = string.Empty;
 
                 foreach (var rowData in ListData)
                 {
-                    foreach (var cell in rowData)
+                    for (int DD = 0; DD < rowData.Count; DD++)
                     {
-                        if (cell.MergeAcross == 6 && cell.StyleID.Replace("\"", "").ToLower() == "s63".ToLower())
+                        if (rowData[DD].MergeAcross == 6 && rowData[DD].StyleID.Replace("\"", "").ToLower() == "s63".ToLower())
                         {
-                            IsStart = true;
-                        }
-                        else
-                        {
-                            IsStart = false;
-                        }
+                            CurrentHeader = string.Empty;
 
-                        if (IsStart == true)
-                        {
-                            if (hotel != null && hotel.HotelName != string.Empty)
+                            priceID = 0;
+                            pID = 0;
+                            rID = 0;
+
+                            LastCaption = string.Empty;
+
+                            if (hotel == null || hotel.HotelName == null)
                             {
-                                hotelList.Add(hotel);
+                                hotel = new Hotel();
+                                hotel.HotelName = rowData[DD].Value.Trim();
+                                continue;
                             }
 
+                            hotelList.Add(hotel);
                             hotel = new Hotel();
+                            hotel.HotelName = rowData[DD].Value.Trim();
 
-                            if (cell.Value.Trim() != string.Empty)
-                            {
-                                hotel.HotelName = cell.Value;
-                            }
+                            continue;
                         }
                         else
                         {
-                            if (hotel.HotelName != null && hotel.HotelName.Length > 1)
+                            switch (rowData[DD].Value.Trim())
                             {
-                                //Region Category
-                                if (cell.StyleID.Replace("\"", "").ToLower() == "s64".ToLower())
+                                case "Region":
+                                    LastCaption = "Region"; continue;
+                                case "Board":
+                                    LastCaption = "Board"; continue;
+                                case "Category":
+                                    LastCaption = "Category"; continue;
+                                case "Currency":
+                                    LastCaption = "Currency"; continue;
+                                case "Nights from - till":
+                                    LastCaption = "Nights from - till"; continue;
+                                case "Periods":
+                                    LastCaption = "Periods"; continue;
+                                case "Reservation dates":
+                                    LastCaption = "Reservation dates"; continue;
+                                //case "DBL Interconnecting":
+                                //    LastCaption = "DBL Interconnecting";
+                                //    hotel.Rooms.Add(new rooms() { Room = rowData[DD].Value.Trim() });
+                                //    continue;
+                                //case "Family (min 3 pax)":
+                                //    LastCaption = "Family (min 3 pax)";
+                                //    hotel.Rooms.Add(new rooms() { Room = rowData[DD].Value.Trim() });
+                                //    continue;
+                                default:
+                                    break;
+                            }
+
+                            if (LastCaption == "Region") { hotel.Region = rowData[DD].Value.Trim(); LastCaption = string.Empty; continue; }
+                            if (LastCaption == "Board") { hotel.Board = rowData[DD].Value.Trim(); LastCaption = string.Empty; continue; }
+                            if (LastCaption == "Category") { hotel.Category = rowData[DD].Value.Trim(); LastCaption = string.Empty; continue; }
+                            if (LastCaption == "Currency") { hotel.Currency = rowData[DD].Value.Trim(); LastCaption = string.Empty; continue; }
+                            if (LastCaption == "Nights from - till")
+                            {
+                                string ft = rowData[DD].Value.Trim();
+                                string[] parts = ft.Split('-');
+                                if (parts.Length == 2 && int.TryParse(parts[0].Trim(), out int start) && int.TryParse(parts[1].Trim(), out int end))
                                 {
-                                    if (cell.Value.ToLower() == "Region".ToLower())
-                                    {
-                                        CurrentHeader = "Region";
-                                    }
-                                    else if (cell.Value.ToLower() == "Category".ToLower())
-                                    {
-                                        CurrentHeader = "Category";
-                                    }
-                                    else if (cell.Value.ToLower() == "Nights from - till".ToLower())
-                                    {
-                                        CurrentHeader = "Nights from - till";
-                                    }
+                                    hotel.NightsFrom = start;
+                                    hotel.NightsTill = end;
                                 }
+                                LastCaption = string.Empty;
+                                continue;
+                            }
+                            if (LastCaption == "Periods")
+                            {
+                                string period = rowData[DD].Value.Trim();
+                                string[] parts = period.Split(new[] { "\n" }, StringSplitOptions.None);
 
-                                if (cell.MergeAcross == 1 && CurrentHeader == "Region")
+                                if (parts.Length == 2 && DateTime.TryParseExact(parts[0].Trim(), "dd.MM.yy", CultureInfo.InvariantCulture, DateTimeStyles.None, out DateTime date1) && DateTime.TryParseExact(parts[1].Trim(), "dd.MM.yy", CultureInfo.InvariantCulture, DateTimeStyles.None, out DateTime date2))
                                 {
-                                    if (CurrentHeader == "Region" && HeadrRowID == 0)
-                                    {
-                                        hotel.Region = cell.Value;
-                                        HeadrRowID = 1;
-                                    }
-                                    else if (CurrentHeader == "Region" && HeadrRowID == 1)
-                                    {
-                                        HeadrRowID++;
-                                    }
-                                    else if (CurrentHeader == "Region" && HeadrRowID == 2)
-                                    {
-                                        hotel.Board = cell.Value;
-                                        CurrentHeader = string.Empty;
-                                        HeadrRowID = 0;
-                                    }
-                                }
+                                    periods Local_period = new periods();
 
-                                if (cell.MergeAcross == 1 && CurrentHeader == "Category")
+                                    Local_period.Start = date1;
+                                    Local_period.End = date2;
+
+                                    hotel.Periods.Add(Local_period);
+                                }
+                                //LastCaption = string.Empty;
+                                pID++;
+                                continue;
+                            }
+                            if (LastCaption == "Reservation dates")
+                            {
+                                string resdate = rowData[DD].Value.Trim();
+                                string[] parts = resdate.Split(new[] { "\n" }, StringSplitOptions.None);
+
+                                if (parts.Length == 2 && DateTime.TryParseExact(parts[0].Trim(), "dd.MM.yy", CultureInfo.InvariantCulture, DateTimeStyles.None, out DateTime rdate1) && DateTime.TryParseExact(parts[1].Trim(), "dd.MM.yy", CultureInfo.InvariantCulture, DateTimeStyles.None, out DateTime rdate2))
                                 {
-                                    if (CurrentHeader == "Category" && HeadrRowID == 0)
-                                    {
-                                        hotel.Category = cell.Value;
-                                        HeadrRowID = 1;
-                                    }
-                                    else if (CurrentHeader == "Category" && HeadrRowID == 1)
-                                    {
-                                        HeadrRowID++;
-                                    }
-                                    else if (CurrentHeader == "Category" && HeadrRowID == 2)
-                                    {
-                                        hotel.Currency = cell.Value;
-                                        CurrentHeader = string.Empty;
-                                        HeadrRowID = 0;
-                                    }
-                                }
+                                    reservationdates reservationDates = new reservationdates();
 
-                                if (cell.MergeAcross == 1 && CurrentHeader == "Nights from - till")
+                                    reservationDates.Start = rdate1;
+                                    reservationDates.End = rdate2;
+
+                                    hotel.ReservationDates.Add(reservationDates);
+                                }
+                                //LastCaption = string.Empty;
+                                rID++;
+                                if (rID == pID)
                                 {
-                                    if (CurrentHeader == "Nights from - till" && HeadrRowID == 0)
-                                    {
-                                        string ft = cell.Value.Trim();
-                                        string[] parts = ft.Split('-');
-                                        if (parts.Length == 2 && int.TryParse(parts[0].Trim(), out int start) && int.TryParse(parts[1].Trim(), out int end))
-                                        {
-                                            hotel.NightsFrom = start;
-                                            hotel.NightsTill = end;
-                                        }
-                                    }
+                                    LastCaption = string.Empty;
                                 }
+                                continue;
+                            }
+                        }
 
+                        if (rowData[DD].StyleID.Replace("\"", "").ToLower() == "s83".ToLower())
+                        {
+                            if (rowData[DD].MergeAcross == 1)
+                            {
+                                CurrentHeader = "Room";
 
-                                //Periods ReservationDates
-                                if (cell.StyleID.Replace("\"", "").ToLower() == "s80".ToLower())
+                                rooms Rooms = new rooms();
+                                Rooms.Room = rowData[DD].Value.Trim();
+
+                                hotel.Rooms.Add(Rooms);
+                            }
+                        }
+                        else if (hotel.Rooms != null && hotel.Rooms.Count > 0 && rowData[DD].StyleID.Contains("s80"))
+                        {
+                            if (rowData[DD].Value.Trim() != "Release periods")
+                            {
+                                int roomQTY = hotel.Rooms.Count - 1;
+
+                                accommodation accommodation1 = new accommodation();
+                                accommodation1.Accommodation = rowData[DD].Value.Trim();
+
+                                hotel.Rooms[roomQTY].Accommodation.Add(accommodation1);
+
+                                priceID = 0;
+                            }
+                        }
+                        else if (rowData[DD].StyleID.Contains("s85"))
+                        {
+                            priceID++;
+
+                            int roomQTY = hotel.Rooms.Count - 1;
+                            int AccQTY = hotel.Rooms[roomQTY].Accommodation.Count - 1;
+
+                            price price = new price();
+
+                            price.PeriodsStart = hotel.Periods[priceID - 1].Start;
+                            price.PeriodsEnd = hotel.Periods[priceID - 1].End;
+
+                            price.ReservationStart = hotel.ReservationDates[priceID - 1].Start;
+                            price.ReservationEnd = hotel.ReservationDates[priceID - 1].End;
+
+                            if (decimal.TryParse(rowData[DD].Value.Trim(), out decimal result))
+                            {
+                                price.Price = Convert.ToDecimal(result);
+                            }
+                            else
+                            {
+                                price.Price = (decimal?)(null);
+                            }
+
+                            hotel.Rooms[roomQTY].Accommodation[AccQTY].Price.Add(price);
+                        }
+                        else
+                        {
+                            if (rowData[DD].Value.Trim() != string.Empty && rowData[DD].Value.Trim() != hotel.HotelName && hotel.HotelName != null)
+                            {
+                                if (rowData[DD].StyleID.Contains("s80") && rowData[DD].Value.Trim() == "Release periods")
                                 {
-                                    if (cell.Value.ToLower() == "Periods".ToLower())
-                                    {
-                                        CurrentHeader = "Periods";
-                                    }
-                                    else if (cell.Value.ToLower() == "Reservation dates".ToLower())
-                                    {
-                                        CurrentHeader = "Reservation dates";
-                                    }
+                                    continue;
                                 }
-
-                                if ((CurrentHeader == "Periods" || CurrentHeader == "Reservation dates") && (cell.StyleID.Replace("\"", "").ToLower() == "s81".ToLower()))
+                                else if (rowData[DD].StyleID.Contains("s86") && rowData[DD].Value.Trim() == "0")
                                 {
-                                    if (CurrentHeader == "Periods" && HeadrRowID == 0)
-                                    {
-                                        string period = cell.Value.Trim();
-
-                                        string[] parts = period.Split(new[] { "\n" }, StringSplitOptions.None);
-
-                                        if (parts.Length == 2 && DateTime.TryParseExact(parts[0].Trim(), "dd.MM.yy", CultureInfo.InvariantCulture, DateTimeStyles.None, out DateTime date1) && DateTime.TryParseExact(parts[1].Trim(), "dd.MM.yy", CultureInfo.InvariantCulture, DateTimeStyles.None, out DateTime date2))
-                                        {
-                                            periods Local_period = new periods();
-
-                                            Local_period.Start = date1;
-                                            Local_period.End = date2;
-
-                                            hotel.Periods.Add(Local_period);
-                                        }
-                                    }
-                                    else if (CurrentHeader == "Reservation dates" && HeadrRowID == 0)
-                                    {
-                                        string resdate = cell.Value.Trim();
-
-                                        string[] parts = resdate.Split(new[] { "\n" }, StringSplitOptions.None);
-
-                                        if (parts.Length == 2 && DateTime.TryParseExact(parts[0].Trim(), "dd.MM.yy", CultureInfo.InvariantCulture, DateTimeStyles.None, out DateTime rdate1) && DateTime.TryParseExact(parts[1].Trim(), "dd.MM.yy", CultureInfo.InvariantCulture, DateTimeStyles.None, out DateTime rdate2))
-                                        {
-                                            reservationdates reservationDates = new reservationdates();
-
-                                            reservationDates.Start = rdate1;
-                                            reservationDates.End = rdate2;
-
-                                            hotel.ReservationDates.Add(reservationDates);
-                                        }
-                                    }
+                                    continue;
                                 }
-
-
-                                //Rooms And Price
-                                if (cell.MergeAcross == 1 && cell.StyleID.Replace("\"", "").ToLower() == "s83".ToLower())
+                                else if (rowData[DD].StyleID.Contains("s88") && rowData[DD].Value.Trim() == "Notes")
                                 {
-                                    CurrentHeader = "Room";
-
-                                    rooms Rooms = new rooms();
-                                    Rooms.Room = cell.Value;
-
-                                    hotel.Rooms.Add(Rooms);
-
-                                    HeadrRowID = 1;
+                                    continue;
                                 }
-
-                                if (CurrentHeader == "Room" && cell.StyleID.Replace("\"", "").ToLower() == "s80".ToLower())
+                                else if (rowData[DD].StyleID.Contains("s90") && rowData[DD].Value.Trim() == "RELEASE DAYS")
                                 {
-                                    int roomQTY = hotel.Rooms.Count - 1;
-
-                                    accommodation accommodation1 = new accommodation();
-                                    accommodation1.Accommodation = cell.Value;
-
-                                    hotel.Rooms[roomQTY].Accommodation.Add(accommodation1);
+                                    continue;
                                 }
-
-                                if (CurrentHeader == "Room" && cell.StyleID.Replace("\"", "").ToLower() == "s85".ToLower() && HeadrRowID == 1)
+                                else if (rowData[DD].StyleID.Contains("s90") && rowData[DD].Value.Trim() == "")
                                 {
-                                    int roomQTY = hotel.Rooms.Count - 1;
-                                    int AccQTY = hotel.Rooms[roomQTY].Accommodation.Count - 1;
-
-                                    price price = new price();
-
-                                    if (decimal.TryParse(cell.Value, out decimal result))
-                                    {
-                                        price.Price = Convert.ToDecimal(result);
-                                    }
-                                    else
-                                    {
-                                        price.Price = (decimal?)(null);
-                                    }
-
-                                    hotel.Rooms[roomQTY].Accommodation[AccQTY].Price.Add(price);
+                                    continue;
                                 }
-
-
-
+                                else
+                                {
+                                    Console.WriteLine(rowData[DD].Value.Trim());
+                                }
                             }
                         }
                     }
                 }
 
-                foreach (var item in hotelList)
+                if (hotel != null || !string.IsNullOrEmpty(hotel.HotelName))
                 {
-                    if (item.HotelName == null || item.HotelName.Trim() == string.Empty) continue;
-                    Console.WriteLine(item.HotelName + ">" + item.Region + ">" + item.Board + ">" + item.Category + ">" + item.Currency + ">" + item.NightsFrom + ">" + item.NightsTill);
-                    Console.WriteLine("Periuds >" + item.Periods.Count);
-                    Console.WriteLine("Periuds >" + item.ReservationDates.Count);
+                    hotelList.Add(hotel);
+                    hotel = null;
                 }
 
-                //string json = JsonConvert.SerializeObject(hotelList, Formatting.Indented);
 
+                List<ReadyData> readyData = new List<ReadyData>();
+
+                foreach (var hotelItem in hotelList)
+                {
+                    for (int j = 0; j < hotelItem.Rooms.Count; j++)
+                    {
+                        for (int t = 0; t < hotelItem.Rooms[j].Accommodation.Count; t++)
+                        {
+                            for (int k = 0; k < hotelItem.Rooms[j].Accommodation[t].Price.Count; k++)
+                            {
+                                ReadyData data = new ReadyData();
+
+                                data.HotelName = hotelItem.HotelName;
+                                data.Region = hotelItem.Region;
+                                data.Board = hotelItem.Board;
+                                data.Category = hotelItem.Category;
+                                data.Currency = hotelItem.Currency;
+                                data.NightsFrom = hotelItem.NightsFrom;
+                                data.NightsTill = hotelItem.NightsTill;
+
+                                data.ReservationStart = hotelItem.Rooms[j].Accommodation[t].Price[k].ReservationStart;
+                                data.ReservationEnd = hotelItem.Rooms[j].Accommodation[t].Price[k].ReservationEnd;
+                                
+
+                                data.PeriodsStart = hotelItem.Rooms[j].Accommodation[t].Price[k].PeriodsStart;
+                                data.PeriodsEnd = hotelItem.Rooms[j].Accommodation[t].Price[k].PeriodsEnd;
+
+                                data.Room = hotelItem.Rooms[j].Room;
+                                data.Accommodation = hotelItem.Rooms[j].Accommodation[t].Accommodation;
+
+                                data.Price = hotelItem.Rooms[j].Accommodation[t].Price[k].Price;
+
+                                readyData.Add(data);
+                            }
+                        }
+                    }
+                }
+
+                Console.WriteLine("Start Save");
+
+                List<ReadyData> readyDataUnique = readyData.Distinct().ToList();
+
+                //string json = JsonConvert.SerializeObject(readyDataUnique, Formatting.Indented);
                 //System.IO.File.WriteAllText(@"C:\Users\Vitya\Desktop\ready.json", json);
 
+                DataTable dt = ListToTable.ListToDataTable(readyData);
+                //DataTable dt = ListToTable.ListToDataTable(readyData.Where(x=> x.HotelName == "IBEROSTAR WAVES BELLEVUE" && x.Region == "Becici").ToList());
+                new ExcelSaver().SaveDataTableToExcel(dt, @"C:\Users\Vitya\Desktop\R.xlsx");
 
-                //Notes
-
-                //Relase Periuds
+                Console.WriteLine("End Save");
             }
             else
             {
@@ -277,21 +323,20 @@ namespace ConsoleApp1
         }
     }
 
-    class CellInfo
+    public class CellInfo
     {
         public string Value { get; set; }
         public int MergeAcross { get; set; }
         public string StyleID { get; set; }
     }
 
-
-    class Hotel
+    public class Hotel
     {
         public Hotel()
         {
             Periods = new List<periods>();
             ReservationDates = new List<reservationdates>();
-            Rooms=new List<rooms>();
+            Rooms = new List<rooms>();
         }
 
         public string HotelName { get; set; }
@@ -345,6 +390,30 @@ namespace ConsoleApp1
 
     public class price
     {
+        public decimal? Price { get; set; }
+
+        public DateTime ReservationStart;
+        public DateTime ReservationEnd;
+
+        public DateTime PeriodsStart { get; set; }
+        public DateTime PeriodsEnd { get; set; }
+    }
+
+    public class ReadyData
+    {
+        public string HotelName { get; set; }
+        public string Region { get; set; }
+        public string Board { get; set; }
+        public string Category { get; set; }
+        public string Currency { get; set; }
+        public int NightsFrom { get; set; }
+        public int NightsTill { get; set; }
+        public DateTime ReservationStart { get; set; }
+        public DateTime ReservationEnd { get; set; }
+        public DateTime PeriodsStart { get; set; }
+        public DateTime PeriodsEnd { get; set; }
+        public string Room { get; set; }
+        public string Accommodation { get; set; }
         public decimal? Price { get; set; }
     }
 

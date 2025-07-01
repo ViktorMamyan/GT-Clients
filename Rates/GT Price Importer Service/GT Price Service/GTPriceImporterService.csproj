@@ -51,10 +51,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Code\classes\Other\CountryList.cs" />
+    <Compile Include="Code\classes\Other\HotelsOnly.cs" />
     <Compile Include="Code\classes\Other\OperatorList.cs" />
+    <Compile Include="Code\classes\Other\OperatorWithRegion.cs" />
     <Compile Include="Code\logger\ClientIPAddress.cs" />
     <Compile Include="Code\logger\dbException.cs" />
-    <Compile Include="Code\logger\Logger.cs" />
     <Compile Include="Code\classes\ReturnClass\DefaultReturnData.cs" />
     <Compile Include="DataBaseHelper\SqlHelper.cs" />
     <Compile Include="wcf\Constructor\ServiceConstructorWCF.cs" />
@@ -65,10 +66,14 @@
     <Compile Include="Code\Validation\DataCheck\CheckInt.cs" />
     <Compile Include="Code\Validation\DataCheck\CheckString.cs" />
     <Compile Include="Code\Validation\Validator.cs" />
+    <Compile Include="wcf\Implementation\Hotel\Hotel.cs" />
     <Compile Include="wcf\Implementation\Operator\Operator.cs" />
+    <Compile Include="wcf\Implementation\Region\Region.cs" />
+    <Compile Include="wcf\Interface\Hotel\iHotel.cs" />
     <Compile Include="wcf\Interface\iGetToken\IGetToken.cs" />
     <Compile Include="wcf\Interface\iCountry\Country.cs" />
     <Compile Include="wcf\Interface\iOperator\Operator.cs" />
+    <Compile Include="wcf\Interface\iRegion\Region.cs" />
     <Compile Include="WinService\GTPriceImporter.cs">
       <SubType>Component</SubType>
     </Compile>

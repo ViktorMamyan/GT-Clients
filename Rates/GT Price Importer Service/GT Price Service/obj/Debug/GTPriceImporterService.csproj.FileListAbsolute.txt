@@ -8,4 +8,3 @@ C:\Users\Vitya\Desktop\GT\Rates\GT Price Importer Service\GT Price Service\obj\D
 C:\Users\Vitya\Desktop\GT\Rates\GT Price Importer Service\GT Price Service\obj\Debug\GTPriceImporterService.csproj.CoreCompileInputs.cache
 C:\Users\Vitya\Desktop\GT\Rates\GT Price Importer Service\GT Price Service\obj\Debug\GTPriceImporterService.exe
 C:\Users\Vitya\Desktop\GT\Rates\GT Price Importer Service\GT Price Service\obj\Debug\GTPriceImporterService.pdb
-C:\Users\Vitya\Desktop\GT\Rates\GT Price Importer Service\GT Price Service\obj\Debug\GTPriceImporterService.exe.config

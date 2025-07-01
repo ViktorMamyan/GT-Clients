@@ -167,7 +167,7 @@ namespace GT_Price_Importer
                 frmSelecterWindow f = new frmSelecterWindow();
 
                 f.StartPosition = FormStartPosition.Manual;
-                f.Location = this.PointToScreen(new Point(txtCountry.Left, txtCountry.Top + txtCountry.Height));
+                f.Location = this.PointToScreen(new Point(groupControl1.Left + txtCountry.Left, groupControl1.Top + txtCountry.Top + txtCountry.Height));
 
                 f.table = table;
                 f.ShowDialog();
@@ -188,7 +188,7 @@ namespace GT_Price_Importer
                 FrmNewCountry f = new FrmNewCountry();
 
                 f.StartPosition = FormStartPosition.Manual;
-                f.Location = this.PointToScreen(new Point(txtCountry.Left, txtCountry.Top + txtCountry.Height));
+                f.Location = this.PointToScreen(new Point(groupControl1.Left + txtCountry.Left, groupControl1.Top + txtCountry.Top + txtCountry.Height));
 
                 f.ShowDialog();
 
@@ -313,7 +313,7 @@ namespace GT_Price_Importer
                 frmSelecterWindow f = new frmSelecterWindow();
 
                 f.StartPosition = FormStartPosition.Manual;
-                f.Location = this.PointToScreen(new Point(txtOperator.Left, txtOperator.Top + txtOperator.Height));
+                f.Location = this.PointToScreen(new Point(groupControl1.Left + txtOperator.Left, groupControl1.Top + txtOperator.Top + txtOperator.Height));
 
                 f.table = table;
                 f.ShowDialog();
@@ -334,7 +334,7 @@ namespace GT_Price_Importer
                 FrmNewOperator f = new FrmNewOperator();
 
                 f.StartPosition = FormStartPosition.Manual;
-                f.Location = this.PointToScreen(new Point(txtOperator.Left, txtOperator.Top + txtOperator.Height));
+                f.Location = this.PointToScreen(new Point(groupControl1.Left + txtOperator.Left, groupControl1.Top + txtOperator.Top + txtOperator.Height));
 
                 f.ShowDialog();
 
@@ -396,26 +396,60 @@ namespace GT_Price_Importer
 
         #region Check Settings
 
-        private void btnCheckData_Click(object sender, EventArgs e)
+        private async void btnCheckData_Click(object sender, EventArgs e)
         {
             try
             {
-                bool IsExists = ListCountry.Exists(x => x.Country == txtCountry.Text.Trim());
-                if (IsExists == false) throw new Exception("Անորոշ Երկիր");
+                var query_country = ListCountry.Where(x => x.Country == txtCountry.Text.Trim()).FirstOrDefault();
+                var query_operator = ListOperator.Where(x => x.Operator == txtOperator.Text.Trim()).FirstOrDefault();
 
-                IsExists = ListOperator.Exists(x => x.Operator == txtOperator.Text.Trim());
-                if (IsExists == false) throw new Exception("Անորոշ օպերատոր");
+                if (query_country == null || query_country.ID < 1) throw new Exception("Անորոշ Երկիր");
+                if (query_operator == null || query_operator.ID < 1) throw new Exception("Անորոշ օպերատոր");
 
                 if (btnSelectExcelFile.Text.Trim() == string.Empty || System.IO.File.Exists(btnSelectExcelFile.Text.Trim()) == false) throw new Exception("Անորոշ excel-ի ֆայլ");
 
-                //read file
+                //Contract
+                if (chContract.Checked == true)
+                {
+                    List<gt_excelReader_lib.ReadyData> RData = await new ExcelReader().ReadExcelXML(btnSelectExcelFile.Text.Trim());
+
+                    if (RData == null) return;
+
+                    //Checking Regions
+                    var query_unique_regions = RData.Select(x => x.Region).Distinct().ToList();
+                    if (query_unique_regions == null || query_unique_regions.Count == 0) throw new Exception("Error with regions");
+                    List<OperatorWithRegion> RegionData = new List<OperatorWithRegion>();
+                    foreach (var item in query_unique_regions)
+                    {
+                        RegionData.Add(new OperatorWithRegion() { CountryID = query_country.ID, OperatorID = query_operator.ID, Region = item.Trim() });
+                    }
+                    await new SetData().HttpsDataDefault("Region", "CheckRegionAsync", "", RegionData);
+
+                    //Add Hotels Only
+                    var query_hotels_only = RData.Distinct().ToList();
+                    if (query_hotels_only == null || query_hotels_only.Count == 0) throw new Exception("Error with hotels");
+                    List<HotelsOnly> hotelsOnly = new List<HotelsOnly>();
+                    foreach (var item in query_hotels_only)
+                    {
+                        hotelsOnly.Add(new HotelsOnly() { CountryID = query_country.ID, OperatorID = query_operator.ID, Region = item.Region, Hotel = item.HotelName });
+                    }
+                    await new SetData().HttpsDataDefault("Hotel", "CheckHotelAsync", "", hotelsOnly);
+
+                    //Add Hotels
+
+
+                    MessageBox.Show("Գործողությունը կատարվեց:\nՀարկավոր է ստուգել արդյոք բոլոր տարածաշրջանները և հյուրանոցներն են կցված փնտրման համակարգին", "Հաղորդագրություն", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+                else
+                {
+                    //ToDo
+                }
 
 
 
-                //check region
+                
 
-
-
+                //
 
             }
             catch (Exception ex)

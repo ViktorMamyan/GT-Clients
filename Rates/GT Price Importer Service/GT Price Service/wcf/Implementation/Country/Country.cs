@@ -34,7 +34,7 @@ namespace GTPriceImporterService
 
                 SqlHelper helper = new SqlHelper();
 
-                DataTable table = await helper.QueryAsync("SELECT * FROM dbo.GetCountryList()", CommandType.Text);
+                DataTable table = await helper.QueryAsync("SELECT * FROM Global.GetCountryList()", CommandType.Text);
 
                 List<CountyItem> ListOfData = new List<CountyItem>();
 
@@ -105,7 +105,7 @@ namespace GTPriceImporterService
 
                 SqlHelper helper = new SqlHelper();
 
-                await helper.ExecuteAsync("dbo.NewCountryAsync", CommandType.StoredProcedure, Parameters.ToArray());
+                await helper.ExecuteAsync("[Global].NewCountryAsync", CommandType.StoredProcedure, Parameters.ToArray());
 
                 #endregion
 

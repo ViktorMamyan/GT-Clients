@@ -34,7 +34,7 @@ namespace GTPriceImporterService
 
                 SqlHelper helper = new SqlHelper();
 
-                DataTable table = await helper.QueryAsync("SELECT * FROM dbo.GetOperatorList()", CommandType.Text);
+                DataTable table = await helper.QueryAsync("SELECT * FROM Operator.GetOperatorList()", CommandType.Text);
 
                 List<OperatorItem> ListOfData = new List<OperatorItem>();
 
@@ -105,7 +105,7 @@ namespace GTPriceImporterService
 
                 SqlHelper helper = new SqlHelper();
 
-                await helper.ExecuteAsync("dbo.NewOperatorAsync", CommandType.StoredProcedure, Parameters.ToArray());
+                await helper.ExecuteAsync("Operator.NewOperatorAsync", CommandType.StoredProcedure, Parameters.ToArray());
 
                 #endregion
 

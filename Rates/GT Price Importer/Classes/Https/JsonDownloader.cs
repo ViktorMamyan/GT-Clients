@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.IO;
 using System.Net;
 using System.Runtime.Serialization.Json;
@@ -54,6 +55,5 @@ namespace GT_Price_Importer.Classes
 
             return Result;
         }
-
     }
 }
