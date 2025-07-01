@@ -8,3 +8,12 @@ C:\Users\Vitya\Desktop\GT\Rates\GT Price Importer Service\GT Price Service\obj\D
 C:\Users\Vitya\Desktop\GT\Rates\GT Price Importer Service\GT Price Service\obj\Debug\GTPriceImporterService.csproj.CoreCompileInputs.cache
 C:\Users\Vitya\Desktop\GT\Rates\GT Price Importer Service\GT Price Service\obj\Debug\GTPriceImporterService.exe
 C:\Users\Vitya\Desktop\GT\Rates\GT Price Importer Service\GT Price Service\obj\Debug\GTPriceImporterService.pdb
+C:\Users\Vitya\Desktop\GT\Rates\GT Price Importer Service\GT Price Service\obj\Debug\GTPriceImporterService.exe.config
+C:\Users\Vitya\Desktop\GT\Rates\GT Price Importer Service\GT Price Service2\obj\Debug\GTPriceImporterService.csproj.AssemblyReference.cache
+C:\Users\Vitya\Desktop\GT\Rates\GT Price Importer Service\GT Price Service2\obj\Debug\GTPriceImporterService.exe.config
+C:\Users\Vitya\Desktop\GT\Rates\GT Price Importer Service\GT Price Service2\obj\Debug\GTPriceImporterService.GTPriceServiceImport.resources
+C:\Users\Vitya\Desktop\GT\Rates\GT Price Importer Service\GT Price Service2\obj\Debug\GTPriceImporterService.ProjectInstaller.resources
+C:\Users\Vitya\Desktop\GT\Rates\GT Price Importer Service\GT Price Service2\obj\Debug\GTPriceImporterService.csproj.GenerateResource.cache
+C:\Users\Vitya\Desktop\GT\Rates\GT Price Importer Service\GT Price Service2\obj\Debug\GTPriceImporterService.csproj.CoreCompileInputs.cache
+C:\Users\Vitya\Desktop\GT\Rates\GT Price Importer Service\GT Price Service2\obj\Debug\GTPriceImporterService.exe
+C:\Users\Vitya\Desktop\GT\Rates\GT Price Importer Service\GT Price Service2\obj\Debug\GTPriceImporterService.pdb

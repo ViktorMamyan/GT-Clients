@@ -9,3 +9,4 @@ C:\Users\Vitya\Desktop\GT\Rates\GT Price Importer Service\GTTestConsol\obj\Debug
 C:\Users\Vitya\Desktop\GT\Rates\GT Price Importer Service\GTTestConsol\obj\Debug\GTTest.csproj.Up2Date
 C:\Users\Vitya\Desktop\GT\Rates\GT Price Importer Service\GTTestConsol\obj\Debug\GTTestConsol.exe
 C:\Users\Vitya\Desktop\GT\Rates\GT Price Importer Service\GTTestConsol\obj\Debug\GTTestConsol.pdb
+C:\Users\Vitya\Desktop\GT\Rates\GT Price Importer Service\GTTestConsol\obj\Debug\GTTestConsol.exe.config

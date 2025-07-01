@@ -63,6 +63,7 @@
   <ItemGroup>
     <Compile Include="Classes\FileReader\ExcelReader.cs" />
     <Compile Include="Classes\ReturnClasses\Other\HotelsOnly.cs" />
+    <Compile Include="Classes\ReturnClasses\Other\NewSerachHotel.cs" />
     <Compile Include="Classes\ReturnClasses\Other\OperatorWithRegion.cs" />
     <Compile Include="Classes\Service GetData\GetData.cs" />
     <Compile Include="Classes\Https\JsonDownloader.cs" />
@@ -97,6 +98,12 @@
     <Compile Include="Forms\Operator\FrmNewOperator.Designer.cs">
       <DependentUpon>FrmNewOperator.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\PriceCorrecter\FrmPriceCorrecter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\PriceCorrecter\FrmPriceCorrecter.Designer.cs">
+      <DependentUpon>FrmPriceCorrecter.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\Select\frmSelecterWindow.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -116,6 +123,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Operator\FrmNewOperator.resx">
       <DependentUpon>FrmNewOperator.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PriceCorrecter\FrmPriceCorrecter.resx">
+      <DependentUpon>FrmPriceCorrecter.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Select\frmSelecterWindow.resx">
       <DependentUpon>frmSelecterWindow.cs</DependentUpon>

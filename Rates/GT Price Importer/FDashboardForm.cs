@@ -436,7 +436,42 @@ namespace GT_Price_Importer
                     await new SetData().HttpsDataDefault("Hotel", "CheckHotelAsync", "", hotelsOnly);
 
                     //Add Hotels
+                    List<NewSerachHotel> HotelData = new List<NewSerachHotel>();
+                    foreach (gt_excelReader_lib.ReadyData hotel in RData)
+                    {
+                        NewSerachHotel searchHotel = new NewSerachHotel();
+                        searchHotel.HotelName = hotel.HotelName;
+                        searchHotel.Board = hotel.Board;
+                        searchHotel.Category = hotel.Category;
+                        searchHotel.Currency = hotel.Currency;
+                        searchHotel.NightsFrom = hotel.NightsFrom;
+                        searchHotel.NightsTill = hotel.NightsTill;
+                        searchHotel.ReservationStart = hotel.ReservationStart;
+                        searchHotel.ReservationEnd = hotel.ReservationEnd;
+                        searchHotel.PeriodsStart = hotel.PeriodsStart;
+                        searchHotel.PeriodsEnd = hotel.PeriodsEnd;
+                        searchHotel.Room = hotel.Room;
+                        searchHotel.Accommodation = hotel.Accommodation;
+                        
+                        searchHotel.Price = hotel.Price;
+                        searchHotel.RealPrice = hotel.Price;
+                        searchHotel.PriceAddedByPercent = true;
+                        searchHotel.PriceAddValue = 0;
 
+                        HotelData.Add(searchHotel);
+                    }
+
+                    HotelData.RemoveAll(x => x.RealPrice == null);
+
+                    bool IsDataChanged = false;
+
+                    FrmPriceCorrecter frm = new FrmPriceCorrecter();
+                    frm.HotelData = HotelData;
+                    frm.ShowDialog();
+                    IsDataChanged = frm.IsDataChanged;
+                    frm.Dispose();
+
+                    if (IsDataChanged == false) return;
 
                     MessageBox.Show("Գործողությունը կատարվեց:\nՀարկավոր է ստուգել արդյոք բոլոր տարածաշրջանները և հյուրանոցներն են կցված փնտրման համակարգին", "Հաղորդագրություն", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }

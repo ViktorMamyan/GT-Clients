@@ -52,11 +52,13 @@
   <ItemGroup>
     <Compile Include="Code\classes\Other\CountryList.cs" />
     <Compile Include="Code\classes\Other\HotelsOnly.cs" />
+    <Compile Include="Code\classes\Other\NewSerachHotel.cs" />
     <Compile Include="Code\classes\Other\OperatorList.cs" />
     <Compile Include="Code\classes\Other\OperatorWithRegion.cs" />
     <Compile Include="Code\logger\ClientIPAddress.cs" />
     <Compile Include="Code\logger\dbException.cs" />
     <Compile Include="Code\classes\ReturnClass\DefaultReturnData.cs" />
+    <Compile Include="Code\Security.cs" />
     <Compile Include="DataBaseHelper\SqlHelper.cs" />
     <Compile Include="wcf\Constructor\ServiceConstructorWCF.cs" />
     <Compile Include="wcf\Implementation\GetToken\GetToken.cs" />
