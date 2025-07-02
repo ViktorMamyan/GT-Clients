@@ -14,7 +14,14 @@ namespace GT_Price_Importer.Classes
 {
     internal class ExcelReader
     {
-        internal async Task<List<ReadyData>> ReadExcelXML(string File, string Sheet = "UnnamedPage_0")
+        internal enum FileType
+        {
+            Contract = 0,
+            SPO = 1,
+            STOP = 2
+        }
+
+        internal async Task<List<ReadyData>> ReadExcelXML(string File, string Sheet = "UnnamedPage_0", FileType fileType = FileType.Contract)
         {
             DataLoader dl = new DataLoader();
             try
@@ -30,7 +37,18 @@ namespace GT_Price_Importer.Classes
 
                 await Task.Run(() =>
                 {
-                    RData = new gt_excelReader_lib.ExcelReader().GetContractPrice(File, Sheet);
+                    if (fileType == FileType.Contract)
+                    {
+                        RData = new gt_excelReader_lib.ExcelReader().GetContractPrice(File, Sheet);    
+                    }
+                    else if (fileType == FileType.SPO)
+                    {
+                        RData = new gt_excelReader_lib.ExcelReader().GetSPOPrice(File, Sheet);    
+                    }
+                    else
+                    {
+                        //RData = new gt_excelReader_lib.ExcelReader().GetContractPrice(File, Sheet);    
+                    }
 
                     if (RData == null)
                     {

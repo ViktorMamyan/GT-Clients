@@ -411,7 +411,7 @@ namespace GT_Price_Importer
                 //Contract
                 if (chContract.Checked == true)
                 {
-                    List<gt_excelReader_lib.ReadyData> RData = await new ExcelReader().ReadExcelXML(btnSelectExcelFile.Text.Trim());
+                    List<gt_excelReader_lib.ReadyData> RData = await new ExcelReader().ReadExcelXML(btnSelectExcelFile.Text.Trim(), txtSeet.Text.Trim(), GT_Price_Importer.Classes.ExcelReader.FileType.Contract);
 
                     if (RData == null) return;
 
@@ -466,25 +466,108 @@ namespace GT_Price_Importer
                     bool IsDataChanged = false;
 
                     FrmPriceCorrecter frm = new FrmPriceCorrecter();
+                    frm.IsContractPrice = true;
                     frm.HotelData = HotelData;
+
                     frm.ShowDialog();
+
                     IsDataChanged = frm.IsDataChanged;
+
                     frm.Dispose();
 
                     if (IsDataChanged == false) return;
 
                     MessageBox.Show("Գործողությունը կատարվեց:\nՀարկավոր է ստուգել արդյոք բոլոր տարածաշրջանները և հյուրանոցներն են կցված փնտրման համակարգին", "Հաղորդագրություն", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
-                else
+                else if (chSPO.Checked == true)     //SPO
                 {
-                    //ToDo
+                    List<gt_excelReader_lib.ReadyData> RData = await new ExcelReader().ReadExcelXML(btnSelectExcelFile.Text.Trim(), txtSeet.Text.Trim(), GT_Price_Importer.Classes.ExcelReader.FileType.SPO);
+
+                    if (RData == null) return;
+
+                    //Checking Regions
+                    var query_unique_regions = RData.Select(x => x.Region).Distinct().ToList();
+                    if (query_unique_regions == null || query_unique_regions.Count == 0) throw new Exception("Error with regions");
+                    List<OperatorWithRegion> RegionData = new List<OperatorWithRegion>();
+                    foreach (var item in query_unique_regions)
+                    {
+                        RegionData.Add(new OperatorWithRegion() { CountryID = query_country.ID, OperatorID = query_operator.ID, Region = item.Trim() });
+                    }
+                    await new SetData().HttpsDataDefault("Region", "CheckRegionAsync", "", RegionData);
+
+                    //Add Hotels Only
+                    var query_hotels_only = RData.Distinct().ToList();
+                    if (query_hotels_only == null || query_hotels_only.Count == 0) throw new Exception("Error with hotels");
+                    List<HotelsOnly> hotelsOnly = new List<HotelsOnly>();
+                    foreach (var item in query_hotels_only)
+                    {
+                        hotelsOnly.Add(new HotelsOnly() { CountryID = query_country.ID, OperatorID = query_operator.ID, Region = item.Region, Hotel = item.HotelName });
+                    }
+                    await new SetData().HttpsDataDefault("Hotel", "CheckHotelAsync", "", hotelsOnly);
+
+                    //Add Hotels
+                    List<NewSerachHotel> HotelData = new List<NewSerachHotel>();
+                    foreach (gt_excelReader_lib.ReadyData hotel in RData)
+                    {
+                        NewSerachHotel searchHotel = new NewSerachHotel();
+                        searchHotel.HotelName = hotel.HotelName;
+                        searchHotel.Board = hotel.Board;
+                        searchHotel.Category = hotel.Category;
+                        searchHotel.Currency = hotel.Currency;
+                        searchHotel.NightsFrom = hotel.NightsFrom;
+                        searchHotel.NightsTill = hotel.NightsTill;
+                        searchHotel.ReservationStart = hotel.ReservationStart;
+                        searchHotel.ReservationEnd = hotel.ReservationEnd;
+                        searchHotel.PeriodsStart = hotel.PeriodsStart;
+                        searchHotel.PeriodsEnd = hotel.PeriodsEnd;
+                        searchHotel.Room = hotel.Room;
+                        searchHotel.Accommodation = hotel.Accommodation;
+
+                        searchHotel.Price = hotel.Price;
+                        searchHotel.RealPrice = hotel.Price;
+                        searchHotel.PriceAddedByPercent = true;
+                        searchHotel.PriceAddValue = 0;
+                        searchHotel.SPO_No = hotel.SPO_No;
+
+                        HotelData.Add(searchHotel);
+                    }
+
+                    HotelData.RemoveAll(x => x.RealPrice == null);
+
+                    bool IsDataChanged = false;
+
+                    FrmPriceCorrecter frm = new FrmPriceCorrecter();
+                    frm.IsSpoPrice = true;
+                    frm.HotelData = HotelData;
+
+                    frm.ShowDialog();
+
+                    IsDataChanged = frm.IsDataChanged;
+
+                    frm.Dispose();
+
+                    if (IsDataChanged == false) return;
+
+                    MessageBox.Show("Գործողությունը կատարվեց:\nՀարկավոր է ստուգել արդյոք բոլոր տարածաշրջանները և հյուրանոցներն են կցված փնտրման համակարգին", "Հաղորդագրություն", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+                else    //STOP
+                {
+                    List<gt_excelReader_lib.ReadyData> RData = await new ExcelReader().ReadExcelXML(btnSelectExcelFile.Text.Trim(), txtSeet.Text.Trim(), GT_Price_Importer.Classes.ExcelReader.FileType.STOP);
+
+                    if (RData == null) return;
+
+
                 }
 
 
+                //check regions
 
+                //check hotels
+
+                //check rooms
                 
-
                 //
+     
 
             }
             catch (Exception ex)

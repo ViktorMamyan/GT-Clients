@@ -20,5 +20,6 @@ namespace GTPriceImporterService
         public decimal? RealPrice { get; set; }
         public bool PriceAddedByPercent { get; set; }
         public decimal PriceAddValue { get; set; }
+        public string SPO_No { get; set; }
     }
 }

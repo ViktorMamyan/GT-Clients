@@ -16,6 +16,10 @@ namespace GT_Price_Importer
     public partial class FrmPriceCorrecter : DevExpress.XtraEditors.XtraForm
     {
         internal bool IsDataChanged = false;
+
+        internal bool IsContractPrice = false;
+        internal bool IsSpoPrice = false;
+
         internal List<NewSerachHotel> HotelData = new List<NewSerachHotel>();
         DataTable Table;
 
@@ -113,7 +117,7 @@ namespace GT_Price_Importer
             }
         }
 
-        private async void btnAddToDB_Click(object sender, EventArgs e)
+        private void btnAddToDB_Click(object sender, EventArgs e)
         {
             try
             {
@@ -121,78 +125,19 @@ namespace GT_Price_Importer
 
                 if (MessageBox.Show("Ցանկանու՞մ եք թարմացնել բազան", "Հարցում", MessageBoxButtons.YesNo, MessageBoxIcon.Question) != System.Windows.Forms.DialogResult.Yes) return;
 
-                int[] SelRows = GridView1.GetSelectedRows();
-
-                for (int rowHandle = SelRows.Length - 1; rowHandle >= 0; rowHandle--)
+                if (IsContractPrice == true)
                 {
-                    if (rowHandle > -1)
-                    {
-                        DataRowView rowView = (DataRowView)GridView1.GetRow(rowHandle);
-                        DataRow row = rowView.Row;
-
-                        NewSerachHotel searchHotel = new NewSerachHotel();
-                        searchHotel.HotelName = (string)row["HotelName"];
-                        searchHotel.Board = (string)row["Board"];
-                        searchHotel.Category = (string)row["Category"];
-                        searchHotel.Currency = (string)row["Currency"];
-
-                        searchHotel.NightsFrom = (int)row["NightsFrom"];
-                        searchHotel.NightsTill = (int)row["NightsTill"];
-
-                        searchHotel.ReservationStart = !DBNull.Value.Equals(row["ReservationStart"]) ? (DateTime)row["ReservationStart"] : (DateTime?)null;
-                        searchHotel.ReservationEnd = !DBNull.Value.Equals(row["ReservationEnd"]) ? (DateTime)row["ReservationEnd"] : (DateTime?)null;
-                        searchHotel.PeriodsStart = !DBNull.Value.Equals(row["PeriodsStart"]) ? (DateTime)row["PeriodsStart"] : (DateTime?)null;
-                        searchHotel.PeriodsEnd = !DBNull.Value.Equals(row["PeriodsEnd"]) ? (DateTime)row["PeriodsEnd"] : (DateTime?)null;
-
-                        searchHotel.Room = (string)row["Room"];
-                        searchHotel.Accommodation = (string)row["Accommodation"];
-
-                        searchHotel.Price = !DBNull.Value.Equals(row["Price"]) ? (decimal)row["Price"] : (decimal?)null;
-                        searchHotel.RealPrice = !DBNull.Value.Equals(row["RealPrice"]) ? (decimal)row["RealPrice"] : (decimal?)null;
-                        searchHotel.PriceAddedByPercent = (bool)row["PriceAddedByPercent"];
-                        searchHotel.PriceAddValue = (decimal)row["PriceAddValue"];
-
-                        await new SetData().HttpsDataDefault("Hotel", "NewSerachHotelAsync", "", searchHotel);
-
-                        row.Delete();
-                    }
+                    AddContractPrice();
                 }
-
-                //foreach (int rowHandle in GridView1.GetSelectedRows())
-                //{
-                //    if (rowHandle > -1)
-                //    {
-                //        DataRowView rowView = (DataRowView)GridView1.GetRow(rowHandle);
-                //        DataRow row = rowView.Row;
-
-                //        NewSerachHotel searchHotel = new NewSerachHotel();
-                //        searchHotel.HotelName = (string)row["HotelName"];
-                //        searchHotel.Board = (string)row["Board"];
-                //        searchHotel.Category = (string)row["Category"];
-                //        searchHotel.Currency = (string)row["Currency"];
-
-                //        searchHotel.NightsFrom = (int)row["NightsFrom"];
-                //        searchHotel.NightsTill = (int)row["NightsTill"];
-
-                //        searchHotel.ReservationStart = !DBNull.Value.Equals(row["ReservationStart"]) ? (DateTime)row["ReservationStart"] : (DateTime?)null;
-                //        searchHotel.ReservationEnd = !DBNull.Value.Equals(row["ReservationEnd"]) ? (DateTime)row["ReservationEnd"] : (DateTime?)null;
-                //        searchHotel.PeriodsStart = !DBNull.Value.Equals(row["PeriodsStart"]) ? (DateTime)row["PeriodsStart"] : (DateTime?)null;
-                //        searchHotel.PeriodsEnd = !DBNull.Value.Equals(row["PeriodsEnd"]) ? (DateTime)row["PeriodsEnd"] : (DateTime?)null;
-
-                //        searchHotel.Room = (string)row["Room"];
-                //        searchHotel.Accommodation = (string)row["Accommodation"];
-
-                //        searchHotel.Price = !DBNull.Value.Equals(row["Price"]) ? (decimal)row["Price"] : (decimal?)null;
-                //        searchHotel.RealPrice = !DBNull.Value.Equals(row["RealPrice"]) ? (decimal)row["RealPrice"] : (decimal?)null;
-                //        searchHotel.PriceAddedByPercent = (bool)row["PriceAddedByPercent"];
-                //        searchHotel.PriceAddValue = (decimal)row["PriceAddValue"];
-
-                //        await new SetData().HttpsDataDefault("Hotel", "NewSerachHotelAsync", "", searchHotel);
-
-                //        row.Delete();
-                //    }
-                //}
-
+                else if (IsSpoPrice == true)
+                {
+                    AddSpoPrice();
+                }
+                else
+                {
+                    AddStopPrice();
+                }
+                
                 IsDataChanged = true;
 
                 MessageBox.Show("Գործողությունը կատարվեց", "Հարցում", MessageBoxButtons.OK, MessageBoxIcon.Information);
@@ -204,5 +149,90 @@ namespace GT_Price_Importer
             }
         }
 
+        async void AddContractPrice()
+        {
+            int[] SelRows = GridView1.GetSelectedRows();
+
+                for (int rowHandle = SelRows.Length - 1; rowHandle >= 0; rowHandle--)
+                {
+                    if (rowHandle > -1)
+                    {
+                        DataRowView rowView = (DataRowView)GridView1.GetRow(rowHandle);
+                        DataRow row = rowView.Row;
+
+                        NewSerachHotel searchHotelData = new NewSerachHotel();
+                        searchHotelData.HotelName = (string)row["HotelName"];
+                        searchHotelData.Board = (string)row["Board"];
+                        searchHotelData.Category = (string)row["Category"];
+                        searchHotelData.Currency = (string)row["Currency"];
+
+                        searchHotelData.NightsFrom = (int)row["NightsFrom"];
+                        searchHotelData.NightsTill = (int)row["NightsTill"];
+
+                        searchHotelData.ReservationStart = !DBNull.Value.Equals(row["ReservationStart"]) ? (DateTime)row["ReservationStart"] : (DateTime?)null;
+                        searchHotelData.ReservationEnd = !DBNull.Value.Equals(row["ReservationEnd"]) ? (DateTime)row["ReservationEnd"] : (DateTime?)null;
+                        searchHotelData.PeriodsStart = !DBNull.Value.Equals(row["PeriodsStart"]) ? (DateTime)row["PeriodsStart"] : (DateTime?)null;
+                        searchHotelData.PeriodsEnd = !DBNull.Value.Equals(row["PeriodsEnd"]) ? (DateTime)row["PeriodsEnd"] : (DateTime?)null;
+
+                        searchHotelData.Room = (string)row["Room"];
+                        searchHotelData.Accommodation = (string)row["Accommodation"];
+
+                        searchHotelData.Price = !DBNull.Value.Equals(row["Price"]) ? (decimal)row["Price"] : (decimal?)null;
+                        searchHotelData.RealPrice = !DBNull.Value.Equals(row["RealPrice"]) ? (decimal)row["RealPrice"] : (decimal?)null;
+                        searchHotelData.PriceAddedByPercent = (bool)row["PriceAddedByPercent"];
+                        searchHotelData.PriceAddValue = (decimal)row["PriceAddValue"];
+
+                        await new SetData().HttpsDataDefault("Hotel", "NewSerachHotelAsync", "", searchHotelData);
+
+                        row.Delete();
+                    }
+                }
+        }
+
+        async void AddSpoPrice()
+        {
+            int[] SelRows = GridView1.GetSelectedRows();
+
+            for (int rowHandle = SelRows.Length - 1; rowHandle >= 0; rowHandle--)
+            {
+                if (rowHandle > -1)
+                {
+                    DataRowView rowView = (DataRowView)GridView1.GetRow(rowHandle);
+                    DataRow row = rowView.Row;
+
+                    NewSerachHotel searchHotelData = new NewSerachHotel();
+                    searchHotelData.HotelName = (string)row["HotelName"];
+                    searchHotelData.Board = (string)row["Board"];
+                    searchHotelData.Category = (string)row["Category"];
+                    searchHotelData.Currency = (string)row["Currency"];
+
+                    searchHotelData.NightsFrom = (int)row["NightsFrom"];
+                    searchHotelData.NightsTill = (int)row["NightsTill"];
+
+                    searchHotelData.ReservationStart = !DBNull.Value.Equals(row["ReservationStart"]) ? (DateTime)row["ReservationStart"] : (DateTime?)null;
+                    searchHotelData.ReservationEnd = !DBNull.Value.Equals(row["ReservationEnd"]) ? (DateTime)row["ReservationEnd"] : (DateTime?)null;
+                    searchHotelData.PeriodsStart = !DBNull.Value.Equals(row["PeriodsStart"]) ? (DateTime)row["PeriodsStart"] : (DateTime?)null;
+                    searchHotelData.PeriodsEnd = !DBNull.Value.Equals(row["PeriodsEnd"]) ? (DateTime)row["PeriodsEnd"] : (DateTime?)null;
+
+                    searchHotelData.Room = (string)row["Room"];
+                    searchHotelData.Accommodation = (string)row["Accommodation"];
+
+                    searchHotelData.Price = !DBNull.Value.Equals(row["Price"]) ? (decimal)row["Price"] : (decimal?)null;
+                    searchHotelData.RealPrice = !DBNull.Value.Equals(row["RealPrice"]) ? (decimal)row["RealPrice"] : (decimal?)null;
+                    searchHotelData.PriceAddedByPercent = (bool)row["PriceAddedByPercent"];
+                    searchHotelData.PriceAddValue = (decimal)row["PriceAddValue"];
+                    searchHotelData.SPO_No = (string)row["SPO_No"];
+
+                    await new SetData().HttpsDataDefault("Hotel", "NewSpoSerachHotelAsync", "", searchHotelData);
+
+                    row.Delete();
+                }
+            }
+        }
+
+        async void AddStopPrice()
+        {
+
+        }
     }
 }

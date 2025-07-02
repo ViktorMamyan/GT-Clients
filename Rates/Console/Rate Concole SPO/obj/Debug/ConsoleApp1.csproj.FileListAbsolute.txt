@@ -1,0 +1,40 @@
+C:\Users\Vitya\Documents\Visual Studio 2022\Projects\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+C:\Users\Vitya\Documents\Visual Studio 2022\Projects\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+C:\Users\Vitya\Documents\Visual Studio 2022\Projects\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+C:\Users\Vitya\Documents\Visual Studio 2022\Projects\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.AssemblyReference.cache
+C:\Users\Vitya\Documents\Visual Studio 2022\Projects\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CoreCompileInputs.cache
+C:\Users\Vitya\Documents\Visual Studio 2022\Projects\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+C:\Users\Vitya\Documents\Visual Studio 2022\Projects\ConsoleApp1\obj\Debug\ConsoleApp1.pdb
+C:\Users\Vitya\Documents\Visual Studio 2022\Projects\ConsoleApp1\obj\Debug\ConsoleApp1.exe.config
+C:\Users\Vitya\Documents\Visual Studio 2022\Projects\ConsoleApp1\bin\Debug\HtmlAgilityPack.dll
+C:\Users\Vitya\Documents\Visual Studio 2022\Projects\ConsoleApp1\bin\Debug\HtmlAgilityPack.pdb
+C:\Users\Vitya\Documents\Visual Studio 2022\Projects\ConsoleApp1\bin\Debug\HtmlAgilityPack.xml
+C:\Users\Vitya\Documents\Visual Studio 2022\Projects\ConsoleApp1\obj\Debug\ConsoleA.CB28C8CC.Up2Date
+C:\Users\Vitya\Desktop\GT\Rates\Rate Concole\bin\Debug\ConsoleApp1.exe.config
+C:\Users\Vitya\Desktop\GT\Rates\Rate Concole\bin\Debug\ConsoleApp1.exe
+C:\Users\Vitya\Desktop\GT\Rates\Rate Concole\bin\Debug\ConsoleApp1.pdb
+C:\Users\Vitya\Desktop\GT\Rates\Rate Concole\bin\Debug\HtmlAgilityPack.dll
+C:\Users\Vitya\Desktop\GT\Rates\Rate Concole\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Vitya\Desktop\GT\Rates\Rate Concole\bin\Debug\HtmlAgilityPack.pdb
+C:\Users\Vitya\Desktop\GT\Rates\Rate Concole\bin\Debug\HtmlAgilityPack.xml
+C:\Users\Vitya\Desktop\GT\Rates\Rate Concole\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Vitya\Desktop\GT\Rates\Rate Concole\obj\Debug\ConsoleApp1.csproj.AssemblyReference.cache
+C:\Users\Vitya\Desktop\GT\Rates\Rate Concole\obj\Debug\ConsoleApp1.csproj.CoreCompileInputs.cache
+C:\Users\Vitya\Desktop\GT\Rates\Rate Concole\obj\Debug\ConsoleA.CB28C8CC.Up2Date
+C:\Users\Vitya\Desktop\GT\Rates\Rate Concole\obj\Debug\ConsoleApp1.exe
+C:\Users\Vitya\Desktop\GT\Rates\Rate Concole\obj\Debug\ConsoleApp1.pdb
+C:\Users\Vitya\Desktop\GT\Rates\Rate Concole\obj\Debug\ConsoleApp1.exe.config
+C:\Users\Vitya\Desktop\GT\Rates\Console\Rate Concole SPO\bin\Debug\ConsoleApp1.exe.config
+C:\Users\Vitya\Desktop\GT\Rates\Console\Rate Concole SPO\bin\Debug\ConsoleApp1.exe
+C:\Users\Vitya\Desktop\GT\Rates\Console\Rate Concole SPO\bin\Debug\ConsoleApp1.pdb
+C:\Users\Vitya\Desktop\GT\Rates\Console\Rate Concole SPO\bin\Debug\HtmlAgilityPack.dll
+C:\Users\Vitya\Desktop\GT\Rates\Console\Rate Concole SPO\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Vitya\Desktop\GT\Rates\Console\Rate Concole SPO\bin\Debug\HtmlAgilityPack.pdb
+C:\Users\Vitya\Desktop\GT\Rates\Console\Rate Concole SPO\bin\Debug\HtmlAgilityPack.xml
+C:\Users\Vitya\Desktop\GT\Rates\Console\Rate Concole SPO\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Vitya\Desktop\GT\Rates\Console\Rate Concole SPO\obj\Debug\ConsoleApp1.csproj.AssemblyReference.cache
+C:\Users\Vitya\Desktop\GT\Rates\Console\Rate Concole SPO\obj\Debug\ConsoleApp1.exe.config
+C:\Users\Vitya\Desktop\GT\Rates\Console\Rate Concole SPO\obj\Debug\ConsoleApp1.csproj.CoreCompileInputs.cache
+C:\Users\Vitya\Desktop\GT\Rates\Console\Rate Concole SPO\obj\Debug\ConsoleA.CB28C8CC.Up2Date
+C:\Users\Vitya\Desktop\GT\Rates\Console\Rate Concole SPO\obj\Debug\ConsoleApp1.exe
+C:\Users\Vitya\Desktop\GT\Rates\Console\Rate Concole SPO\obj\Debug\ConsoleApp1.pdb

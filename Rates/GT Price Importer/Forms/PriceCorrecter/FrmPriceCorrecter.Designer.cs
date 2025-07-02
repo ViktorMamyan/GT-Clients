@@ -30,19 +30,19 @@
         {
             this.formAssistant1 = new DevExpress.XtraBars.FormAssistant();
             this.groupControl1 = new DevExpress.XtraEditors.GroupControl();
+            this.btnAddToDB = new DevExpress.XtraEditors.SimpleButton();
+            this.btnSetPrice = new DevExpress.XtraEditors.SimpleButton();
+            this.txtPriceValue = new DevExpress.XtraEditors.TextEdit();
+            this.labelControl1 = new DevExpress.XtraEditors.LabelControl();
+            this.chPercent = new DevExpress.XtraEditors.CheckEdit();
             this.GridControl1 = new DevExpress.XtraGrid.GridControl();
             this.GridView1 = new DevExpress.XtraGrid.Views.Grid.GridView();
-            this.chPercent = new DevExpress.XtraEditors.CheckEdit();
-            this.labelControl1 = new DevExpress.XtraEditors.LabelControl();
-            this.txtPriceValue = new DevExpress.XtraEditors.TextEdit();
-            this.btnSetPrice = new DevExpress.XtraEditors.SimpleButton();
-            this.btnAddToDB = new DevExpress.XtraEditors.SimpleButton();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).BeginInit();
             this.groupControl1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.txtPriceValue.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chPercent.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.GridControl1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.GridView1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.chPercent.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.txtPriceValue.Properties)).BeginInit();
             this.SuspendLayout();
             // 
             // groupControl1
@@ -58,6 +58,56 @@
             this.groupControl1.Size = new System.Drawing.Size(583, 117);
             this.groupControl1.TabIndex = 0;
             this.groupControl1.Text = "Պարամետրեր";
+            // 
+            // btnAddToDB
+            // 
+            this.btnAddToDB.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnAddToDB.Location = new System.Drawing.Point(432, 66);
+            this.btnAddToDB.Name = "btnAddToDB";
+            this.btnAddToDB.Size = new System.Drawing.Size(139, 23);
+            this.btnAddToDB.TabIndex = 3;
+            this.btnAddToDB.Text = "Ավելացնել Բազա";
+            this.btnAddToDB.Click += new System.EventHandler(this.btnAddToDB_Click);
+            // 
+            // btnSetPrice
+            // 
+            this.btnSetPrice.Location = new System.Drawing.Point(211, 66);
+            this.btnSetPrice.Name = "btnSetPrice";
+            this.btnSetPrice.Size = new System.Drawing.Size(139, 23);
+            this.btnSetPrice.TabIndex = 2;
+            this.btnSetPrice.Text = "Կիրառել Հավելավճար";
+            this.btnSetPrice.Click += new System.EventHandler(this.btnSetPrice_Click);
+            // 
+            // txtPriceValue
+            // 
+            this.txtPriceValue.EditValue = "0";
+            this.txtPriceValue.Location = new System.Drawing.Point(68, 68);
+            this.txtPriceValue.Name = "txtPriceValue";
+            this.txtPriceValue.Properties.Appearance.Options.UseTextOptions = true;
+            this.txtPriceValue.Properties.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far;
+            this.txtPriceValue.Properties.Mask.EditMask = "n2";
+            this.txtPriceValue.Properties.Mask.MaskType = DevExpress.XtraEditors.Mask.MaskType.Numeric;
+            this.txtPriceValue.Properties.Mask.UseMaskAsDisplayFormat = true;
+            this.txtPriceValue.Size = new System.Drawing.Size(111, 20);
+            this.txtPriceValue.TabIndex = 1;
+            this.txtPriceValue.EditValueChanging += new DevExpress.XtraEditors.Controls.ChangingEventHandler(this.txtPriceValue_EditValueChanging);
+            // 
+            // labelControl1
+            // 
+            this.labelControl1.Location = new System.Drawing.Point(22, 71);
+            this.labelControl1.Name = "labelControl1";
+            this.labelControl1.Size = new System.Drawing.Size(40, 13);
+            this.labelControl1.TabIndex = 1;
+            this.labelControl1.Text = "Միավոր";
+            // 
+            // chPercent
+            // 
+            this.chPercent.EditValue = true;
+            this.chPercent.Location = new System.Drawing.Point(22, 36);
+            this.chPercent.Name = "chPercent";
+            this.chPercent.Properties.Caption = "Տոկոսային Հավելավճար";
+            this.chPercent.Size = new System.Drawing.Size(157, 19);
+            this.chPercent.TabIndex = 0;
             // 
             // GridControl1
             // 
@@ -88,56 +138,6 @@
             this.GridView1.OptionsView.ShowFooter = true;
             this.GridView1.OptionsView.ShowGroupPanel = false;
             // 
-            // chPercent
-            // 
-            this.chPercent.EditValue = true;
-            this.chPercent.Location = new System.Drawing.Point(22, 36);
-            this.chPercent.Name = "chPercent";
-            this.chPercent.Properties.Caption = "Տոկոսային Հավելավճար";
-            this.chPercent.Size = new System.Drawing.Size(157, 19);
-            this.chPercent.TabIndex = 0;
-            // 
-            // labelControl1
-            // 
-            this.labelControl1.Location = new System.Drawing.Point(22, 71);
-            this.labelControl1.Name = "labelControl1";
-            this.labelControl1.Size = new System.Drawing.Size(40, 13);
-            this.labelControl1.TabIndex = 1;
-            this.labelControl1.Text = "Միավոր";
-            // 
-            // txtPriceValue
-            // 
-            this.txtPriceValue.EditValue = "0";
-            this.txtPriceValue.Location = new System.Drawing.Point(68, 68);
-            this.txtPriceValue.Name = "txtPriceValue";
-            this.txtPriceValue.Properties.Appearance.Options.UseTextOptions = true;
-            this.txtPriceValue.Properties.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far;
-            this.txtPriceValue.Properties.Mask.EditMask = "n2";
-            this.txtPriceValue.Properties.Mask.MaskType = DevExpress.XtraEditors.Mask.MaskType.Numeric;
-            this.txtPriceValue.Properties.Mask.UseMaskAsDisplayFormat = true;
-            this.txtPriceValue.Size = new System.Drawing.Size(111, 20);
-            this.txtPriceValue.TabIndex = 1;
-            this.txtPriceValue.EditValueChanging += new DevExpress.XtraEditors.Controls.ChangingEventHandler(this.txtPriceValue_EditValueChanging);
-            // 
-            // btnSetPrice
-            // 
-            this.btnSetPrice.Location = new System.Drawing.Point(211, 66);
-            this.btnSetPrice.Name = "btnSetPrice";
-            this.btnSetPrice.Size = new System.Drawing.Size(139, 23);
-            this.btnSetPrice.TabIndex = 2;
-            this.btnSetPrice.Text = "Կիրառել Հավելավճար";
-            this.btnSetPrice.Click += new System.EventHandler(this.btnSetPrice_Click);
-            // 
-            // btnAddToDB
-            // 
-            this.btnAddToDB.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnAddToDB.Location = new System.Drawing.Point(432, 66);
-            this.btnAddToDB.Name = "btnAddToDB";
-            this.btnAddToDB.Size = new System.Drawing.Size(139, 23);
-            this.btnAddToDB.TabIndex = 3;
-            this.btnAddToDB.Text = "Ավելացնել Բազա";
-            this.btnAddToDB.Click += new System.EventHandler(this.btnAddToDB_Click);
-            // 
             // FrmPriceCorrecter
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -153,10 +153,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).EndInit();
             this.groupControl1.ResumeLayout(false);
             this.groupControl1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.txtPriceValue.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chPercent.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.GridControl1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.GridView1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.chPercent.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.txtPriceValue.Properties)).EndInit();
             this.ResumeLayout(false);
 
         }

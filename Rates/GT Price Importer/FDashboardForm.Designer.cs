@@ -51,11 +51,11 @@
             this.groupControl2 = new DevExpress.XtraEditors.GroupControl();
             this.btnCheckData = new DevExpress.XtraEditors.SimpleButton();
             this.groupControl3 = new DevExpress.XtraEditors.GroupControl();
-            this.chContract = new System.Windows.Forms.RadioButton();
-            this.radioButton2 = new System.Windows.Forms.RadioButton();
-            this.radioButton3 = new System.Windows.Forms.RadioButton();
-            this.textEdit1 = new DevExpress.XtraEditors.TextEdit();
             this.labelControl3 = new DevExpress.XtraEditors.LabelControl();
+            this.txtSeet = new DevExpress.XtraEditors.TextEdit();
+            this.radioButton3 = new System.Windows.Forms.RadioButton();
+            this.chSPO = new System.Windows.Forms.RadioButton();
+            this.chContract = new System.Windows.Forms.RadioButton();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).BeginInit();
             this.groupControl1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btnSelectExcelFile.Properties)).BeginInit();
@@ -65,7 +65,7 @@
             this.groupControl2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl3)).BeginInit();
             this.groupControl3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit1.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtSeet.Properties)).BeginInit();
             this.SuspendLayout();
             // 
             // groupControl1
@@ -186,15 +186,53 @@
             // groupControl3
             // 
             this.groupControl3.Controls.Add(this.labelControl3);
-            this.groupControl3.Controls.Add(this.textEdit1);
+            this.groupControl3.Controls.Add(this.txtSeet);
             this.groupControl3.Controls.Add(this.radioButton3);
-            this.groupControl3.Controls.Add(this.radioButton2);
+            this.groupControl3.Controls.Add(this.chSPO);
             this.groupControl3.Controls.Add(this.chContract);
             this.groupControl3.Location = new System.Drawing.Point(12, 151);
             this.groupControl3.Name = "groupControl3";
             this.groupControl3.Size = new System.Drawing.Size(326, 136);
             this.groupControl3.TabIndex = 1;
             this.groupControl3.Text = "Ֆայլի Տեսակ";
+            // 
+            // labelControl3
+            // 
+            this.labelControl3.Location = new System.Drawing.Point(14, 103);
+            this.labelControl3.Name = "labelControl3";
+            this.labelControl3.Size = new System.Drawing.Size(28, 13);
+            this.labelControl3.TabIndex = 18;
+            this.labelControl3.Text = "Sheet";
+            // 
+            // txtSeet
+            // 
+            this.txtSeet.EditValue = "UnnamedPage_0";
+            this.txtSeet.Location = new System.Drawing.Point(54, 100);
+            this.txtSeet.Name = "txtSeet";
+            this.txtSeet.Properties.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.txtSeet.Properties.Appearance.Options.UseBackColor = true;
+            this.txtSeet.Size = new System.Drawing.Size(208, 20);
+            this.txtSeet.TabIndex = 3;
+            // 
+            // radioButton3
+            // 
+            this.radioButton3.AutoSize = true;
+            this.radioButton3.Location = new System.Drawing.Point(14, 70);
+            this.radioButton3.Name = "radioButton3";
+            this.radioButton3.Size = new System.Drawing.Size(139, 17);
+            this.radioButton3.TabIndex = 2;
+            this.radioButton3.Text = "Վաչառքի Դադարեցում";
+            this.radioButton3.UseVisualStyleBackColor = true;
+            // 
+            // chSPO
+            // 
+            this.chSPO.AutoSize = true;
+            this.chSPO.Location = new System.Drawing.Point(14, 47);
+            this.chSPO.Name = "chSPO";
+            this.chSPO.Size = new System.Drawing.Size(132, 17);
+            this.chSPO.TabIndex = 1;
+            this.chSPO.Text = "Հատուկ Առաջարկներ";
+            this.chSPO.UseVisualStyleBackColor = true;
             // 
             // chContract
             // 
@@ -207,44 +245,6 @@
             this.chContract.TabStop = true;
             this.chContract.Text = "Պայմանագրային Գներ";
             this.chContract.UseVisualStyleBackColor = true;
-            // 
-            // radioButton2
-            // 
-            this.radioButton2.AutoSize = true;
-            this.radioButton2.Location = new System.Drawing.Point(14, 47);
-            this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(132, 17);
-            this.radioButton2.TabIndex = 1;
-            this.radioButton2.Text = "Հատուկ Առաջարկներ";
-            this.radioButton2.UseVisualStyleBackColor = true;
-            // 
-            // radioButton3
-            // 
-            this.radioButton3.AutoSize = true;
-            this.radioButton3.Location = new System.Drawing.Point(14, 70);
-            this.radioButton3.Name = "radioButton3";
-            this.radioButton3.Size = new System.Drawing.Size(139, 17);
-            this.radioButton3.TabIndex = 2;
-            this.radioButton3.Text = "Վաչառքի Դադարեցում";
-            this.radioButton3.UseVisualStyleBackColor = true;
-            // 
-            // textEdit1
-            // 
-            this.textEdit1.EditValue = "UnnamedPage_0";
-            this.textEdit1.Location = new System.Drawing.Point(54, 100);
-            this.textEdit1.Name = "textEdit1";
-            this.textEdit1.Properties.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.textEdit1.Properties.Appearance.Options.UseBackColor = true;
-            this.textEdit1.Size = new System.Drawing.Size(208, 20);
-            this.textEdit1.TabIndex = 3;
-            // 
-            // labelControl3
-            // 
-            this.labelControl3.Location = new System.Drawing.Point(14, 103);
-            this.labelControl3.Name = "labelControl3";
-            this.labelControl3.Size = new System.Drawing.Size(28, 13);
-            this.labelControl3.TabIndex = 18;
-            this.labelControl3.Text = "Sheet";
             // 
             // FDashboardForm
             // 
@@ -274,7 +274,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.groupControl3)).EndInit();
             this.groupControl3.ResumeLayout(false);
             this.groupControl3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit1.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtSeet.Properties)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -294,10 +294,10 @@
         private DevExpress.XtraEditors.SimpleButton btnCheckData;
         private DevExpress.XtraEditors.GroupControl groupControl3;
         private System.Windows.Forms.RadioButton radioButton3;
-        private System.Windows.Forms.RadioButton radioButton2;
+        private System.Windows.Forms.RadioButton chSPO;
         private System.Windows.Forms.RadioButton chContract;
         private DevExpress.XtraEditors.LabelControl labelControl3;
-        private DevExpress.XtraEditors.TextEdit textEdit1;
+        private DevExpress.XtraEditors.TextEdit txtSeet;
     }
 }
 
