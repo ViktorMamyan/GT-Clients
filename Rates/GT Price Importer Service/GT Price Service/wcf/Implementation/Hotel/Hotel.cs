@@ -271,5 +271,85 @@ namespace GTPriceImporterService
             }
         }
 
+        public async Task<DefaultReturnData> NewStopHotelAsync(StopInfo data)
+        {
+            #region Parameters
+
+            DefaultReturnData returnData = new DefaultReturnData
+            {
+                ErrorMsg = string.Empty,
+                StatusCode = -1
+            };
+
+            #endregion
+
+            try
+            {
+                CheckIfAuthorized();
+
+                #region SQL
+
+                DateTime PeriodsStart = data.DateFrom;
+                DateTime PeriodsEnd = data.DateTill;
+
+                for (; PeriodsStart <= PeriodsEnd; PeriodsStart = PeriodsStart.AddDays(1))
+                {
+                    DateTime SearchDay = PeriodsStart;
+
+                    Console.WriteLine(data.Hotel + " -> " + data.Room + " -> " + data.Accommodation);
+
+                    string RowDataHash = string.Empty;
+                    RowDataHash = data.Hotel;
+                    RowDataHash += data.Room;
+                    RowDataHash += data.Accommodation;
+                    RowDataHash += data.Meal;
+                    RowDataHash += SearchDay.ToString();
+
+                    RowDataHash = Security.MD5Hash(RowDataHash);
+
+                    List<SqlParameter> Parameters = new List<SqlParameter>
+                            {
+                                new SqlParameter("@HotelStopDate", data.HotelStopDate),
+                                new SqlParameter("@Hotel", data.Hotel),
+                                new SqlParameter("@Touroperator", data.Touroperator),
+                                new SqlParameter("@Market", data.Market),
+                                new SqlParameter("@Region", data.Region),
+                                new SqlParameter("@Room", data.Room),
+                                new SqlParameter("@Accommodation", data.Accommodation),
+                                new SqlParameter("@Meal", data.Meal),
+                                new SqlParameter("@DateFrom", data.DateFrom),
+                                new SqlParameter("@DateTill", data.DateTill),
+                                new SqlParameter("@IssueDate", data.IssueDate),
+                                new SqlParameter("@Note", data.Note),
+                                new SqlParameter("@SearchDay", SearchDay),
+                                new SqlParameter("@RowDataHash", RowDataHash)
+                            };
+
+                    await new SqlHelper().ExecuteAsync("Search.AddStopHotel", CommandType.StoredProcedure, Parameters.ToArray());
+                }
+
+                #endregion
+
+                #region Return
+
+                Validator.OK(200, returnData);
+
+                return returnData;
+
+                #endregion
+            }
+            catch (Exception ex)
+            {
+                #region Exception
+
+                Validator.SetCustomException(ex, returnData);
+
+                Console.WriteLine(ex.Message);
+
+                return returnData;
+
+                #endregion
+            }
+        }
     }
 }

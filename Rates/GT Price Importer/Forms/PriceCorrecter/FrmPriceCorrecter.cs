@@ -133,10 +133,6 @@ namespace GT_Price_Importer
                 {
                     AddSpoPrice();
                 }
-                else
-                {
-                    AddStopPrice();
-                }
                 
                 IsDataChanged = true;
 
@@ -230,9 +226,5 @@ namespace GT_Price_Importer
             }
         }
 
-        async void AddStopPrice()
-        {
-
-        }
     }
 }

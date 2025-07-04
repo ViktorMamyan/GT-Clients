@@ -411,7 +411,7 @@ namespace GT_Price_Importer
                 //Contract
                 if (chContract.Checked == true)
                 {
-                    List<gt_excelReader_lib.ReadyData> RData = await new ExcelReader().ReadExcelXML(btnSelectExcelFile.Text.Trim(), txtSeet.Text.Trim(), GT_Price_Importer.Classes.ExcelReader.FileType.Contract);
+                    List<gt_excelReader_lib.ReadyData> RData = await new ExcelReader().ReadExcelXML(btnSelectExcelFile.Text.Trim(), txtSheet.Text.Trim(), GT_Price_Importer.Classes.ExcelReader.FileType.Contract);
 
                     if (RData == null) return;
 
@@ -481,7 +481,7 @@ namespace GT_Price_Importer
                 }
                 else if (chSPO.Checked == true)     //SPO
                 {
-                    List<gt_excelReader_lib.ReadyData> RData = await new ExcelReader().ReadExcelXML(btnSelectExcelFile.Text.Trim(), txtSeet.Text.Trim(), GT_Price_Importer.Classes.ExcelReader.FileType.SPO);
+                    List<gt_excelReader_lib.ReadyData> RData = await new ExcelReader().ReadExcelXML(btnSelectExcelFile.Text.Trim(), txtSheet.Text.Trim(), GT_Price_Importer.Classes.ExcelReader.FileType.SPO);
 
                     if (RData == null) return;
 
@@ -552,11 +552,30 @@ namespace GT_Price_Importer
                 }
                 else    //STOP
                 {
-                    List<gt_excelReader_lib.ReadyData> RData = await new ExcelReader().ReadExcelXML(btnSelectExcelFile.Text.Trim(), txtSeet.Text.Trim(), GT_Price_Importer.Classes.ExcelReader.FileType.STOP);
+                    List<gt_excelReader_lib.StopInfo> RData = await new ExcelReader().ReadExcelXMLStop(btnSelectExcelFile.Text.Trim(), txtSheet.Text.Trim());
 
                     if (RData == null) return;
 
+                    var query_unique_regions = RData.Select(x => x.Region).Distinct().ToList();
+                    if (query_unique_regions == null || query_unique_regions.Count == 0) throw new Exception("Error with regions");
+                    List<OperatorWithRegion> RegionData = new List<OperatorWithRegion>();
+                    foreach (var item in query_unique_regions)
+                    {
+                        RegionData.Add(new OperatorWithRegion() { CountryID = query_country.ID, OperatorID = query_operator.ID, Region = item.Trim() });
+                    }
+                    await new SetData().HttpsDataDefault("Region", "CheckRegionAsync", "", RegionData);
 
+                    bool IsDataChanged = false;
+
+                    FrmStopList frm = new FrmStopList();
+                    frm.StopData = RData;
+                    frm.ShowDialog();
+                    IsDataChanged = frm.IsDataChanged;
+                    frm.Dispose();
+
+                    if (IsDataChanged == false) return;
+
+                    MessageBox.Show("Գործողությունը կատարվեց:\nՀարկավոր է ստուգել արդյոք բոլոր տարածաշրջանները և հյուրանոցներն են կցված փնտրման համակարգին", "Հաղորդագրություն", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
 
 
@@ -577,6 +596,21 @@ namespace GT_Price_Importer
         }
 
         #endregion
+
+        private void chContract_CheckedChanged(object sender, EventArgs e)
+        {
+            txtSheet.Text = "UnnamedPage_0";
+        }
+
+        private void chSPO_CheckedChanged(object sender, EventArgs e)
+        {
+            txtSheet.Text = "UnnamedPage_0";
+        }
+
+        private void ckStop_CheckedChanged(object sender, EventArgs e)
+        {
+            txtSheet.Text = "Page1";
+        }
 
     }
 }

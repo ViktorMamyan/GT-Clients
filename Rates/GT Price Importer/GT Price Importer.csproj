@@ -104,6 +104,12 @@
     <Compile Include="Forms\PriceCorrecter\FrmPriceCorrecter.Designer.cs">
       <DependentUpon>FrmPriceCorrecter.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\PriceCorrecter\FrmStopList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\PriceCorrecter\FrmStopList.Designer.cs">
+      <DependentUpon>FrmStopList.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\Select\frmSelecterWindow.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -126,6 +132,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\PriceCorrecter\FrmPriceCorrecter.resx">
       <DependentUpon>FrmPriceCorrecter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PriceCorrecter\FrmStopList.resx">
+      <DependentUpon>FrmStopList.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Select\frmSelecterWindow.resx">
       <DependentUpon>frmSelecterWindow.cs</DependentUpon>

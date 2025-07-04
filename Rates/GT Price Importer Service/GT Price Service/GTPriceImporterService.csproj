@@ -55,6 +55,7 @@
     <Compile Include="Code\classes\Other\NewSerachHotel.cs" />
     <Compile Include="Code\classes\Other\OperatorList.cs" />
     <Compile Include="Code\classes\Other\OperatorWithRegion.cs" />
+    <Compile Include="Code\classes\Other\StopInfo.cs" />
     <Compile Include="Code\logger\ClientIPAddress.cs" />
     <Compile Include="Code\logger\dbException.cs" />
     <Compile Include="Code\classes\ReturnClass\DefaultReturnData.cs" />

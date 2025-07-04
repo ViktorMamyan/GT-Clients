@@ -31,5 +31,13 @@ namespace GTPriceImporterService
             UriTemplate = "Hotel/NewSpoSerachHotelAsync")]
         Task<DefaultReturnData> NewSpoSerachHotelAsync(NewSerachHotel data);
 
+        [OperationContract]
+        [WebInvoke(Method = "POST",
+            RequestFormat = WebMessageFormat.Json,
+            ResponseFormat = WebMessageFormat.Json,
+            BodyStyle = WebMessageBodyStyle.Bare,
+            UriTemplate = "Hotel/NewStopHotelAsync")]
+        Task<DefaultReturnData> NewStopHotelAsync(StopInfo data);
+
     }
 }
