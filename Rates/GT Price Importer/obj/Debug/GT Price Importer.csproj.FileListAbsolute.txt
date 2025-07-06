@@ -17,5 +17,5 @@ C:\Users\Vitya\Desktop\GT\Rates\GT Price Importer\obj\Debug\GT_Price_Importer.Fr
 C:\Users\Vitya\Desktop\GT\Rates\GT Price Importer\obj\Debug\GT_Price_Importer.FrmNewOperator.resources
 C:\Users\Vitya\Desktop\GT\Rates\GT Price Importer\bin\Debug\gt_excelReader_lib.dll
 C:\Users\Vitya\Desktop\GT\Rates\GT Price Importer\bin\Debug\gt_excelReader_lib.pdb
-C:\Users\Vitya\Desktop\GT\Rates\GT Price Importer\obj\Debug\GT_Price_Importer.FrmPriceCorrecter.resources
 C:\Users\Vitya\Desktop\GT\Rates\GT Price Importer\obj\Debug\GT_Price_Importer.FrmStopList.resources
+C:\Users\Vitya\Desktop\GT\Rates\GT Price Importer\obj\Debug\GT_Price_Importer.FrmPriceCorrecter_6.resources

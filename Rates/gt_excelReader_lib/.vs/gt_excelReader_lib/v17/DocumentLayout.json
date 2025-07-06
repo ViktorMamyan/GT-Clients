@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Vitya\\Desktop\\GT\\Rates\\gt_excelReader_lib\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D951551D-63E8-4586-AE44-AA818D6E9D38}|gt_excelReader_lib.csproj|c:\\users\\vitya\\desktop\\gt\\rates\\gt_excelreader_lib\\gt_excelreader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D951551D-63E8-4586-AE44-AA818D6E9D38}|gt_excelReader_lib.csproj|solutionrelative:gt_excelreader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D951551D-63E8-4586-AE44-AA818D6E9D38}|gt_excelReader_lib.csproj|c:\\users\\vitya\\desktop\\gt\\rates\\gt_excelreader_lib\\contractmethods\\spomethods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D951551D-63E8-4586-AE44-AA818D6E9D38}|gt_excelReader_lib.csproj|solutionrelative:contractmethods\\spomethods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D951551D-63E8-4586-AE44-AA818D6E9D38}|gt_excelReader_lib.csproj|c:\\users\\vitya\\desktop\\gt\\rates\\gt_excelreader_lib\\contractmethods\\contractmethods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D951551D-63E8-4586-AE44-AA818D6E9D38}|gt_excelReader_lib.csproj|solutionrelative:contractmethods\\contractmethods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D951551D-63E8-4586-AE44-AA818D6E9D38}|gt_excelReader_lib.csproj|C:\\Users\\Vitya\\Desktop\\GT\\Rates\\gt_excelReader_lib\\excelreader\\spostart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D951551D-63E8-4586-AE44-AA818D6E9D38}|gt_excelReader_lib.csproj|solutionrelative:excelreader\\spostart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,20 +22,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "gt_ExcelReader.cs",
-              "DocumentMoniker": "C:\\Users\\Vitya\\Desktop\\GT\\Rates\\gt_excelReader_lib\\gt_ExcelReader.cs",
-              "RelativeDocumentMoniker": "gt_ExcelReader.cs",
-              "ToolTip": "C:\\Users\\Vitya\\Desktop\\GT\\Rates\\gt_excelReader_lib\\gt_ExcelReader.cs",
-              "RelativeToolTip": "gt_ExcelReader.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "ContractMethods.cs",
+              "DocumentMoniker": "C:\\Users\\Vitya\\Desktop\\GT\\Rates\\gt_excelReader_lib\\ContractMethods\\ContractMethods.cs",
+              "RelativeDocumentMoniker": "ContractMethods\\ContractMethods.cs",
+              "ToolTip": "C:\\Users\\Vitya\\Desktop\\GT\\Rates\\gt_excelReader_lib\\ContractMethods\\ContractMethods.cs",
+              "RelativeToolTip": "ContractMethods\\ContractMethods.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAAAGoAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-30T08:23:35.766Z",
+              "WhenOpened": "2025-07-06T19:14:12.271Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SpoMethods.cs",
+              "DocumentMoniker": "C:\\Users\\Vitya\\Desktop\\GT\\Rates\\gt_excelReader_lib\\ContractMethods\\SpoMethods.cs",
+              "RelativeDocumentMoniker": "ContractMethods\\SpoMethods.cs",
+              "ToolTip": "C:\\Users\\Vitya\\Desktop\\GT\\Rates\\gt_excelReader_lib\\ContractMethods\\SpoMethods.cs",
+              "RelativeToolTip": "ContractMethods\\SpoMethods.cs",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAwwGoAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-06T12:55:11.159Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SpoStart.cs",
+              "DocumentMoniker": "C:\\Users\\Vitya\\Desktop\\GT\\Rates\\gt_excelReader_lib\\ExcelReader\\SpoStart.cs",
+              "RelativeDocumentMoniker": "ExcelReader\\SpoStart.cs",
+              "ToolTip": "C:\\Users\\Vitya\\Desktop\\GT\\Rates\\gt_excelReader_lib\\ExcelReader\\SpoStart.cs",
+              "RelativeToolTip": "ExcelReader\\SpoStart.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAADMAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-06T12:28:15.221Z"
             }
           ]
         }

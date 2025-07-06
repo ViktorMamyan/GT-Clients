@@ -21,7 +21,7 @@ namespace GT_Price_Importer.Classes
             STOP = 2
         }
 
-        internal async Task<List<ReadyData>> ReadExcelXML(string File, string Sheet = "UnnamedPage_0", FileType fileType = FileType.Contract)
+        internal async Task<List<ReadyData_6>> ReadExcelXML_6(string File, string Sheet = "UnnamedPage_0", FileType fileType = FileType.Contract)
         {
             DataLoader dl = new DataLoader();
             try
@@ -32,22 +32,18 @@ namespace GT_Price_Importer.Classes
 
                 bool isError = false;
                 string ErrorData = string.Empty;
-                
-                List<ReadyData> RData = new List<ReadyData>();
+
+                List<ReadyData_6> RData = new List<ReadyData_6>();
 
                 await Task.Run(() =>
                 {
                     if (fileType == FileType.Contract)
                     {
-                        RData = new gt_excelReader_lib.ExcelReader().GetContractPrice(File, Sheet);    
+                        RData = new gt_excelReader_lib.DataReader().GetData_6_Contract(File, Sheet);
                     }
                     else if (fileType == FileType.SPO)
                     {
-                        RData = new gt_excelReader_lib.ExcelReader().GetSPOPrice(File, Sheet);    
-                    }
-                    else
-                    {
-                        //RData = new gt_excelReader_lib.ExcelReader().GetContractPrice(File, Sheet);    
+                        RData = new gt_excelReader_lib.DataReader().GetData_6_Spo(File, Sheet);
                     }
 
                     if (RData == null)
@@ -84,56 +80,59 @@ namespace GT_Price_Importer.Classes
             }
         }
 
-        internal async Task<List<StopInfo>> ReadExcelXMLStop(string File, string Sheet = "Page1")
-        {
-            DataLoader dl = new DataLoader();
-            try
-            {
-                dl.progressPanel1.Description = "Reading Excel File...";
-                dl.Show();
-                dl.Refresh();
+        
 
-                bool isError = false;
-                string ErrorData = string.Empty;
 
-                List<StopInfo> RData = new List<StopInfo>();
+        //internal async Task<List<StopInfo>> ReadExcelXMLStop(string File, string Sheet = "Page1")
+        //{
+        //    DataLoader dl = new DataLoader();
+        //    try
+        //    {
+        //        dl.progressPanel1.Description = "Reading Excel File...";
+        //        dl.Show();
+        //        dl.Refresh();
 
-                await Task.Run(() =>
-                {
-                    RData = new gt_excelReader_lib.ExcelReader().GetStopDates(File, Sheet);
+        //        bool isError = false;
+        //        string ErrorData = string.Empty;
 
-                    if (RData == null)
-                    {
-                        isError = true;
-                        ErrorData = "Worksheet is NULL";
+        //        List<StopInfo> RData = new List<StopInfo>();
 
-                        dl.Invoke(new MethodInvoker(delegate { dl.Close(); }));
-                    }
-                });
+        //        await Task.Run(() =>
+        //        {
+        //            RData = new gt_excelReader_lib.ExcelReader().GetStopDates(File, Sheet);
 
-                if (isError == true)
-                {
-                    throw new Exception(ErrorData);
-                }
+        //            if (RData == null)
+        //            {
+        //                isError = true;
+        //                ErrorData = "Worksheet is NULL";
 
-                return RData;
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+        //                dl.Invoke(new MethodInvoker(delegate { dl.Close(); }));
+        //            }
+        //        });
 
-                return null;
-            }
-            finally
-            {
-                //close loader
-                if (dl != null)
-                {
-                    dl.Close();
-                    dl.Dispose();
-                    dl = null;
-                }
-            }
-        }
+        //        if (isError == true)
+        //        {
+        //            throw new Exception(ErrorData);
+        //        }
+
+        //        return RData;
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+
+        //        return null;
+        //    }
+        //    finally
+        //    {
+        //        close loader
+        //        if (dl != null)
+        //        {
+        //            dl.Close();
+        //            dl.Dispose();
+        //            dl = null;
+        //        }
+        //    }
+        //}
     }
 }

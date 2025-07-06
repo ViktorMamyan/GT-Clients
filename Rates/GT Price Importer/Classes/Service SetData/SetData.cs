@@ -76,11 +76,11 @@ namespace GT_Price_Importer.Classes
 
         internal async Task<bool> HttpsDataDefault(string directory, string MethodName, string Parameters, object cls)
         {
-            DataLoader dl = new DataLoader();
+            //DataLoader dl = new DataLoader();
             try
             {
-                dl.progressPanel1.Description = "Working...";
-                dl.Show();
+                //dl.progressPanel1.Description = "Working...";
+                //dl.Show();
 
                 DefaultReturnData ret_Data = new DefaultReturnData();
 
@@ -97,7 +97,7 @@ namespace GT_Price_Importer.Classes
 
                     if (ret_Data.StatusCode != 200)
                     {
-                        dl.Invoke(new MethodInvoker(delegate { dl.Close(); }));
+                        //dl.Invoke(new MethodInvoker(delegate { dl.Close(); }));
 
                         isError = true;
                         ErrorData = ret_Data.ErrorMsg;
@@ -126,16 +126,16 @@ namespace GT_Price_Importer.Classes
 
                 return false;
             }
-            finally
-            {
-                //close loader
-                if (dl != null)
-                {
-                    dl.Close();
-                    dl.Dispose();
-                    dl = null;
-                }
-            }
+            //finally
+            //{
+            //    //close loader
+            //    if (dl != null)
+            //    {
+            //        dl.Close();
+            //        dl.Dispose();
+            //        dl = null;
+            //    }
+            //}
         }
     }
 }

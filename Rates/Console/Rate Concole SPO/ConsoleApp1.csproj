@@ -53,10 +53,26 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ExcelSaver.cs" />
-    <Compile Include="ListToTable.cs" />
+    <Compile Include="Mix\ExcelSaver.cs" />
+    <Compile Include="Mix\ListToTable.cs" />
+    <Compile Include="Parser\ParseObject.cs" />
+    <Compile Include="Parser\Parser6.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Reader\MergeAcross5_Contract.cs" />
+    <Compile Include="Reader\MergeAcross6_Contract.cs" />
+    <Compile Include="Reader\MergeAcross6_SPO.cs" />
+    <Compile Include="Reader\MergeAcross7_Contract.cs" />
+    <Compile Include="SharedClasses\CellInfo.cs" />
+    <Compile Include="SharedClasses\hotel.cs" />
+    <Compile Include="SharedClasses\hotel_5.cs" />
+    <Compile Include="SharedClasses\ReadyData.cs" />
+    <Compile Include="SharedClasses\ReadyData_5.cs" />
+    <Compile Include="SharedClasses\hotel_6.cs" />
+    <Compile Include="SharedClasses\ReadyData_6.cs" />
+    <Compile Include="SharedClasses\hotel_7.cs" />
+    <Compile Include="SharedClasses\ReadyData_7.cs" />
+    <Compile Include="SharedClasses\mix.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

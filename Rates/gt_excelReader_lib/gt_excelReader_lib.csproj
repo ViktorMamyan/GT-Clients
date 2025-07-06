@@ -41,8 +41,24 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="gt_ExcelReader.cs" />
+    <Compile Include="ContractMethods\ContractMethods.cs" />
+    <Compile Include="ContractMethods\SpoMethods.cs" />
+    <Compile Include="ExcelReader\GetFileMergeAcross.cs" />
+    <Compile Include="ExcelReader\ContractStart.cs" />
+    <Compile Include="ExcelReader\SpoStart.cs" />
+    <Compile Include="Parse\ParseObject.cs" />
+    <Compile Include="Parse\Parser\Parser6.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SharedClasses\CellInfo.cs" />
+    <Compile Include="SharedClasses\hotel\hotel.cs" />
+    <Compile Include="SharedClasses\hotel\hotel_5.cs" />
+    <Compile Include="SharedClasses\hotel\hotel_6.cs" />
+    <Compile Include="SharedClasses\hotel\hotel_7.cs" />
+    <Compile Include="SharedClasses\mix\mix.cs" />
+    <Compile Include="SharedClasses\ReadyData\ReadyData.cs" />
+    <Compile Include="SharedClasses\ReadyData\ReadyData_5.cs" />
+    <Compile Include="SharedClasses\ReadyData\ReadyData_6.cs" />
+    <Compile Include="SharedClasses\ReadyData\ReadyData_7.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

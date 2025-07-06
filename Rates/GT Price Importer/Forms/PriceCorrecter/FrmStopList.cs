@@ -18,7 +18,7 @@ namespace GT_Price_Importer
     {
         internal bool IsDataChanged = false;
 
-        internal List<StopInfo> StopData = new List<StopInfo>();
+        //internal List<StopInfo> StopData = new List<StopInfo>();
         DataTable Table;
 
         public FrmStopList()
@@ -28,9 +28,9 @@ namespace GT_Price_Importer
 
         private void FrmPriceCorrecter_Shown(object sender, EventArgs e)
         {
-            this.WindowState = FormWindowState.Maximized;
-            Table = StopData.ToDataTable();
-            LoadData(Table);
+            //this.WindowState = FormWindowState.Maximized;
+            //Table = StopData.ToDataTable();
+            //LoadData(Table);
         }
 
         void LoadData(DataTable dt)
@@ -95,26 +95,26 @@ namespace GT_Price_Importer
                 {
                     if (rowHandle > -1)
                     {
-                        DataRowView rowView = (DataRowView)GridView1.GetRow(rowHandle);
-                        DataRow row = rowView.Row;
+                        //DataRowView rowView = (DataRowView)GridView1.GetRow(rowHandle);
+                        //DataRow row = rowView.Row;
 
-                        StopInfo stopHotel = new StopInfo();
-                        stopHotel.HotelStopDate = (DateTime)row["HotelStopDate"];
-                        stopHotel.Hotel = (string)row["Hotel"];
-                        stopHotel.Touroperator = (string)row["Touroperator"];
-                        stopHotel.Market = (string)row["Market"];
-                        stopHotel.Region = (string)row["Region"];
-                        stopHotel.Room = (string)row["Room"];
-                        stopHotel.Accommodation = (string)row["Accommodation"];
-                        stopHotel.Meal = (string)row["Meal"];
-                        stopHotel.DateFrom = (DateTime)row["DateFrom"];
-                        stopHotel.DateTill = (DateTime)row["DateTill"];
-                        stopHotel.IssueDate = (DateTime)row["IssueDate"];
-                        stopHotel.Note = (string)row["Note"];
+                        //StopInfo stopHotel = new StopInfo();
+                        //stopHotel.HotelStopDate = (DateTime)row["HotelStopDate"];
+                        //stopHotel.Hotel = (string)row["Hotel"];
+                        //stopHotel.Touroperator = (string)row["Touroperator"];
+                        //stopHotel.Market = (string)row["Market"];
+                        //stopHotel.Region = (string)row["Region"];
+                        //stopHotel.Room = (string)row["Room"];
+                        //stopHotel.Accommodation = (string)row["Accommodation"];
+                        //stopHotel.Meal = (string)row["Meal"];
+                        //stopHotel.DateFrom = (DateTime)row["DateFrom"];
+                        //stopHotel.DateTill = (DateTime)row["DateTill"];
+                        //stopHotel.IssueDate = (DateTime)row["IssueDate"];
+                        //stopHotel.Note = (string)row["Note"];
 
-                        await new SetData().HttpsDataDefault("Hotel", "NewStopHotelAsync", "", stopHotel);
+                        //await new SetData().HttpsDataDefault("Hotel", "NewStopHotelAsync", "", stopHotel);
 
-                        row.Delete();
+                        //row.Delete();
                     }
                 }
         }

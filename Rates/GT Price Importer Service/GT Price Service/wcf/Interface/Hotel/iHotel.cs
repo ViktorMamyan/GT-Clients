@@ -35,7 +35,7 @@ namespace GTPriceImporterService
         [WebInvoke(Method = "POST",
             RequestFormat = WebMessageFormat.Json,
             ResponseFormat = WebMessageFormat.Json,
-            BodyStyle = WebMessageBodyStyle.Bare,
+            BodyStyle = WebMessageBodyStyle.Bare, 
             UriTemplate = "Hotel/NewStopHotelAsync")]
         Task<DefaultReturnData> NewStopHotelAsync(StopInfo data);
 

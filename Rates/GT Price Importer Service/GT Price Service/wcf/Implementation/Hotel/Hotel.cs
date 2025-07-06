@@ -79,14 +79,14 @@ namespace GTPriceImporterService
                 CheckIfAuthorized();
 
                 #region SQL
-                
+
                 DateTime PeriodsStart = data.PeriodsStart.Value;
                 DateTime PeriodsEnd = data.PeriodsEnd.Value;
 
                 for (; PeriodsStart <= PeriodsEnd; PeriodsStart = PeriodsStart.AddDays(1))
                 {
                     DateTime SearchDay = PeriodsStart;
-                    
+
                     Console.WriteLine(data.HotelName + " -> " + data.Room + " -> " + data.Accommodation);
 
                     string RowDataHash = string.Empty;
@@ -128,17 +128,43 @@ namespace GTPriceImporterService
                                 new SqlParameter("@Room", data.Room),
                                 new SqlParameter("@Accommodation", data.Accommodation),
 
-                                new SqlParameter("@Price", (data.Price.HasValue) ? data.Price.Value : (object)DBNull.Value),
+                                new SqlParameter("@B2BPrice", (data.B2BPrice.HasValue) ? data.B2BPrice.Value : (object)DBNull.Value),
+                                new SqlParameter("@B2CPrice", (data.B2CPrice.HasValue) ? data.B2CPrice.Value : (object)DBNull.Value),
                                 new SqlParameter("@RealPrice", (data.RealPrice.HasValue) ? data.RealPrice.Value : (object)DBNull.Value),
+
+                                new SqlParameter("@PriceAddedByPercent", data.PriceAddedByPercent),
+                                new SqlParameter("@B2BPriceAddValue", data.B2BPriceAddValue),
+                                new SqlParameter("@B2CPriceAddValue", data.B2CPriceAddValue),
+
+                                new SqlParameter("@ADL", data.ADL),
+                                new SqlParameter("@CHD", data.CHD),
+
+                                new SqlParameter("@CHDStart1", (data.CHDStart1.HasValue) ? data.CHDStart1.Value : (object)DBNull.Value),
+                                new SqlParameter("@CHDEnd1", (data.CHDEnd1.HasValue) ? data.CHDEnd1.Value : (object)DBNull.Value),
+                                new SqlParameter("@CHDStart2", (data.CHDStart2.HasValue) ? data.CHDStart2.Value : (object)DBNull.Value),
+                                new SqlParameter("@CHDEnd2", (data.CHDEnd2.HasValue) ? data.CHDEnd2.Value : (object)DBNull.Value),
+                                new SqlParameter("@CHDStart3", (data.CHDStart3.HasValue) ? data.CHDStart3.Value : (object)DBNull.Value),
+                                new SqlParameter("@CHDEnd3", (data.CHDEnd3.HasValue) ? data.CHDEnd3.Value : (object)DBNull.Value),
+
+                                new SqlParameter("@INFStart", (data.INFStart.HasValue) ? data.INFStart.Value : (object)DBNull.Value),
+                                new SqlParameter("@INFEnd", (data.INFEnd.HasValue) ? data.INFEnd.Value : (object)DBNull.Value),
+
+                                new SqlParameter("@AllowInf", data.AllowInfSearch),
 
                                 new SqlParameter("@SearchDay", SearchDay),
                                 new SqlParameter("@RowDataHash", RowDataHash),
-
-                                new SqlParameter("@PriceAddedByPercent", data.PriceAddedByPercent),
-                                new SqlParameter("@PriceAddValue", data.PriceAddValue)
                             };
 
                     await new SqlHelper().ExecuteAsync("Search.AddHotelForSearch", CommandType.StoredProcedure, Parameters.ToArray());
+
+                    if (data.Cancellation != null && data.Cancellation.Count > 0)
+                    {
+
+                    }
+                    if (data.ObligatoryService != null && data.ObligatoryService.Count > 0)
+                    {
+
+                    }
                 }
 
                 #endregion
@@ -156,9 +182,9 @@ namespace GTPriceImporterService
                 #region Exception
 
                 Validator.SetCustomException(ex, returnData);
-                
+
                 Console.WriteLine(ex.Message);
-                
+
                 return returnData;
 
                 #endregion
@@ -232,16 +258,32 @@ namespace GTPriceImporterService
                                 new SqlParameter("@Room", data.Room),
                                 new SqlParameter("@Accommodation", data.Accommodation),
 
-                                new SqlParameter("@Price", (data.Price.HasValue) ? data.Price.Value : (object)DBNull.Value),
+                                new SqlParameter("@B2BPrice", (data.B2BPrice.HasValue) ? data.B2BPrice.Value : (object)DBNull.Value),
+                                new SqlParameter("@B2CPrice", (data.B2CPrice.HasValue) ? data.B2CPrice.Value : (object)DBNull.Value),
                                 new SqlParameter("@RealPrice", (data.RealPrice.HasValue) ? data.RealPrice.Value : (object)DBNull.Value),
+
+                                new SqlParameter("@PriceAddedByPercent", data.PriceAddedByPercent),
+                                new SqlParameter("@B2BPriceAddValue", data.B2BPriceAddValue),
+                                new SqlParameter("@B2CPriceAddValue", data.B2CPriceAddValue),
+
+                                new SqlParameter("@ADL", data.ADL),
+                                new SqlParameter("@CHD", data.CHD),
+
+                                new SqlParameter("@CHDStart1", (data.CHDStart1.HasValue) ? data.CHDStart1.Value : (object)DBNull.Value),
+                                new SqlParameter("@CHDEnd1", (data.CHDEnd1.HasValue) ? data.CHDEnd1.Value : (object)DBNull.Value),
+                                new SqlParameter("@CHDStart2", (data.CHDStart2.HasValue) ? data.CHDStart2.Value : (object)DBNull.Value),
+                                new SqlParameter("@CHDEnd2", (data.CHDEnd2.HasValue) ? data.CHDEnd2.Value : (object)DBNull.Value),
+                                new SqlParameter("@CHDStart3", (data.CHDStart3.HasValue) ? data.CHDStart3.Value : (object)DBNull.Value),
+                                new SqlParameter("@CHDEnd3", (data.CHDEnd3.HasValue) ? data.CHDEnd3.Value : (object)DBNull.Value),
+
+                                new SqlParameter("@INFStart", (data.INFStart.HasValue) ? data.INFStart.Value : (object)DBNull.Value),
+                                new SqlParameter("@INFEnd", (data.INFEnd.HasValue) ? data.INFEnd.Value : (object)DBNull.Value),
+
+                                new SqlParameter("@AllowInf", data.AllowInfSearch),
+                                new SqlParameter("@SPO_No", data.SPO_No),
 
                                 new SqlParameter("@SearchDay", SearchDay),
                                 new SqlParameter("@RowDataHash", RowDataHash),
-
-                                new SqlParameter("@PriceAddedByPercent", data.PriceAddedByPercent),
-                                new SqlParameter("@SPO_No", data.SPO_No),
-
-                                new SqlParameter("@PriceAddValue", data.PriceAddValue)
                             };
 
                     await new SqlHelper().ExecuteAsync("Search.AddHotelForSearchSPO", CommandType.StoredProcedure, Parameters.ToArray());
